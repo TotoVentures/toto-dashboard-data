@@ -42,7 +42,7 @@
     "sku": "com.totoventures.summarizer",
     "developer": "Toto Ventures Inc.",
     "account": "TotoVentures",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/a3/89/11a389fb-e41b-c73b-450b-752b66a9d928/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/2b/ee/152bee12-e1ab-d402-70fb-8ff3f7862c58/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
     "type": "app",
     "parent_id": null,
     "products": []
@@ -61,12 +61,12 @@
   },
   "725369629": {
     "id": "725369629",
-    "name": "Baby Maker: Future Child Face",
+    "name": "Baby Maker: Future Child",
     "bundleId": "com.totoventure.babymaker",
     "sku": "com.totoventures.babymaker",
     "developer": "Toto Ventures Inc.",
     "account": "TotoVentures",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/58/a6/2458a6c8-abed-62ca-38eb-4b32837fde03/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/1024x1024bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/e2/1c/cee21c9b-47fd-9f57-47a1-9a39a27293e5/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/1024x1024bb.jpg",
     "type": "app",
     "parent_id": null,
     "products": []
@@ -210,7 +210,7 @@
     "sku": "com.totoventures.drinkless",
     "developer": "Toto Ventures Inc.",
     "account": "TotoVentures",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/7e/5a/e77e5ad1-6881-2780-e3b4-0b99a7b02384/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/e1/6e/65e16e63-9e28-506f-02d4-fb02026aa148/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
     "type": "app",
     "parent_id": null,
     "products": []
@@ -438,7 +438,7 @@
     "sku": "com.thomas.tournamentbracketmanager.MyBracket",
     "developer": "Toto Ventures Inc.",
     "account": "TotoVentures",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/9d/80/d39d80af-443f-1f29-8502-5aefdaacab82/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/1024x1024bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/37/3a/74373a6d-312f-a4a3-c135-b01eb687d941/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/1024x1024bb.jpg",
     "type": "app",
     "parent_id": null,
     "products": []
