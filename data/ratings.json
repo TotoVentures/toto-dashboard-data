@@ -1,8 +1,8 @@
 {
   "6449641148": {
     "current": {
-      "rating": 4.02,
-      "count": 123
+      "rating": 4.03,
+      "count": 78
     },
     "territories": {
       "US": {
@@ -70,13 +70,17 @@
       "2026-03-15": {
         "rating": 4.02,
         "count": 123
+      },
+      "2026-03-19": {
+        "rating": 4.03,
+        "count": 78
       }
     }
   },
   "6502181178": {
     "current": {
-      "rating": 4.33,
-      "count": 12
+      "rating": 5,
+      "count": 2
     },
     "territories": {
       "US": {
@@ -104,13 +108,17 @@
       "2026-03-15": {
         "rating": 4.33,
         "count": 12
+      },
+      "2026-03-19": {
+        "rating": 5,
+        "count": 2
       }
     }
   },
   "1356249212": {
     "current": {
-      "rating": 3.71,
-      "count": 784
+      "rating": 3.78,
+      "count": 228
     },
     "territories": {
       "US": {
@@ -206,13 +214,17 @@
       "2026-03-15": {
         "rating": 3.71,
         "count": 784
+      },
+      "2026-03-19": {
+        "rating": 3.78,
+        "count": 228
       }
     }
   },
   "968752295": {
     "current": {
-      "rating": 1.69,
-      "count": 53
+      "rating": 1.17,
+      "count": 6
     },
     "territories": {
       "US": {
@@ -276,6 +288,10 @@
       "2026-03-15": {
         "rating": 1.69,
         "count": 53
+      },
+      "2026-03-19": {
+        "rating": 1.17,
+        "count": 6
       }
     }
   },
@@ -315,7 +331,7 @@
   },
   "6759501398": {
     "current": {
-      "rating": 5.0,
+      "rating": 5,
       "count": 1
     },
     "territories": {
@@ -328,13 +344,17 @@
       "2026-03-15": {
         "rating": 5.0,
         "count": 1
+      },
+      "2026-03-19": {
+        "rating": 5,
+        "count": 1
       }
     }
   },
   "6557028325": {
     "current": {
-      "rating": 4.75,
-      "count": 22
+      "rating": 4.67,
+      "count": 15
     },
     "territories": {
       "US": {
@@ -362,13 +382,17 @@
       "2026-03-15": {
         "rating": 4.75,
         "count": 22
+      },
+      "2026-03-19": {
+        "rating": 4.67,
+        "count": 15
       }
     }
   },
   "1213054524": {
     "current": {
-      "rating": 3.78,
-      "count": 2294
+      "rating": 3.81,
+      "count": 536
     },
     "territories": {
       "US": {
@@ -468,13 +492,17 @@
       "2026-03-15": {
         "rating": 3.78,
         "count": 2294
+      },
+      "2026-03-19": {
+        "rating": 3.81,
+        "count": 536
       }
     }
   },
   "1232127051": {
     "current": {
-      "rating": 3.5,
-      "count": 172
+      "rating": 3.74,
+      "count": 116
     },
     "territories": {
       "US": {
@@ -514,13 +542,17 @@
       "2026-03-15": {
         "rating": 3.5,
         "count": 172
+      },
+      "2026-03-19": {
+        "rating": 3.74,
+        "count": 116
       }
     }
   },
   "1232127041": {
     "current": {
-      "rating": 3.69,
-      "count": 982
+      "rating": 3.68,
+      "count": 755
     },
     "territories": {
       "US": {
@@ -572,13 +604,17 @@
       "2026-03-15": {
         "rating": 3.69,
         "count": 982
+      },
+      "2026-03-19": {
+        "rating": 3.68,
+        "count": 755
       }
     }
   },
   "1399633974": {
     "current": {
-      "rating": 3.92,
-      "count": 98
+      "rating": 4,
+      "count": 77
     },
     "territories": {
       "US": {
@@ -622,13 +658,17 @@
       "2026-03-15": {
         "rating": 3.92,
         "count": 98
+      },
+      "2026-03-19": {
+        "rating": 4,
+        "count": 77
       }
     }
   },
   "953875772": {
     "current": {
-      "rating": 4.2,
-      "count": 1042
+      "rating": 4.04,
+      "count": 170
     },
     "territories": {
       "US": {
@@ -724,13 +764,17 @@
       "2026-03-15": {
         "rating": 4.2,
         "count": 1042
+      },
+      "2026-03-19": {
+        "rating": 4.04,
+        "count": 170
       }
     }
   },
   "950197769": {
     "current": {
-      "rating": 2.15,
-      "count": 76
+      "rating": 1.57,
+      "count": 14
     },
     "territories": {
       "US": {
@@ -778,13 +822,17 @@
       "2026-03-15": {
         "rating": 2.15,
         "count": 76
+      },
+      "2026-03-19": {
+        "rating": 1.57,
+        "count": 14
       }
     }
   },
   "1015935781": {
     "current": {
-      "rating": 3.93,
-      "count": 1387
+      "rating": 3.94,
+      "count": 861
     },
     "territories": {
       "US": {
@@ -884,13 +932,17 @@
       "2026-03-15": {
         "rating": 3.93,
         "count": 1387
+      },
+      "2026-03-19": {
+        "rating": 3.94,
+        "count": 861
       }
     }
   },
   "570129169": {
     "current": {
-      "rating": 3.84,
-      "count": 6443
+      "rating": 3.89,
+      "count": 5082
     },
     "territories": {
       "US": {
@@ -990,13 +1042,17 @@
       "2026-03-15": {
         "rating": 3.84,
         "count": 6443
+      },
+      "2026-03-19": {
+        "rating": 3.89,
+        "count": 5082
       }
     }
   },
   "810713114": {
     "current": {
-      "rating": 3.84,
-      "count": 956
+      "rating": 3.85,
+      "count": 459
     },
     "territories": {
       "US": {
@@ -1096,13 +1152,17 @@
       "2026-03-15": {
         "rating": 3.84,
         "count": 956
+      },
+      "2026-03-19": {
+        "rating": 3.85,
+        "count": 459
       }
     }
   },
   "1048520560": {
     "current": {
-      "rating": 4.02,
-      "count": 305
+      "rating": 4.13,
+      "count": 136
     },
     "territories": {
       "US": {
@@ -1194,13 +1254,17 @@
       "2026-03-15": {
         "rating": 4.02,
         "count": 305
+      },
+      "2026-03-19": {
+        "rating": 4.13,
+        "count": 136
       }
     }
   },
   "977965135": {
     "current": {
-      "rating": 3.85,
-      "count": 46
+      "rating": 3.62,
+      "count": 21
     },
     "territories": {
       "US": {
@@ -1256,13 +1320,17 @@
       "2026-03-15": {
         "rating": 3.85,
         "count": 46
+      },
+      "2026-03-19": {
+        "rating": 3.62,
+        "count": 21
       }
     }
   },
   "950551948": {
     "current": {
-      "rating": 4.37,
-      "count": 140048
+      "rating": 4.43,
+      "count": 69969
     },
     "territories": {
       "US": {
@@ -1362,6 +1430,10 @@
       "2026-03-15": {
         "rating": 4.37,
         "count": 140048
+      },
+      "2026-03-19": {
+        "rating": 4.43,
+        "count": 69969
       }
     }
   },
@@ -1385,8 +1457,8 @@
   },
   "1123523401": {
     "current": {
-      "rating": 4.21,
-      "count": 1107
+      "rating": 4.15,
+      "count": 306
     },
     "territories": {
       "US": {
@@ -1474,13 +1546,17 @@
       "2026-03-15": {
         "rating": 4.21,
         "count": 1107
+      },
+      "2026-03-19": {
+        "rating": 4.15,
+        "count": 306
       }
     }
   },
   "1129609742": {
     "current": {
-      "rating": 3.92,
-      "count": 10286
+      "rating": 3.85,
+      "count": 2946
     },
     "territories": {
       "US": {
@@ -1580,13 +1656,17 @@
       "2026-03-15": {
         "rating": 3.92,
         "count": 10286
+      },
+      "2026-03-19": {
+        "rating": 3.85,
+        "count": 2946
       }
     }
   },
   "630851451": {
     "current": {
-      "rating": 3.67,
-      "count": 2175
+      "rating": 3.8,
+      "count": 908
     },
     "territories": {
       "US": {
@@ -1686,13 +1766,17 @@
       "2026-03-15": {
         "rating": 3.67,
         "count": 2175
+      },
+      "2026-03-19": {
+        "rating": 3.8,
+        "count": 908
       }
     }
   },
   "886093098": {
     "current": {
-      "rating": 1.46,
-      "count": 58
+      "rating": 1.6,
+      "count": 10
     },
     "territories": {
       "US": {
@@ -1756,13 +1840,17 @@
       "2026-03-15": {
         "rating": 1.46,
         "count": 58
+      },
+      "2026-03-19": {
+        "rating": 1.6,
+        "count": 10
       }
     }
   },
   "1078148357": {
     "current": {
-      "rating": 3.27,
-      "count": 15
+      "rating": 3,
+      "count": 4
     },
     "territories": {
       "US": {
@@ -1806,13 +1894,17 @@
       "2026-03-15": {
         "rating": 3.27,
         "count": 15
+      },
+      "2026-03-19": {
+        "rating": 3,
+        "count": 4
       }
     }
   },
   "868434888": {
     "current": {
-      "rating": 2.31,
-      "count": 23
+      "rating": 1,
+      "count": 1
     },
     "territories": {
       "US": {
@@ -1860,13 +1952,17 @@
       "2026-03-15": {
         "rating": 2.31,
         "count": 23
+      },
+      "2026-03-19": {
+        "rating": 1,
+        "count": 1
       }
     }
   },
   "880790176": {
     "current": {
-      "rating": 3.79,
-      "count": 3346
+      "rating": 3.88,
+      "count": 2198
     },
     "territories": {
       "US": {
@@ -1966,13 +2062,17 @@
       "2026-03-15": {
         "rating": 3.79,
         "count": 3346
+      },
+      "2026-03-19": {
+        "rating": 3.88,
+        "count": 2198
       }
     }
   },
   "1582983676": {
     "current": {
-      "rating": 4.14,
-      "count": 569
+      "rating": 4.02,
+      "count": 155
     },
     "territories": {
       "US": {
@@ -2064,13 +2164,17 @@
       "2026-03-15": {
         "rating": 4.14,
         "count": 569
+      },
+      "2026-03-19": {
+        "rating": 4.02,
+        "count": 155
       }
     }
   },
   "6759808689": {
     "current": {
-      "rating": 5.0,
-      "count": 3
+      "rating": 5,
+      "count": 2
     },
     "territories": {
       "US": {
@@ -2086,6 +2190,10 @@
       "2026-03-15": {
         "rating": 5.0,
         "count": 3
+      },
+      "2026-03-19": {
+        "rating": 5,
+        "count": 2
       }
     }
   },
@@ -2141,8 +2249,8 @@
   },
   "6670757865": {
     "current": {
-      "rating": 4.62,
-      "count": 60
+      "rating": 4.58,
+      "count": 57
     },
     "territories": {
       "US": {
@@ -2162,13 +2270,17 @@
       "2026-03-15": {
         "rating": 4.62,
         "count": 60
+      },
+      "2026-03-19": {
+        "rating": 4.58,
+        "count": 57
       }
     }
   },
   "1487907617": {
     "current": {
-      "rating": 2.15,
-      "count": 13
+      "rating": 2,
+      "count": 2
     },
     "territories": {
       "US": {
@@ -2204,12 +2316,16 @@
       "2026-03-15": {
         "rating": 2.15,
         "count": 13
+      },
+      "2026-03-19": {
+        "rating": 2,
+        "count": 2
       }
     }
   },
   "6758317593": {
     "current": {
-      "rating": 5.0,
+      "rating": 1,
       "count": 1
     },
     "territories": {
@@ -2222,13 +2338,17 @@
       "2026-03-15": {
         "rating": 5.0,
         "count": 1
+      },
+      "2026-03-19": {
+        "rating": 1,
+        "count": 1
       }
     }
   },
   "6476511029": {
     "current": {
-      "rating": 4.77,
-      "count": 18
+      "rating": 4.71,
+      "count": 7
     },
     "territories": {
       "US": {
@@ -2260,13 +2380,17 @@
       "2026-03-15": {
         "rating": 4.77,
         "count": 18
+      },
+      "2026-03-19": {
+        "rating": 4.71,
+        "count": 7
       }
     }
   },
   "594764457": {
     "current": {
-      "rating": 3.12,
-      "count": 247
+      "rating": 3.4,
+      "count": 104
     },
     "territories": {
       "US": {
@@ -2362,13 +2486,17 @@
       "2026-03-15": {
         "rating": 3.12,
         "count": 247
+      },
+      "2026-03-19": {
+        "rating": 3.4,
+        "count": 104
       }
     }
   },
   "1003684086": {
     "current": {
-      "rating": 4.23,
-      "count": 5798
+      "rating": 4.34,
+      "count": 4510
     },
     "territories": {
       "US": {
@@ -2464,6 +2592,23 @@
       "2026-03-15": {
         "rating": 4.23,
         "count": 5798
+      },
+      "2026-03-19": {
+        "rating": 4.34,
+        "count": 4510
+      }
+    }
+  },
+  "725369629": {
+    "current": {
+      "rating": 5,
+      "count": 1
+    },
+    "territories": {},
+    "history": {
+      "2026-03-19": {
+        "rating": 5,
+        "count": 1
       }
     }
   }
