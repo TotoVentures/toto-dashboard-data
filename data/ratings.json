@@ -894,12 +894,12 @@
   "570129169": {
     "current": {
       "rating": 3.83,
-      "count": 6422
+      "count": 6423
     },
     "territories": {
       "US": {
         "rating": 3.89,
-        "count": 5083
+        "count": 5084
       },
       "GB": {
         "rating": 3.69,
@@ -985,7 +985,7 @@
       },
       "2026-03-19": {
         "rating": 3.83,
-        "count": 6422
+        "count": 6423
       }
     }
   },
@@ -1931,8 +1931,8 @@
   },
   "1582983676": {
     "current": {
-      "rating": 4.12,
-      "count": 521
+      "rating": 4.13,
+      "count": 523
     },
     "territories": {
       "US": {
@@ -1940,8 +1940,8 @@
         "count": 155
       },
       "GB": {
-        "rating": 3.86,
-        "count": 14
+        "rating": 3.93,
+        "count": 15
       },
       "CA": {
         "rating": 3.73,
@@ -1964,8 +1964,8 @@
         "count": 14
       },
       "BR": {
-        "rating": 4.43,
-        "count": 67
+        "rating": 4.44,
+        "count": 68
       },
       "MX": {
         "rating": 4.41,
@@ -2018,8 +2018,8 @@
         "count": 521
       },
       "2026-03-19": {
-        "rating": 4.12,
-        "count": 521
+        "rating": 4.13,
+        "count": 523
       }
     }
   },
@@ -2096,13 +2096,13 @@
   },
   "6670757865": {
     "current": {
-      "rating": 4.59,
-      "count": 59
+      "rating": 4.6,
+      "count": 60
     },
     "territories": {
       "US": {
-        "rating": 4.58,
-        "count": 57
+        "rating": 4.59,
+        "count": 58
       },
       "GB": {
         "rating": 5,
@@ -2115,8 +2115,8 @@
         "count": 59
       },
       "2026-03-19": {
-        "rating": 4.59,
-        "count": 59
+        "rating": 4.6,
+        "count": 60
       }
     }
   },
@@ -2335,12 +2335,12 @@
   "1003684086": {
     "current": {
       "rating": 4.26,
-      "count": 5774
+      "count": 5775
     },
     "territories": {
       "US": {
         "rating": 4.34,
-        "count": 4510
+        "count": 4511
       },
       "GB": {
         "rating": 4.05,
@@ -2426,7 +2426,7 @@
       },
       "2026-03-19": {
         "rating": 4.26,
-        "count": 5774
+        "count": 5775
       }
     }
   },
