@@ -28,12 +28,15 @@ const TotoApp = (() => {
   };
 
   // ===== Data Cache =====
+  const DATA_BASE = 'https://raw.githubusercontent.com/TotoVentures/toto-dashboard-data/main/';
   const dataCache = {};
 
   async function fetchJSON(path) {
     if (dataCache[path]) return dataCache[path];
     try {
-      const resp = await fetch(path + `?_=${Date.now()}`);
+      const file = path.replace(/^data\//, '');
+      const url = DATA_BASE + file + `?_=${Date.now()}`;
+      const resp = await fetch(url);
       if (!resp.ok) return null;
       const data = await resp.json();
       dataCache[path] = data;
@@ -230,9 +233,9 @@ const TotoApp = (() => {
       return;
     }
 
-    // Hide filter bar on rankings page (it has its own controls)
+    // Hide filter bar on rankings and yesterday pages (they have their own controls)
     const filterBar = document.getElementById('filterBar');
-    if (state.currentPage === 'rankings') {
+    if (state.currentPage === 'rankings' || state.currentPage === 'yesterday') {
       filterBar.style.display = 'none';
     } else {
       filterBar.style.display = '';
@@ -271,6 +274,9 @@ const TotoApp = (() => {
         break;
       case 'rankings':
         RankingsPage.render(pageContent);
+        break;
+      case 'yesterday':
+        YesterdayPage.render(pageContent, state.data);
         break;
       default:
         OverviewPage.render(pageContent, state.data, state.filter);
@@ -375,7 +381,7 @@ const TotoApp = (() => {
     window.addEventListener('hashchange', handleRoute);
 
     // Keyboard navigation
-    const pageKeys = { '1': 'overview', '2': 'revenue', '3': 'sales', '4': 'subscriptions', '5': 'adspend', '6': 'ratings', '7': 'rankings' };
+    const pageKeys = { '1': 'yesterday', '2': 'overview', '3': 'revenue', '4': 'sales', '5': 'subscriptions', '6': 'adspend', '7': 'ratings', '8': 'rankings' };
     const datePresetOrder = [
       { label: '7D', days: 7 },
       { label: '30D', days: 30 },
