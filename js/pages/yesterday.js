@@ -415,9 +415,10 @@ const YesterdayPage = (() => {
 
   // ===== Weather icon based on performance =====
   function getWeatherIcon(rev, revLW, dl, dlLW) {
+    // Revenue-weighted: 80% revenue, 20% downloads
     const revChange = revLW > 0 ? (rev - revLW) / revLW : 0;
     const dlChange = dlLW > 0 ? (dl - dlLW) / dlLW : 0;
-    const composite = (revChange + dlChange) / 2;
+    const composite = revChange * 0.8 + dlChange * 0.2;
 
     if (composite > 0.15) return { icon: '\u2600\uFE0F', label: 'Great day' };   // sunny
     if (composite > 0.0) return { icon: '\u{1F324}\uFE0F', label: 'Good day' };  // mostly sunny
