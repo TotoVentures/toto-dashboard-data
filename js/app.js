@@ -34,7 +34,7 @@ const TotoApp = (() => {
   async function fetchJSON(path) {
     if (dataCache[path]) return dataCache[path];
     try {
-      const file = path.replace(/^data\//, '');
+      const file = path;
       const url = DATA_BASE + file + `?_=${Date.now()}`;
       const resp = await fetch(url);
       if (!resp.ok) return null;
