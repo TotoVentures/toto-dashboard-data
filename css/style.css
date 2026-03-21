@@ -1425,21 +1425,28 @@ button {
 }
 
 /* ===== Yesterday / Daily Toto ===== */
+/* ===== NYT-inspired Yesterday Page ===== */
 .yesterday-page {
   max-width: 900px;
   margin: 0 auto;
+  font-family: 'Georgia', 'Times New Roman', serif;
 }
 
-/* Masthead */
+/* Masthead — double rule, centered, authoritative */
 .newspaper-masthead {
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 .masthead-rule {
-  height: 3px;
-  background: var(--text-primary);
-  margin-bottom: 8px;
+  height: 4px;
+  background: #000;
+  margin-bottom: 0;
+}
+
+.masthead-rule:last-child {
+  height: 1px;
+  margin-top: 0;
 }
 
 .masthead-rule + .masthead-meta {
@@ -1450,142 +1457,161 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 12px;
-  color: var(--text-secondary);
-  padding: 4px 0;
+  font-family: var(--font);
+  font-size: 11px;
+  color: #666;
+  padding: 6px 0;
   font-weight: 500;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.8px;
   text-transform: uppercase;
 }
 
 .masthead-weather {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .masthead-title {
   font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 700;
-  letter-spacing: -1px;
-  color: var(--text-primary);
-  line-height: 1.1;
-  margin: 8px 0 4px;
+  letter-spacing: -1.5px;
+  color: #000;
+  line-height: 1.05;
+  margin: 10px 0 6px;
 }
 
 .masthead-tagline {
   font-family: 'Georgia', 'Times New Roman', serif;
   font-style: italic;
-  font-size: 13px;
-  color: var(--text-muted);
-  margin-bottom: 8px;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+  letter-spacing: 0.2px;
 }
 
-/* Hero metrics row */
+/* Hero metrics — flat, editorial, separated by thin rules */
 .yesterday-hero-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-bottom: 24px;
+  gap: 0;
+  margin-bottom: 28px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .yesterday-hero-card {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 16px;
+  background: transparent;
+  border: none;
+  border-right: 1px solid #ddd;
+  border-radius: 0;
+  padding: 18px 16px;
   text-align: center;
-  box-shadow: var(--shadow-sm);
-  transition: box-shadow 0.15s;
+  box-shadow: none;
+  transition: background 0.15s;
+}
+
+.yesterday-hero-card:nth-child(3n) {
+  border-right: none;
+}
+
+.yesterday-hero-card:nth-child(n+4) {
+  border-top: 1px solid #ddd;
 }
 
 .yesterday-hero-card:hover {
-  box-shadow: var(--shadow-md);
+  background: rgba(0,0,0,0.015);
+  box-shadow: none;
 }
 
 .hero-icon {
-  font-size: 24px;
-  margin-bottom: 4px;
+  display: none;
 }
 
 .hero-label {
-  font-size: 11px;
-  font-weight: 600;
+  font-family: var(--font);
+  font-size: 10px;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.3px;
-  color: var(--text-muted);
-  margin-bottom: 4px;
+  letter-spacing: 1px;
+  color: #999;
+  margin-bottom: 6px;
 }
 
 .hero-value {
-  font-size: 28px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 30px;
   font-weight: 700;
-  color: var(--text-primary);
-  line-height: 1.2;
-  margin-bottom: 4px;
+  color: #000;
+  line-height: 1.15;
+  margin-bottom: 6px;
+  letter-spacing: -0.5px;
 }
 
 .hero-wow {
-  font-size: 13px;
+  font-size: 12px;
 }
 
-/* W/W badges */
+/* W/W badges — subtle, typographic */
 .wow-badge {
   display: inline-flex;
   align-items: center;
   gap: 2px;
-  font-size: 12px;
+  font-family: var(--font);
+  font-size: 11px;
   font-weight: 600;
-  padding: 2px 8px;
-  border-radius: 4px;
+  padding: 2px 6px;
+  border-radius: 2px;
 }
 
 .wow-badge.positive {
-  color: var(--green);
-  background: var(--green-bg);
+  color: #0b6e2f;
+  background: #e9f5ee;
 }
 
 .wow-badge.negative {
-  color: var(--red);
-  background: var(--red-bg);
+  color: #b71c1c;
+  background: #fce8e6;
 }
 
 .wow-badge.neutral {
-  color: var(--text-muted);
-  background: var(--bg);
+  color: #999;
+  background: transparent;
 }
 
-/* Headlines */
+/* Headlines — editorial column style */
 .yesterday-headlines {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 20px;
-  margin-bottom: 24px;
-  box-shadow: var(--shadow-sm);
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 28px;
+  box-shadow: none;
 }
 
 .headlines-header {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 16px;
+  font-family: var(--font);
+  font-size: 11px;
   font-weight: 700;
-  color: var(--text-primary);
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 3px double #000;
 }
 
 .headlines-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0;
 }
 
 .headline-item {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
-  padding: 8px 0;
-  border-bottom: 1px solid var(--border-light);
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .headline-item:last-child {
@@ -1594,42 +1620,46 @@ button {
 }
 
 .headline-icon {
-  font-size: 18px;
+  font-size: 16px;
   flex-shrink: 0;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .headline-text {
-  font-size: 14px;
-  color: var(--text-primary);
-  line-height: 1.4;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 15px;
+  color: #1a1a1a;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
 }
 
-/* Podium */
+/* Podium — editorial top earners */
 .yesterday-podium {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 20px;
-  margin-bottom: 24px;
-  box-shadow: var(--shadow-sm);
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 28px;
+  box-shadow: none;
 }
 
 .podium-header {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 16px;
+  font-family: var(--font);
+  font-size: 11px;
   font-weight: 700;
-  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
   margin-bottom: 16px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--text-primary);
+  padding-bottom: 10px;
+  border-bottom: 3px double #000;
 }
 
 .podium-row {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  gap: 16px;
+  gap: 20px;
 }
 
 .podium-card {
@@ -1642,15 +1672,16 @@ button {
 }
 
 .podium-medal {
-  font-size: 32px;
-  margin-bottom: 8px;
+  font-size: 28px;
+  margin-bottom: 6px;
 }
 
 .podium-icon {
   width: 48px;
   height: 48px;
-  border-radius: 12px;
+  border-radius: 10px;
   margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
 }
 
 .podium-rank-1 .podium-icon {
@@ -1659,9 +1690,10 @@ button {
 }
 
 .podium-app-name {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text-primary);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a1a1a;
   margin-bottom: 4px;
   white-space: nowrap;
   overflow: hidden;
@@ -1670,14 +1702,16 @@ button {
 }
 
 .podium-revenue {
-  font-size: 18px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 20px;
   font-weight: 700;
-  color: var(--text-primary);
+  color: #000;
   margin-bottom: 4px;
+  letter-spacing: -0.5px;
 }
 
 .podium-rank-1 .podium-revenue {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .podium-wow {
@@ -1686,21 +1720,23 @@ button {
 
 .podium-bar {
   width: 100%;
-  background: linear-gradient(to top, var(--primary-lighter), var(--primary-bg));
-  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-  border: 1px solid var(--border);
-  border-bottom: 3px solid var(--primary);
+  background: #f0f0f0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #000;
 }
 
-/* Table section header */
+/* Table section header — NYT section label */
 .table-section-header {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 16px;
+  font-family: var(--font);
+  font-size: 11px;
   font-weight: 700;
-  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
   margin-bottom: 12px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--text-primary);
+  padding-bottom: 10px;
+  border-bottom: 3px double #000;
 }
 
 .yesterday-table-section {
@@ -1710,19 +1746,31 @@ button {
 /* Responsive */
 @media (max-width: 768px) {
   .masthead-title {
-    font-size: 32px;
+    font-size: 36px;
   }
 
   .yesterday-hero-row {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .yesterday-hero-card:nth-child(3n) {
+    border-right: 1px solid #ddd;
+  }
+
+  .yesterday-hero-card:nth-child(2n) {
+    border-right: none;
+  }
+
+  .yesterday-hero-card:nth-child(n+3) {
+    border-top: 1px solid #ddd;
+  }
+
   .hero-value {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .podium-row {
-    gap: 8px;
+    gap: 10px;
   }
 
   .podium-icon {
@@ -1736,27 +1784,26 @@ button {
   }
 
   .podium-app-name {
-    font-size: 11px;
+    font-size: 12px;
     max-width: 100px;
   }
 
   .podium-revenue {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .podium-rank-1 .podium-revenue {
-    font-size: 18px;
+    font-size: 19px;
   }
 }
 
 @media (max-width: 480px) {
   .masthead-title {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .yesterday-hero-row {
     grid-template-columns: 1fr 1fr;
-    gap: 8px;
   }
 
   .hero-value {
