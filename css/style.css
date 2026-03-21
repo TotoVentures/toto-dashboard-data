@@ -1429,7 +1429,7 @@ button {
 .yesterday-page {
   max-width: 900px;
   margin: 0 auto;
-  font-family: 'Libre Baskerville', 'Georgia', serif;
+  font-family: 'Noto Serif', 'Georgia', serif;
 }
 
 /* Masthead — double rule, centered, authoritative */
@@ -1445,8 +1445,9 @@ button {
 }
 
 .masthead-rule:last-child {
-  height: 1px;
+  height: 2px;
   margin-top: 0;
+  background: #e2d6af;
 }
 
 .masthead-rule + .masthead-meta {
@@ -1481,7 +1482,7 @@ button {
 }
 
 .masthead-tagline {
-  font-family: 'Libre Baskerville', 'Georgia', serif;
+  font-family: 'Noto Serif', 'Georgia', serif;
   font-style: italic;
   font-size: 13px;
   color: #888;
@@ -1538,7 +1539,7 @@ button {
 }
 
 .hero-value {
-  font-family: 'Playfair Display', 'Georgia', serif;
+  font-family: 'Noto Serif Display', 'Georgia', serif;
   font-size: 30px;
   font-weight: 900;
   color: #000;
@@ -1626,7 +1627,7 @@ button {
 }
 
 .headline-text {
-  font-family: 'Playfair Display', 'Georgia', serif;
+  font-family: 'Noto Serif Display', 'Georgia', serif;
   font-size: 15px;
   font-weight: 700;
   color: #1a1a1a;
@@ -1691,7 +1692,7 @@ button {
 }
 
 .podium-app-name {
-  font-family: 'Libre Baskerville', 'Georgia', serif;
+  font-family: 'Noto Serif', 'Georgia', serif;
   font-size: 13px;
   font-weight: 700;
   color: #1a1a1a;
@@ -1703,7 +1704,7 @@ button {
 }
 
 .podium-revenue {
-  font-family: 'Playfair Display', 'Georgia', serif;
+  font-family: 'Noto Serif Display', 'Georgia', serif;
   font-size: 20px;
   font-weight: 900;
   color: #000;
