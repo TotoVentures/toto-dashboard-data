@@ -1630,12 +1630,12 @@ button {
 }
 
 .headline-text {
-  font-family: 'Instrument Serif', 'Georgia', serif;
-  font-size: 15px;
+  font-family: 'IBM Plex Sans', var(--font);
+  font-size: 14px;
   font-weight: 400;
   color: #1a1a1a;
-  line-height: 1.45;
-  letter-spacing: -0.2px;
+  line-height: 1.5;
+  letter-spacing: 0;
 }
 
 /* Podium — editorial top earners */
@@ -1738,6 +1738,14 @@ button {
 
 .yesterday-table-section {
   margin-bottom: 24px;
+}
+
+.yesterday-page .app-name {
+  font-family: 'IBM Plex Sans', var(--font);
+}
+
+.yesterday-page .podium-app-name {
+  font-family: 'IBM Plex Sans', var(--font);
 }
 
 /* ===== Infographic Viz Section ===== */
