@@ -1539,9 +1539,9 @@ button {
 }
 
 .hero-value {
-  font-family: 'Noto Serif Display', 'Georgia', serif;
+  font-family: 'Instrument Serif', 'Georgia', serif;
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 400;
   color: #000;
   line-height: 1.15;
   margin-bottom: 6px;
@@ -1627,9 +1627,9 @@ button {
 }
 
 .headline-text {
-  font-family: 'Noto Serif Display', 'Georgia', serif;
+  font-family: 'Instrument Serif', 'Georgia', serif;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 400;
   color: #1a1a1a;
   line-height: 1.45;
   letter-spacing: -0.2px;
@@ -1704,9 +1704,9 @@ button {
 }
 
 .podium-revenue {
-  font-family: 'Noto Serif Display', 'Georgia', serif;
+  font-family: 'Instrument Serif', 'Georgia', serif;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 400;
   color: #000;
   margin-bottom: 4px;
   letter-spacing: -0.5px;
