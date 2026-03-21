@@ -1472,10 +1472,10 @@ button {
 }
 
 .masthead-title {
-  font-family: 'UnifrakturMaguntia', cursive;
+  font-family: 'Instrument Serif', 'Georgia', serif;
   font-size: 64px;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
   color: #000;
   line-height: 1.05;
   margin: 10px 0 6px;
