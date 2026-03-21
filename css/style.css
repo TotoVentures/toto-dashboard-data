@@ -1425,11 +1425,14 @@ button {
 }
 
 /* ===== Yesterday / Daily Toto ===== */
-/* ===== NYT-inspired Yesterday Page ===== */
+/* ===== NYT + Baustein Yesterday Page ===== */
 .yesterday-page {
   max-width: 900px;
   margin: 0 auto;
   font-family: 'Noto Serif', 'Georgia', serif;
+  background: #eae6df;
+  padding: 32px 28px;
+  border-radius: 4px;
 }
 
 /* Masthead — double rule, centered, authoritative */
@@ -1439,15 +1442,15 @@ button {
 }
 
 .masthead-rule {
-  height: 4px;
-  background: #000;
+  height: 3px;
+  background: #1a1a1a;
   margin-bottom: 0;
 }
 
 .masthead-rule:last-child {
-  height: 2px;
+  height: 1px;
   margin-top: 0;
-  background: #e2d6af;
+  background: #c5c0b8;
 }
 
 .masthead-rule + .masthead-meta {
@@ -1495,15 +1498,15 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
-  margin-bottom: 28px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  margin-bottom: 32px;
+  border-top: 1px solid #c5c0b8;
+  border-bottom: 1px solid #c5c0b8;
 }
 
 .yesterday-hero-card {
   background: transparent;
   border: none;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #c5c0b8;
   border-radius: 0;
   padding: 18px 16px;
   text-align: center;
@@ -1516,7 +1519,7 @@ button {
 }
 
 .yesterday-hero-card:nth-child(n+4) {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #c5c0b8;
 }
 
 .yesterday-hero-card:hover {
@@ -1565,17 +1568,17 @@ button {
 }
 
 .wow-badge.positive {
-  color: #0b6e2f;
-  background: #e9f5ee;
+  color: #1a6b3a;
+  background: #d4e8da;
 }
 
 .wow-badge.negative {
   color: #b71c1c;
-  background: #fce8e6;
+  background: #f0d4d0;
 }
 
 .wow-badge.neutral {
-  color: #999;
+  color: #8a857e;
   background: transparent;
 }
 
@@ -1612,7 +1615,7 @@ button {
   align-items: flex-start;
   gap: 12px;
   padding: 10px 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #c5c0b8;
 }
 
 .headline-item:last-child {
@@ -1720,14 +1723,6 @@ button {
   margin-bottom: 12px;
 }
 
-.podium-bar {
-  width: 100%;
-  background: #f0f0f0;
-  border-radius: 0;
-  border: none;
-  border-bottom: 2px solid #000;
-}
-
 /* Table section header — NYT section label */
 .table-section-header {
   font-family: 'Libre Franklin', var(--font);
@@ -1745,10 +1740,161 @@ button {
   margin-bottom: 24px;
 }
 
+/* ===== Infographic Viz Section ===== */
+.yesterday-viz-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 32px;
+  padding: 24px 0;
+  border-top: 1px solid #c5c0b8;
+  border-bottom: 1px solid #c5c0b8;
+}
+
+.viz-header {
+  font-family: 'Libre Franklin', var(--font);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+/* Dot matrix */
+.dot-matrix-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.dot-matrix-svg {
+  width: 220px;
+  height: 220px;
+}
+
+.dot-matrix-svg circle {
+  transition: opacity 0.15s;
+  cursor: default;
+}
+
+.dot-matrix-svg circle[opacity="1"]:hover {
+  opacity: 0.7;
+}
+
+.dot-legend {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  font-family: 'Libre Franklin', var(--font);
+  font-size: 10px;
+  color: #6b6560;
+  letter-spacing: 0.3px;
+}
+
+.dot-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dot-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Revenue proportion bar */
+.rev-bar-track {
+  display: flex;
+  height: 24px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.rev-bar-segment {
+  transition: opacity 0.15s;
+  cursor: default;
+  min-width: 2px;
+}
+
+.rev-bar-segment:hover {
+  opacity: 0.75;
+}
+
+.rev-bar-empty {
+  color: #8a857e;
+  font-family: 'Libre Franklin', var(--font);
+  font-size: 12px;
+}
+
+.rev-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rev-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Libre Franklin', var(--font);
+  font-size: 11px;
+  color: #1a1a1a;
+}
+
+.rev-legend-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rev-legend-pct {
+  font-weight: 600;
+  color: #6b6560;
+  min-width: 30px;
+  text-align: right;
+}
+
+/* Rank dots in table */
+.rank-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+/* Podium bar on warm bg */
+.podium-bar {
+  width: 100%;
+  background: #ddd8d0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #1a1a1a;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
+  .yesterday-page {
+    padding: 20px 16px;
+  }
+
   .masthead-title {
     font-size: 42px;
+  }
+
+  .yesterday-viz-section {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .dot-matrix-svg {
+    width: 180px;
+    height: 180px;
   }
 
   .yesterday-hero-row {
@@ -1756,7 +1902,7 @@ button {
   }
 
   .yesterday-hero-card:nth-child(3n) {
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #c5c0b8;
   }
 
   .yesterday-hero-card:nth-child(2n) {
@@ -1764,7 +1910,7 @@ button {
   }
 
   .yesterday-hero-card:nth-child(n+3) {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #c5c0b8;
   }
 
   .hero-value {
