@@ -1429,7 +1429,7 @@ button {
 .yesterday-page {
   max-width: 900px;
   margin: 0 auto;
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Libre Baskerville', 'Georgia', serif;
 }
 
 /* Masthead — double rule, centered, authoritative */
@@ -1471,22 +1471,22 @@ button {
 }
 
 .masthead-title {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 56px;
-  font-weight: 700;
-  letter-spacing: -1.5px;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 1px;
   color: #000;
   line-height: 1.05;
   margin: 10px 0 6px;
 }
 
 .masthead-tagline {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Libre Baskerville', 'Georgia', serif;
   font-style: italic;
-  font-size: 14px;
+  font-size: 13px;
   color: #888;
   margin-bottom: 10px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
 }
 
 /* Hero metrics — flat, editorial, separated by thin rules */
@@ -1538,9 +1538,9 @@ button {
 }
 
 .hero-value {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Playfair Display', 'Georgia', serif;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
   color: #000;
   line-height: 1.15;
   margin-bottom: 6px;
@@ -1626,11 +1626,12 @@ button {
 }
 
 .headline-text {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Playfair Display', 'Georgia', serif;
   font-size: 15px;
+  font-weight: 700;
   color: #1a1a1a;
-  line-height: 1.5;
-  letter-spacing: -0.1px;
+  line-height: 1.45;
+  letter-spacing: -0.2px;
 }
 
 /* Podium — editorial top earners */
@@ -1690,8 +1691,8 @@ button {
 }
 
 .podium-app-name {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 14px;
+  font-family: 'Libre Baskerville', 'Georgia', serif;
+  font-size: 13px;
   font-weight: 700;
   color: #1a1a1a;
   margin-bottom: 4px;
@@ -1702,9 +1703,9 @@ button {
 }
 
 .podium-revenue {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Playfair Display', 'Georgia', serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 900;
   color: #000;
   margin-bottom: 4px;
   letter-spacing: -0.5px;
@@ -1746,7 +1747,7 @@ button {
 /* Responsive */
 @media (max-width: 768px) {
   .masthead-title {
-    font-size: 36px;
+    font-size: 42px;
   }
 
   .yesterday-hero-row {
@@ -1799,7 +1800,7 @@ button {
 
 @media (max-width: 480px) {
   .masthead-title {
-    font-size: 30px;
+    font-size: 34px;
   }
 
   .yesterday-hero-row {
