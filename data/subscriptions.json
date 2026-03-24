@@ -1,14 +1,5 @@
 {
   "880790176": {
-    "2025-12-22": {
-      "mrr": 719.1,
-      "active_subscriptions": 158,
-      "new_trials": 1,
-      "new_subscriptions": 0,
-      "renewals": 2,
-      "churn": 0,
-      "activations": 0
-    },
     "2025-12-23": {
       "mrr": 717.04,
       "active_subscriptions": 157,
@@ -812,15 +803,6 @@
     }
   },
   "1003684086": {
-    "2025-12-22": {
-      "mrr": 4214.39,
-      "active_subscriptions": 1015,
-      "new_trials": 7,
-      "new_subscriptions": 2,
-      "renewals": 23,
-      "churn": 5,
-      "activations": 2
-    },
     "2025-12-23": {
       "mrr": 4232.67,
       "active_subscriptions": 1017,
@@ -1624,15 +1606,6 @@
     }
   },
   "1015935781": {
-    "2025-12-22": {
-      "mrr": 599.26,
-      "active_subscriptions": 110,
-      "new_trials": 0,
-      "new_subscriptions": 0,
-      "renewals": 1,
-      "churn": 2,
-      "activations": 0
-    },
     "2025-12-23": {
       "mrr": 599.26,
       "active_subscriptions": 110,
@@ -2436,15 +2409,6 @@
     }
   },
   "1582983676": {
-    "2025-12-22": {
-      "mrr": 1536.44,
-      "active_subscriptions": 626,
-      "new_trials": 15,
-      "new_subscriptions": 1,
-      "renewals": 3,
-      "churn": 23,
-      "activations": 1
-    },
     "2025-12-23": {
       "mrr": 1564.17,
       "active_subscriptions": 626,
@@ -3248,15 +3212,6 @@
     }
   },
   "6502181178": {
-    "2025-12-22": {
-      "mrr": 8.5,
-      "active_subscriptions": 3,
-      "new_trials": 0,
-      "new_subscriptions": 0,
-      "renewals": 0,
-      "churn": 0,
-      "activations": 0
-    },
     "2025-12-23": {
       "mrr": 8.5,
       "active_subscriptions": 3,
@@ -4060,15 +4015,6 @@
     }
   },
   "6476511029": {
-    "2025-12-22": {
-      "mrr": 17.88,
-      "active_subscriptions": 13,
-      "new_trials": 0,
-      "new_subscriptions": 0,
-      "renewals": 0,
-      "churn": 0,
-      "activations": 0
-    },
     "2025-12-23": {
       "mrr": 17.88,
       "active_subscriptions": 13,
@@ -4872,15 +4818,6 @@
     }
   },
   "1356249212": {
-    "2025-12-22": {
-      "mrr": 306.68,
-      "active_subscriptions": 124,
-      "new_trials": 0,
-      "new_subscriptions": 0,
-      "renewals": 0,
-      "churn": 1,
-      "activations": 0
-    },
     "2025-12-23": {
       "mrr": 306.68,
       "active_subscriptions": 124,
@@ -5684,15 +5621,6 @@
     }
   },
   "570129169": {
-    "2025-12-22": {
-      "mrr": 8999.57,
-      "active_subscriptions": 2184,
-      "new_trials": 10,
-      "new_subscriptions": 2,
-      "renewals": 23,
-      "churn": 19,
-      "activations": 2
-    },
     "2025-12-23": {
       "mrr": 9046.0,
       "active_subscriptions": 2189,
@@ -6496,15 +6424,6 @@
     }
   },
   "6557028325": {
-    "2025-12-22": {
-      "mrr": 168.52,
-      "active_subscriptions": 58,
-      "new_trials": 0,
-      "new_subscriptions": 1,
-      "renewals": 0,
-      "churn": 0,
-      "activations": 1
-    },
     "2025-12-23": {
       "mrr": 168.52,
       "active_subscriptions": 58,
@@ -7308,15 +7227,6 @@
     }
   },
   "1213054524": {
-    "2025-12-22": {
-      "mrr": 145.53,
-      "active_subscriptions": 15,
-      "new_trials": 0,
-      "new_subscriptions": 1,
-      "renewals": 1,
-      "churn": 1,
-      "activations": 1
-    },
     "2025-12-23": {
       "mrr": 130.71,
       "active_subscriptions": 14,
@@ -8120,15 +8030,6 @@
     }
   },
   "630851451": {
-    "2025-12-22": {
-      "mrr": 1664.99,
-      "active_subscriptions": 417,
-      "new_trials": 1,
-      "new_subscriptions": 1,
-      "renewals": 6,
-      "churn": 3,
-      "activations": 1
-    },
     "2025-12-23": {
       "mrr": 1681.49,
       "active_subscriptions": 417,
@@ -8932,15 +8833,6 @@
     }
   },
   "6670757865": {
-    "2025-12-22": {
-      "mrr": 196.34,
-      "active_subscriptions": 92,
-      "new_trials": 3,
-      "new_subscriptions": 0,
-      "renewals": 0,
-      "churn": 3,
-      "activations": 0
-    },
     "2025-12-23": {
       "mrr": 194.22,
       "active_subscriptions": 91,
@@ -9744,15 +9636,6 @@
     }
   },
   "6449641148": {
-    "2025-12-22": {
-      "mrr": 81.16,
-      "active_subscriptions": 27,
-      "new_trials": 0,
-      "new_subscriptions": 0,
-      "renewals": 0,
-      "churn": 0,
-      "activations": 0
-    },
     "2025-12-23": {
       "mrr": 81.16,
       "active_subscriptions": 27,
@@ -10556,15 +10439,6 @@
     }
   },
   "810713114": {
-    "2025-12-22": {
-      "mrr": 377.77,
-      "active_subscriptions": 46,
-      "new_trials": 1,
-      "new_subscriptions": 1,
-      "renewals": 3,
-      "churn": 1,
-      "activations": 1
-    },
     "2025-12-23": {
       "mrr": 377.77,
       "active_subscriptions": 46,
@@ -11368,15 +11242,6 @@
     }
   },
   "1129609742": {
-    "2025-12-22": {
-      "mrr": 718.65,
-      "active_subscriptions": 59,
-      "new_trials": 5,
-      "new_subscriptions": 1,
-      "renewals": 2,
-      "churn": 1,
-      "activations": 1
-    },
     "2025-12-23": {
       "mrr": 734.06,
       "active_subscriptions": 60,
@@ -12180,15 +12045,6 @@
     }
   },
   "1399633974": {
-    "2025-12-22": {
-      "mrr": 39.07,
-      "active_subscriptions": 22,
-      "new_trials": 0,
-      "new_subscriptions": 0,
-      "renewals": 0,
-      "churn": 0,
-      "activations": 0
-    },
     "2025-12-23": {
       "mrr": 39.07,
       "active_subscriptions": 22,
@@ -12992,15 +12848,6 @@
     }
   },
   "950551948": {
-    "2025-12-22": {
-      "mrr": 10719.14,
-      "active_subscriptions": 2295,
-      "new_trials": 26,
-      "new_subscriptions": 1,
-      "renewals": 24,
-      "churn": 22,
-      "activations": 1
-    },
     "2025-12-23": {
       "mrr": 10774.48,
       "active_subscriptions": 2298,
@@ -13804,15 +13651,6 @@
     }
   },
   "1487907617": {
-    "2025-12-22": {
-      "mrr": 81.66,
-      "active_subscriptions": 15,
-      "new_trials": 0,
-      "new_subscriptions": 0,
-      "renewals": 2,
-      "churn": 0,
-      "activations": 0
-    },
     "2025-12-23": {
       "mrr": 81.66,
       "active_subscriptions": 15,
