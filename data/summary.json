@@ -1,5 +1,5 @@
 {
-  "sync_date": "2026-03-24T14:00:16Z",
+  "sync_date": "2026-03-24T15:00:09Z",
   "date_range": {
     "start": "2025-12-23",
     "end": "2026-03-23"
@@ -103,7 +103,7 @@
     {
       "id": "6670757865",
       "name": "Voice Over Video: Voiceovers",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/f2/5a/26f25a49-4965-28ee-d6ab-d3f3508bd68e/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/43/fc/9f43fcf8-d1a5-8bab-2d23-814db1bf2db7/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 1569.16,
       "downloads": 1366,
@@ -147,7 +147,7 @@
     {
       "id": "594764457",
       "name": "WorkTime: Shift Calendar",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/54/79/f1547922-4635-4659-e2cc-59674d05e83c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/11/32/521132d4-4ba5-6886-b194-01fd3b61cbab/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 515.39,
       "downloads": 983,
@@ -719,7 +719,7 @@
     {
       "id": "6760917095",
       "name": "Spider Identifier: Spider Scan",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/24/53/55245394-7a98-bc0e-469b-634c5383c276/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 0,
       "downloads": 0,

@@ -1118,12 +1118,12 @@
   "570129169": {
     "current": {
       "rating": 3.83,
-      "count": 6434
+      "count": 6435
     },
     "territories": {
       "US": {
         "rating": 3.89,
-        "count": 5093
+        "count": 5094
       },
       "GB": {
         "rating": 3.69,
@@ -1225,7 +1225,7 @@
       },
       "2026-03-23": {
         "rating": 3.83,
-        "count": 6434
+        "count": 6435
       }
     }
   },
@@ -1534,7 +1534,7 @@
   "950551948": {
     "current": {
       "rating": 4.38,
-      "count": 135296
+      "count": 135298
     },
     "territories": {
       "US": {
@@ -1543,7 +1543,7 @@
       },
       "GB": {
         "rating": 4.33,
-        "count": 13065
+        "count": 13067
       },
       "CA": {
         "rating": 4.3,
@@ -1641,7 +1641,7 @@
       },
       "2026-03-23": {
         "rating": 4.38,
-        "count": 135296
+        "count": 135298
       }
     }
   },
@@ -2560,13 +2560,13 @@
   },
   "6670757865": {
     "current": {
-      "rating": 4.59,
-      "count": 62
+      "rating": 4.6,
+      "count": 63
     },
     "territories": {
       "US": {
-        "rating": 4.58,
-        "count": 60
+        "rating": 4.59,
+        "count": 61
       },
       "GB": {
         "rating": 5,
@@ -2595,8 +2595,8 @@
         "count": 62
       },
       "2026-03-23": {
-        "rating": 4.59,
-        "count": 62
+        "rating": 4.6,
+        "count": 63
       }
     }
   },
@@ -2764,13 +2764,13 @@
   },
   "594764457": {
     "current": {
-      "rating": 3.13,
-      "count": 242
+      "rating": 3.12,
+      "count": 243
     },
     "territories": {
       "US": {
-        "rating": 3.4,
-        "count": 104
+        "rating": 3.38,
+        "count": 105
       },
       "GB": {
         "rating": 3.16,
@@ -2871,8 +2871,8 @@
         "count": 242
       },
       "2026-03-23": {
-        "rating": 3.13,
-        "count": 242
+        "rating": 3.12,
+        "count": 243
       }
     }
   },
