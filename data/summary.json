@@ -1,5 +1,5 @@
 {
-  "sync_date": "2026-03-26T14:00:19Z",
+  "sync_date": "2026-03-26T15:00:10Z",
   "date_range": {
     "start": "2025-12-25",
     "end": "2026-03-25"
@@ -48,7 +48,7 @@
     {
       "id": "1582983676",
       "name": "Translate Video: Subtitles",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/14/e4/f714e4da-8fae-d427-685e-97870a50003c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/59/da/9e59da7e-a64f-5f09-6838-33eaa9b2f41f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 5441.57,
       "downloads": 15136,
@@ -70,7 +70,7 @@
     {
       "id": "880790176",
       "name": "Text On Video: Easy Vid Editor",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/ff/6a/06ff6a27-1074-ab78-0b14-651339e79b45/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/4f/78/c04f78d7-f2a0-7f08-f0e1-614f09d93e5b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 2434.49,
       "downloads": 1730,
@@ -774,7 +774,7 @@
     {
       "id": "6760368538",
       "name": "Dub Video: Voice Translator",
-      "icon": "",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/fc/b4/3bfcb478-c2fa-451e-4ae7-1d3b04f19f0c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "BVP",
       "revenue": 0.0,
       "downloads": 1,
