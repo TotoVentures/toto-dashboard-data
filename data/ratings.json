@@ -1160,7 +1160,7 @@
   "1015935781": {
     "current": {
       "rating": 3.95,
-      "count": 1374
+      "count": 1375
     },
     "territories": {
       "US": {
@@ -1180,8 +1180,8 @@
         "count": 45
       },
       "DE": {
-        "rating": 3.67,
-        "count": 3
+        "rating": 3.5,
+        "count": 4
       },
       "FR": {
         "rating": 3.15,
@@ -1279,19 +1279,19 @@
       },
       "2026-03-26": {
         "rating": 3.95,
-        "count": 1374
+        "count": 1375
       }
     }
   },
   "570129169": {
     "current": {
       "rating": 3.83,
-      "count": 6438
+      "count": 6440
     },
     "territories": {
       "US": {
         "rating": 3.89,
-        "count": 5096
+        "count": 5097
       },
       "GB": {
         "rating": 3.69,
@@ -1314,8 +1314,8 @@
         "count": 81
       },
       "JP": {
-        "rating": 1.85,
-        "count": 102
+        "rating": 1.88,
+        "count": 103
       },
       "BR": {
         "rating": 4.01,
@@ -1405,7 +1405,7 @@
       },
       "2026-03-26": {
         "rating": 3.83,
-        "count": 6438
+        "count": 6440
       }
     }
   },
@@ -1750,12 +1750,12 @@
   "950551948": {
     "current": {
       "rating": 4.38,
-      "count": 135303
+      "count": 135307
     },
     "territories": {
       "US": {
         "rating": 4.43,
-        "count": 69981
+        "count": 69985
       },
       "GB": {
         "rating": 4.33,
@@ -1763,7 +1763,7 @@
       },
       "CA": {
         "rating": 4.3,
-        "count": 7831
+        "count": 7832
       },
       "AU": {
         "rating": 4.26,
@@ -1779,7 +1779,7 @@
       },
       "JP": {
         "rating": 4.03,
-        "count": 4833
+        "count": 4832
       },
       "BR": {
         "rating": 4.34,
@@ -1869,7 +1869,7 @@
       },
       "2026-03-26": {
         "rating": 4.38,
-        "count": 135303
+        "count": 135307
       }
     }
   },
@@ -2044,12 +2044,12 @@
   "1129609742": {
     "current": {
       "rating": 3.88,
-      "count": 9157
+      "count": 9158
     },
     "territories": {
       "US": {
         "rating": 3.85,
-        "count": 2946
+        "count": 2947
       },
       "GB": {
         "rating": 3.82,
@@ -2163,7 +2163,7 @@
       },
       "2026-03-26": {
         "rating": 3.88,
-        "count": 9157
+        "count": 9158
       }
     }
   },
@@ -2562,12 +2562,12 @@
   "880790176": {
     "current": {
       "rating": 3.78,
-      "count": 3333
+      "count": 3332
     },
     "territories": {
       "US": {
         "rating": 3.88,
-        "count": 2199
+        "count": 2198
       },
       "GB": {
         "rating": 3.8,
@@ -2681,19 +2681,19 @@
       },
       "2026-03-26": {
         "rating": 3.78,
-        "count": 3333
+        "count": 3332
       }
     }
   },
   "1582983676": {
     "current": {
       "rating": 4.13,
-      "count": 525
+      "count": 526
     },
     "territories": {
       "US": {
         "rating": 4.03,
-        "count": 157
+        "count": 158
       },
       "GB": {
         "rating": 3.93,
@@ -2803,19 +2803,19 @@
       },
       "2026-03-26": {
         "rating": 4.13,
-        "count": 525
+        "count": 526
       }
     }
   },
   "6759808689": {
     "current": {
       "rating": 5.0,
-      "count": 3
+      "count": 4
     },
     "territories": {
       "US": {
         "rating": 5,
-        "count": 2
+        "count": 3
       },
       "MX": {
         "rating": 5,
@@ -2857,7 +2857,7 @@
       },
       "2026-03-26": {
         "rating": 5.0,
-        "count": 3
+        "count": 4
       }
     }
   },
@@ -2908,13 +2908,13 @@
   },
   "6670757865": {
     "current": {
-      "rating": 4.6,
-      "count": 63
+      "rating": 4.61,
+      "count": 64
     },
     "territories": {
       "US": {
-        "rating": 4.59,
-        "count": 61
+        "rating": 4.6,
+        "count": 62
       },
       "GB": {
         "rating": 5,
@@ -2955,8 +2955,8 @@
         "count": 63
       },
       "2026-03-26": {
-        "rating": 4.6,
-        "count": 63
+        "rating": 4.61,
+        "count": 64
       }
     }
   },
@@ -3287,12 +3287,12 @@
   "1003684086": {
     "current": {
       "rating": 4.27,
-      "count": 5784
+      "count": 5785
     },
     "territories": {
       "US": {
         "rating": 4.35,
-        "count": 4518
+        "count": 4519
       },
       "GB": {
         "rating": 4.05,
@@ -3406,7 +3406,7 @@
       },
       "2026-03-26": {
         "rating": 4.27,
-        "count": 5784
+        "count": 5785
       }
     }
   },
