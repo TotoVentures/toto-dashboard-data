@@ -1,15 +1,15 @@
 {
-  "sync_date": "2026-03-26T16:00:08Z",
+  "sync_date": "2026-03-27T14:00:17Z",
   "date_range": {
-    "start": "2025-12-25",
-    "end": "2026-03-25"
+    "start": "2025-12-26",
+    "end": "2026-03-26"
   },
   "total_apps": 74,
   "totals": {
-    "total_revenue": 85187.65,
-    "total_downloads": 66114,
+    "total_revenue": 85011.07,
+    "total_downloads": 66160,
     "total_mrr": 27993.89,
-    "total_adspend": 10602.16
+    "total_adspend": 10744.09
   },
   "per_app": [
     {
@@ -17,30 +17,30 @@
       "name": "Reverse Vid: Video Reverser",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/77/f2/1d77f2d8-2443-534d-e61f-4a0ce1c8c112/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "BVP",
-      "revenue": 24304.41,
-      "downloads": 15087,
+      "revenue": 24156.51,
+      "downloads": 15113,
       "mrr": 8667.31,
-      "adspend": 3079.72,
-      "ad_installs": 3629
+      "adspend": 3136.82,
+      "ad_installs": 3688
     },
     {
       "id": "570129169",
       "name": "My Bracket: Tournament Maker",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/21/b1/e521b198-63e7-e3d0-aa70-05071f9b198e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 22728.61,
-      "downloads": 12063,
+      "revenue": 22742.44,
+      "downloads": 11988,
       "mrr": 8072.92,
-      "adspend": 6401.45,
-      "ad_installs": 5926
+      "adspend": 6469.54,
+      "ad_installs": 5986
     },
     {
       "id": "1003684086",
       "name": "WorkTime: Shift Work Calendar",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/12/5f/34125f54-d4d1-e8af-b8b1-7219c93eb66f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 14419.65,
-      "downloads": 4467,
+      "revenue": 14476.91,
+      "downloads": 4493,
       "mrr": 4032.41,
       "adspend": 0.0,
       "ad_installs": 0
@@ -50,30 +50,30 @@
       "name": "Translate Video: Subtitles",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/59/da/9e59da7e-a64f-5f09-6838-33eaa9b2f41f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 5441.57,
-      "downloads": 15136,
+      "revenue": 5422.22,
+      "downloads": 15178,
       "mrr": 1580.95,
-      "adspend": 198.26,
-      "ad_installs": 155
+      "adspend": 202.84,
+      "ad_installs": 161
     },
     {
       "id": "630851451",
       "name": "Speech Bubble: Photo Captions",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/bd/57/d6bd57b0-7db9-0a86-2c81-48da697afb8c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 4323.72,
-      "downloads": 1403,
+      "revenue": 4217.15,
+      "downloads": 1392,
       "mrr": 1487.99,
-      "adspend": 409.27,
-      "ad_installs": 339
+      "adspend": 410.61,
+      "ad_installs": 340
     },
     {
       "id": "880790176",
       "name": "Text On Video: Easy Vid Editor",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/4f/78/c04f78d7-f2a0-7f08-f0e1-614f09d93e5b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 2434.49,
-      "downloads": 1730,
+      "revenue": 2418.37,
+      "downloads": 1718,
       "mrr": 701.01,
       "adspend": 57.23,
       "ad_installs": 58
@@ -83,10 +83,10 @@
       "name": "Slo Mo: Make Slow Motion Video",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/f0/ed/4cf0ed2c-fcbf-cff1-798e-c9c499bfa282/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 2275.36,
-      "downloads": 1587,
+      "revenue": 2294.47,
+      "downloads": 1582,
       "mrr": 692.93,
-      "adspend": 7.34,
+      "adspend": 7.69,
       "ad_installs": 3
     },
     {
@@ -94,8 +94,8 @@
       "name": "MovieMaker: Video Editor",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/d9/22/ead92262-9675-c742-e5a3-cace77c92ff3/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 1866.58,
-      "downloads": 7006,
+      "revenue": 1861.14,
+      "downloads": 7011,
       "mrr": 552.98,
       "adspend": 0,
       "ad_installs": 0
@@ -105,8 +105,8 @@
       "name": "Voice Over Video: Voiceovers",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/43/fc/9f43fcf8-d1a5-8bab-2d23-814db1bf2db7/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 1593.81,
-      "downloads": 1358,
+      "revenue": 1619.34,
+      "downloads": 1365,
       "mrr": 576.48,
       "adspend": 41.67,
       "ad_installs": 22
@@ -116,8 +116,8 @@
       "name": "Add Watermark: Photos & Text",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/81/6f/ae816fbf-d8b1-068b-f286-f946dfa87203/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 1196.3,
-      "downloads": 405,
+      "revenue": 1181.66,
+      "downloads": 403,
       "mrr": 276.26,
       "adspend": 44.96,
       "ad_installs": 28
@@ -127,8 +127,8 @@
       "name": "Over.Video: Add Text to Videos",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/52/e4/6152e463-2a0e-4fd8-4eb8-1e14b72c75dd/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.jpeg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 967.19,
-      "downloads": 715,
+      "revenue": 972.95,
+      "downloads": 711,
       "mrr": 287.44,
       "adspend": 0,
       "ad_installs": 0
@@ -138,10 +138,10 @@
       "name": "Drink Less: Alcohol Tracker",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/e1/6e/65e16e63-9e28-506f-02d4-fb02026aa148/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 859.7,
-      "downloads": 505,
+      "revenue": 852.92,
+      "downloads": 511,
       "mrr": 211.85,
-      "adspend": 34.83,
+      "adspend": 36.48,
       "ad_installs": 20
     },
     {
@@ -149,11 +149,11 @@
       "name": "Tree Identifier - Tree ID",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/1f/24/1e1f245e-81f0-1ace-155d-6c882e9d51d9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 577.79,
-      "downloads": 441,
+      "revenue": 594.74,
+      "downloads": 450,
       "mrr": 356.42,
-      "adspend": 2.09,
-      "ad_installs": 2
+      "adspend": 3.52,
+      "ad_installs": 3
     },
     {
       "id": "594764457",
@@ -161,9 +161,9 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/11/32/521132d4-4ba5-6886-b194-01fd3b61cbab/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 513.03,
-      "downloads": 982,
+      "downloads": 984,
       "mrr": 68.53,
-      "adspend": 4.52,
+      "adspend": 8.62,
       "ad_installs": 2
     },
     {
@@ -171,8 +171,8 @@
       "name": "Emoji Me: Face Maker",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/fe/55/75fe557a-2532-3fcc-7fe2-df0c72972416/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.jpeg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 411.16,
-      "downloads": 409,
+      "revenue": 412.23,
+      "downloads": 412,
       "mrr": 112.92,
       "adspend": 0,
       "ad_installs": 0
@@ -183,7 +183,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/e6/7d/85e67d41-4a4e-e20a-1d40-d7fb43ca8d0a/AppIcon-0-0-1x_U007epad-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 253.47,
-      "downloads": 163,
+      "downloads": 164,
       "mrr": 63.87,
       "adspend": 0,
       "ad_installs": 0
@@ -193,8 +193,8 @@
       "name": "Watermark Photo: Logo & Stamp",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/66/3a/ff/663aff4a-a2de-f580-367c-ab8e34ec5cb8/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/1024x1024bb.jpg",
       "developer": "BVP",
-      "revenue": 229.82,
-      "downloads": 158,
+      "revenue": 230.76,
+      "downloads": 159,
       "mrr": 66.93,
       "adspend": 0,
       "ad_installs": 0
@@ -205,10 +205,10 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/cc/d3/3dccd33c-6118-890a-35c5-2a2a5c129927/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 135.98,
-      "downloads": 124,
+      "downloads": 129,
       "mrr": 8.5,
-      "adspend": 12.23,
-      "ad_installs": 10
+      "adspend": 13.87,
+      "ad_installs": 11
     },
     {
       "id": "6502181178",
@@ -226,8 +226,8 @@
       "name": "Hours Tracker: Work Scheduling",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/6b/f0/cb6bf059-2e5e-5500-0802-9117f943e768/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 111.13,
-      "downloads": 135,
+      "revenue": 109.24,
+      "downloads": 134,
       "mrr": 31.65,
       "adspend": 0,
       "ad_installs": 0
@@ -248,7 +248,7 @@
       "name": "FODMAP Menu Scanner",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/01/d1/4d01d1ef-7460-0b1a-79f0-6fc709031e87/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 62.56,
+      "revenue": 66.8,
       "downloads": 47,
       "mrr": 21.55,
       "adspend": 44.2,
@@ -281,8 +281,8 @@
       "name": "Keyboard Themes - Custom Color Keyboards & Font Style for iPhone & iPad (iOS 9 Edition)",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/4b/97/c3/4b97c35f-0023-ea48-9663-3c2b3cb61115/pr_source.jpg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 32.31,
-      "downloads": 18,
+      "revenue": 30.73,
+      "downloads": 17,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
@@ -293,9 +293,9 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/53/25/215325cb-60cf-7a52-d7fb-6e31f3981c6b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 24.7,
-      "downloads": 88,
+      "downloads": 89,
       "mrr": 13.36,
-      "adspend": 3.41,
+      "adspend": 5.06,
       "ad_installs": 0
     },
     {
@@ -303,8 +303,8 @@
       "name": "Speech Bubbles - Caption Your Photos",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/c1/97/a3/c197a3cb-904f-4656-9fd8-aa07768160ad/pr_source.jpg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 24.32,
-      "downloads": 210,
+      "revenue": 23.32,
+      "downloads": 208,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
@@ -348,7 +348,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple18/v4/30/eb/06/30eb0610-b2ed-0bf4-d33c-6990a3263a67/pr_source.jpg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 10.12,
-      "downloads": 288,
+      "downloads": 287,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
@@ -370,7 +370,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/95/20/24/95202499-600a-ea03-daec-2fff94d7d103/pr_source.jpg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 8.46,
-      "downloads": 58,
+      "downloads": 59,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
@@ -414,7 +414,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/19/5c/38/195c38bf-0931-8961-3e18-4e8ac526d289/mzm.yumchxzk.jpg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 3.85,
-      "downloads": 219,
+      "downloads": 218,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
@@ -425,7 +425,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/d6/72/79/d6727975-9416-99f4-1a58-ffeab92ef567/mzl.chrakwmi.jpg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 3.29,
-      "downloads": 223,
+      "downloads": 226,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
@@ -623,9 +623,9 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/52/2f/a1522fad-a1a8-bee1-8065-0af86ef1025d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 0.0,
-      "downloads": 7,
+      "downloads": 20,
       "mrr": 0.0,
-      "adspend": 0,
+      "adspend": 0.0,
       "ad_installs": 0
     },
     {
@@ -722,9 +722,9 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/24/53/55245394-7a98-bc0e-469b-634c5383c276/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 0.0,
-      "downloads": 6,
+      "downloads": 10,
       "mrr": 0.0,
-      "adspend": 0,
+      "adspend": 0.0,
       "ad_installs": 0
     },
     {
@@ -777,7 +777,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/fc/b4/3bfcb478-c2fa-451e-4ae7-1d3b04f19f0c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "BVP",
       "revenue": 0.0,
-      "downloads": 1,
+      "downloads": 7,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
