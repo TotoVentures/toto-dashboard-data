@@ -1,5 +1,5 @@
 {
-  "sync_date": "2026-03-27T16:26:28Z",
+  "sync_date": "2026-03-27T16:28:08Z",
   "date_range": {
     "start": "2026-03-22",
     "end": "2026-03-26"
@@ -8,7 +8,7 @@
   "totals": {
     "total_revenue": 4572.66,
     "total_downloads": 3760,
-    "total_mrr": 27934.64,
+    "total_mrr": 28091.77,
     "total_adspend": 10744.09
   },
   "per_app": [
@@ -19,7 +19,7 @@
       "developer": "BVP",
       "revenue": 1205.47,
       "downloads": 793,
-      "mrr": 8667.31,
+      "mrr": 8676.6,
       "adspend": 3136.82,
       "ad_installs": 3688
     },
@@ -30,7 +30,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 1119.04,
       "downloads": 669,
-      "mrr": 8072.92,
+      "mrr": 8101.01,
       "adspend": 6469.54,
       "ad_installs": 5986
     },
@@ -41,7 +41,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 841.91,
       "downloads": 223,
-      "mrr": 4032.41,
+      "mrr": 4039.51,
       "adspend": 0.0,
       "ad_installs": 0
     },
@@ -52,7 +52,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 353.83,
       "downloads": 799,
-      "mrr": 1580.95,
+      "mrr": 1619.0,
       "adspend": 202.84,
       "ad_installs": 161
     },
@@ -63,7 +63,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 213.54,
       "downloads": 82,
-      "mrr": 1487.99,
+      "mrr": 1486.03,
       "adspend": 410.61,
       "ad_installs": 340
     },
@@ -74,7 +74,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 173.16,
       "downloads": 53,
-      "mrr": 356.42,
+      "mrr": 356.39,
       "adspend": 3.52,
       "ad_installs": 3
     },
@@ -85,7 +85,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 146.49,
       "downloads": 83,
-      "mrr": 692.93,
+      "mrr": 726.57,
       "adspend": 7.69,
       "ad_installs": 3
     },
@@ -96,7 +96,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 144.09,
       "downloads": 55,
-      "mrr": 576.48,
+      "mrr": 615.21,
       "adspend": 41.67,
       "ad_installs": 22
     },
@@ -107,7 +107,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 123.79,
       "downloads": 581,
-      "mrr": 552.98,
+      "mrr": 548.57,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -118,7 +118,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 59.15,
       "downloads": 18,
-      "mrr": 276.26,
+      "mrr": 275.98,
       "adspend": 44.96,
       "ad_installs": 28
     },
@@ -129,7 +129,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 52.16,
       "downloads": 77,
-      "mrr": 701.01,
+      "mrr": 698.63,
       "adspend": 57.23,
       "ad_installs": 58
     },
@@ -140,7 +140,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 46.18,
       "downloads": 27,
-      "mrr": 287.44,
+      "mrr": 301.98,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -151,7 +151,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 42.18,
       "downloads": 47,
-      "mrr": 68.53,
+      "mrr": 68.31,
       "adspend": 8.62,
       "ad_installs": 2
     },
@@ -162,7 +162,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 20.94,
       "downloads": 22,
-      "mrr": 112.92,
+      "mrr": 112.74,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -173,7 +173,7 @@
       "developer": "BVP",
       "revenue": 13.67,
       "downloads": 14,
-      "mrr": 66.93,
+      "mrr": 66.64,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -184,7 +184,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 9.2,
       "downloads": 2,
-      "mrr": 21.55,
+      "mrr": 21.49,
       "adspend": 44.2,
       "ad_installs": 9
     },
@@ -195,7 +195,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 6.15,
       "downloads": 1,
-      "mrr": 13.36,
+      "mrr": 13.32,
       "adspend": 5.06,
       "ad_installs": 0
     },
@@ -206,7 +206,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 4.93,
       "downloads": 7,
-      "mrr": 32.48,
+      "mrr": 32.47,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -217,7 +217,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 3.39,
       "downloads": 12,
-      "mrr": 63.87,
+      "mrr": 61.72,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -250,7 +250,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 1.73,
       "downloads": 10,
-      "mrr": 31.65,
+      "mrr": 31.59,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -756,7 +756,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 0.0,
       "downloads": 1,
-      "mrr": 17.9,
+      "mrr": 17.86,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -822,7 +822,7 @@
       "developer": "Toto Ventures Inc.",
       "revenue": -12.77,
       "downloads": 24,
-      "mrr": 211.85,
+      "mrr": 211.65,
       "adspend": 36.48,
       "ad_installs": 20
     }
