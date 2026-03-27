@@ -1,15 +1,15 @@
 {
-  "sync_date": "2026-03-27T16:28:08Z",
+  "sync_date": "2026-03-27T16:47:13Z",
   "date_range": {
-    "start": "2026-03-22",
+    "start": "2025-12-27",
     "end": "2026-03-26"
   },
   "total_apps": 74,
   "totals": {
-    "total_revenue": 4572.66,
-    "total_downloads": 3760,
-    "total_mrr": 28091.77,
-    "total_adspend": 10744.09
+    "total_revenue": 83986.09,
+    "total_downloads": 65511,
+    "total_mrr": 28150.42,
+    "total_adspend": 19535.13
   },
   "per_app": [
     {
@@ -17,30 +17,30 @@
       "name": "Reverse Vid: Video Reverser",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/77/f2/1d77f2d8-2443-534d-e61f-4a0ce1c8c112/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "BVP",
-      "revenue": 1205.47,
-      "downloads": 793,
+      "revenue": 23852.26,
+      "downloads": 14941,
       "mrr": 8676.6,
-      "adspend": 3136.82,
-      "ad_installs": 3688
+      "adspend": 5702.08,
+      "ad_installs": 6691
     },
     {
       "id": "570129169",
       "name": "My Bracket: Tournament Maker",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/21/b1/e521b198-63e7-e3d0-aa70-05071f9b198e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 1119.04,
-      "downloads": 669,
+      "revenue": 22368.42,
+      "downloads": 11804,
       "mrr": 8101.01,
-      "adspend": 6469.54,
-      "ad_installs": 5986
+      "adspend": 11679.08,
+      "ad_installs": 10757
     },
     {
       "id": "1003684086",
       "name": "WorkTime: Shift Work Calendar",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/12/5f/34125f54-d4d1-e8af-b8b1-7219c93eb66f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 841.91,
-      "downloads": 223,
+      "revenue": 14322.37,
+      "downloads": 4446,
       "mrr": 4039.51,
       "adspend": 0.0,
       "ad_installs": 0
@@ -50,109 +50,120 @@
       "name": "Translate Video: Subtitles",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/59/da/9e59da7e-a64f-5f09-6838-33eaa9b2f41f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 353.83,
-      "downloads": 799,
+      "revenue": 5386.71,
+      "downloads": 15071,
       "mrr": 1619.0,
-      "adspend": 202.84,
-      "ad_installs": 161
+      "adspend": 373.64,
+      "ad_installs": 285
     },
     {
       "id": "630851451",
       "name": "Speech Bubble: Photo Captions",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/bd/57/d6bd57b0-7db9-0a86-2c81-48da697afb8c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 213.54,
-      "downloads": 82,
+      "revenue": 4186.88,
+      "downloads": 1377,
       "mrr": 1486.03,
-      "adspend": 410.61,
-      "ad_installs": 340
-    },
-    {
-      "id": "6759808689",
-      "name": "Tree Identifier - Tree ID",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/1f/24/1e1f245e-81f0-1ace-155d-6c882e9d51d9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 173.16,
-      "downloads": 53,
-      "mrr": 356.39,
-      "adspend": 3.52,
-      "ad_installs": 3
-    },
-    {
-      "id": "1129609742",
-      "name": "Slo Mo: Make Slow Motion Video",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/f0/ed/4cf0ed2c-fcbf-cff1-798e-c9c499bfa282/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 146.49,
-      "downloads": 83,
-      "mrr": 726.57,
-      "adspend": 7.69,
-      "ad_installs": 3
-    },
-    {
-      "id": "6670757865",
-      "name": "Voice Over Video: Voiceovers",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/43/fc/9f43fcf8-d1a5-8bab-2d23-814db1bf2db7/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 144.09,
-      "downloads": 55,
-      "mrr": 615.21,
-      "adspend": 41.67,
-      "ad_installs": 22
-    },
-    {
-      "id": "1015935781",
-      "name": "MovieMaker: Video Editor",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/d9/22/ead92262-9675-c742-e5a3-cace77c92ff3/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 123.79,
-      "downloads": 581,
-      "mrr": 548.57,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
-      "id": "1356249212",
-      "name": "Add Watermark: Photos & Text",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/81/6f/ae816fbf-d8b1-068b-f286-f946dfa87203/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 59.15,
-      "downloads": 18,
-      "mrr": 275.98,
-      "adspend": 44.96,
-      "ad_installs": 28
+      "adspend": 774.14,
+      "ad_installs": 625
     },
     {
       "id": "880790176",
       "name": "Text On Video: Easy Vid Editor",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/4f/78/c04f78d7-f2a0-7f08-f0e1-614f09d93e5b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 52.16,
-      "downloads": 77,
+      "revenue": 2417.85,
+      "downloads": 1696,
       "mrr": 698.63,
-      "adspend": 57.23,
-      "ad_installs": 58
+      "adspend": 108.09,
+      "ad_installs": 107
+    },
+    {
+      "id": "1129609742",
+      "name": "Slo Mo: Make Slow Motion Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/f0/ed/4cf0ed2c-fcbf-cff1-798e-c9c499bfa282/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.jpeg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 2260.23,
+      "downloads": 1566,
+      "mrr": 726.57,
+      "adspend": 13.31,
+      "ad_installs": 4
+    },
+    {
+      "id": "1015935781",
+      "name": "MovieMaker: Video Editor",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/d9/22/ead92262-9675-c742-e5a3-cace77c92ff3/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 1851.59,
+      "downloads": 6992,
+      "mrr": 548.57,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "6670757865",
+      "name": "Voice Over Video: Voiceovers",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/43/fc/9f43fcf8-d1a5-8bab-2d23-814db1bf2db7/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 1594.53,
+      "downloads": 1351,
+      "mrr": 615.21,
+      "adspend": 82.9,
+      "ad_installs": 43
+    },
+    {
+      "id": "1356249212",
+      "name": "Add Watermark: Photos & Text",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/81/6f/ae816fbf-d8b1-068b-f286-f946dfa87203/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 1170.23,
+      "downloads": 400,
+      "mrr": 275.98,
+      "adspend": 87.17,
+      "ad_installs": 55
     },
     {
       "id": "810713114",
       "name": "Over.Video: Add Text to Videos",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/52/e4/6152e463-2a0e-4fd8-4eb8-1e14b72c75dd/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.jpeg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 46.18,
-      "downloads": 27,
+      "revenue": 950.2,
+      "downloads": 703,
       "mrr": 301.98,
       "adspend": 0,
       "ad_installs": 0
+    },
+    {
+      "id": "6557028325",
+      "name": "Drink Less: Alcohol Tracker",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/e1/6e/65e16e63-9e28-506f-02d4-fb02026aa148/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 842.63,
+      "downloads": 510,
+      "mrr": 211.65,
+      "adspend": 67.5,
+      "ad_installs": 38
+    },
+    {
+      "id": "6759808689",
+      "name": "Tree Identifier - Tree ID",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/1f/24/1e1f245e-81f0-1ace-155d-6c882e9d51d9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 595.48,
+      "downloads": 450,
+      "mrr": 356.39,
+      "adspend": 5.59,
+      "ad_installs": 5
     },
     {
       "id": "594764457",
       "name": "WorkTime: Shift Calendar",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/11/32/521132d4-4ba5-6886-b194-01fd3b61cbab/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 42.18,
-      "downloads": 47,
+      "revenue": 511.7,
+      "downloads": 969,
       "mrr": 68.31,
-      "adspend": 8.62,
+      "adspend": 9.95,
       "ad_installs": 2
     },
     {
@@ -160,53 +171,9 @@
       "name": "Emoji Me: Face Maker",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/fe/55/75fe557a-2532-3fcc-7fe2-df0c72972416/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.jpeg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 20.94,
-      "downloads": 22,
+      "revenue": 409.96,
+      "downloads": 409,
       "mrr": 112.74,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
-      "id": "1487907617",
-      "name": "Watermark Photo: Logo & Stamp",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/66/3a/ff/663aff4a-a2de-f580-367c-ab8e34ec5cb8/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/1024x1024bb.jpg",
-      "developer": "BVP",
-      "revenue": 13.67,
-      "downloads": 14,
-      "mrr": 66.64,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
-      "id": "6758466848",
-      "name": "FODMAP Menu Scanner",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/01/d1/4d01d1ef-7460-0b1a-79f0-6fc709031e87/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 9.2,
-      "downloads": 2,
-      "mrr": 21.49,
-      "adspend": 44.2,
-      "ad_installs": 9
-    },
-    {
-      "id": "6759501398",
-      "name": "Clock In & Out: Hours Tracker",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/53/25/215325cb-60cf-7a52-d7fb-6e31f3981c6b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 6.15,
-      "downloads": 1,
-      "mrr": 13.32,
-      "adspend": 5.06,
-      "ad_installs": 0
-    },
-    {
-      "id": "6502181178",
-      "name": "AI Summarizer: Summarize Text",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/2b/ee/152bee12-e1ab-d402-70fb-8ff3f7862c58/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 4.93,
-      "downloads": 7,
-      "mrr": 32.47,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -215,9 +182,86 @@
       "name": "A.I. Music Generator",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/e6/7d/85e67d41-4a4e-e20a-1d40-d7fb43ca8d0a/AppIcon-0-0-1x_U007epad-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 3.39,
-      "downloads": 12,
+      "revenue": 253.71,
+      "downloads": 163,
       "mrr": 61.72,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "1487907617",
+      "name": "Watermark Photo: Logo & Stamp",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/66/3a/ff/663aff4a-a2de-f580-367c-ab8e34ec5cb8/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/1024x1024bb.jpg",
+      "developer": "BVP",
+      "revenue": 228.65,
+      "downloads": 158,
+      "mrr": 66.64,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "6759932194",
+      "name": "Snake ID: Identify Any Species",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/cc/d3/3dccd33c-6118-890a-35c5-2a2a5c129927/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 135.91,
+      "downloads": 129,
+      "mrr": 8.5,
+      "adspend": 18.96,
+      "ad_installs": 12
+    },
+    {
+      "id": "6502181178",
+      "name": "AI Summarizer: Summarize Text",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/2b/ee/152bee12-e1ab-d402-70fb-8ff3f7862c58/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 133.19,
+      "downloads": 98,
+      "mrr": 32.47,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "1399633974",
+      "name": "Hours Tracker: Work Scheduling",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/6b/f0/cb6bf059-2e5e-5500-0802-9117f943e768/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 108.4,
+      "downloads": 131,
+      "mrr": 31.59,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "873500886",
+      "name": "My Bracket + Tournament Manager for Amateur Sports",
+      "icon": "",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 76.64,
+      "downloads": 4,
+      "mrr": 0.0,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "6758466848",
+      "name": "FODMAP Menu Scanner",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/01/d1/4d01d1ef-7460-0b1a-79f0-6fc709031e87/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 67.13,
+      "downloads": 47,
+      "mrr": 21.49,
+      "adspend": 87.96,
+      "ad_installs": 18
+    },
+    {
+      "id": "6476511029",
+      "name": "Wine Tracker: Tasting Notes",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/e2/e0/8be2e00d-5962-3765-bba5-e30eb109ff7a/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 49.33,
+      "downloads": 80,
+      "mrr": 17.86,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -226,8 +270,8 @@
       "name": "Bubble+ Add Speech Captions & Quotes to Photos",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/61/a4/db/61a4db58-991a-6564-08bb-83f1e0d5a584/mzl.bgmsxkpz.jpg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 2.54,
-      "downloads": 1,
+      "revenue": 34.7,
+      "downloads": 14,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
@@ -237,20 +281,163 @@
       "name": "Keyboard Themes - Custom Color Keyboards & Font Style for iPhone & iPad (iOS 9 Edition)",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/4b/97/c3/4b97c35f-0023-ea48-9663-3c2b3cb61115/pr_source.jpg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 1.89,
-      "downloads": 1,
+      "revenue": 29.2,
+      "downloads": 16,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
     },
     {
-      "id": "1399633974",
-      "name": "Hours Tracker: Work Scheduling",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/6b/f0/cb6bf059-2e5e-5500-0802-9117f943e768/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/1024x1024bb.jpg",
+      "id": "6759501398",
+      "name": "Clock In & Out: Hours Tracker",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/53/25/215325cb-60cf-7a52-d7fb-6e31f3981c6b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
-      "revenue": 1.73,
-      "downloads": 10,
-      "mrr": 31.59,
+      "revenue": 24.51,
+      "downloads": 89,
+      "mrr": 13.32,
+      "adspend": 7.94,
+      "ad_installs": 0
+    },
+    {
+      "id": "886093098",
+      "name": "Speech Bubbles - Caption Your Photos",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/c1/97/a3/c197a3cb-904f-4656-9fd8-aa07768160ad/pr_source.jpg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 20.76,
+      "downloads": 204,
+      "mrr": 0.0,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "907775601",
+      "name": "TrimVideo: Edit Video Length",
+      "icon": "",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 18.91,
+      "downloads": 9,
+      "mrr": 0.0,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "725369629",
+      "name": "Baby Maker: Future Child",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/e2/1c/cee21c9b-47fd-9f57-47a1-9a39a27293e5/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 17.66,
+      "downloads": 4,
+      "mrr": 18.66,
+      "adspend": 79.74,
+      "ad_installs": 0
+    },
+    {
+      "id": "950197769",
+      "name": "Magnifying Glass Reader with Light for iPhone",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/9e/4b/96/9e4b962e-66fa-5c2f-fc16-e5e2621641ae/mzl.uvphwquz.jpg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 17.04,
+      "downloads": 220,
+      "mrr": 0.0,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "1123523401",
+      "name": "SlideShow: Video Maker",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple18/v4/30/eb/06/30eb0610-b2ed-0bf4-d33c-6990a3263a67/pr_source.jpg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 10.13,
+      "downloads": 284,
+      "mrr": 0.0,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "6758783264",
+      "name": "Skinny: Face & Body Editor",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/e5/c1/44e5c1c8-72b6-06bf-f063-4baa9dc9cb49/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 8.58,
+      "downloads": 29,
+      "mrr": 18.66,
+      "adspend": 57.75,
+      "ad_installs": 6
+    },
+    {
+      "id": "1232127041",
+      "name": "Emoji My Dog: Make Custom Emojis of Dogs Photos",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/95/20/24/95202499-600a-ea03-daec-2fff94d7d103/pr_source.jpg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 5.92,
+      "downloads": 58,
+      "mrr": 0.0,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "1232127051",
+      "name": "Emoji My Cat: Make Custom Emojis of Cats Photos",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/4c/d1/20/4cd12035-f3b3-c8c5-fd80-19161c9d0110/pr_source.jpg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 5.8,
+      "downloads": 57,
+      "mrr": 0.0,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "1078148357",
+      "name": "Splash of Color - Black & White Photo Grayscale Effect Editor for Instagram",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/44/95/39/44953934-efc9-98e2-282d-e5c811452c38/pr_source.png/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 4.94,
+      "downloads": 281,
+      "mrr": 0.0,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "6758317593",
+      "name": "Wine Menu Scanner",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/bd/fd/10bdfdfc-0bad-d7ee-a75c-db5326f95976/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 4.91,
+      "downloads": 46,
+      "mrr": 21.33,
+      "adspend": 155.28,
+      "ad_installs": 36
+    },
+    {
+      "id": "968752295",
+      "name": "Big Day Event Countdowns - Countdown to Birthdays, Vacations and More",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/19/5c/38/195c38bf-0931-8961-3e18-4e8ac526d289/mzm.yumchxzk.jpg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 3.88,
+      "downloads": 216,
+      "mrr": 0.0,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "868434888",
+      "name": "Square Shape - Crop Photo & Video to Size and Share for Instagram",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/d6/72/79/d6727975-9416-99f4-1a58-ffeab92ef567/mzl.chrakwmi.jpg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 3.31,
+      "downloads": 224,
+      "mrr": 0.0,
+      "adspend": 0,
+      "ad_installs": 0
+    },
+    {
+      "id": "977965135",
+      "name": "QuickNote Calendar - Easy Daily Todo List Task Manager (Free Version)",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple3/v4/74/6a/49/746a49fb-741d-4059-4d6f-5e2cb2cc6034/pr_source.jpg/1024x1024bb.jpg",
+      "developer": "Toto Ventures Inc.",
+      "revenue": 1.84,
+      "downloads": 76,
+      "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -277,17 +464,6 @@
       "ad_installs": 0
     },
     {
-      "id": "725369629",
-      "name": "Baby Maker: Future Child",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/e2/1c/cee21c9b-47fd-9f57-47a1-9a39a27293e5/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 0,
-      "mrr": 0.0,
-      "adspend": 40.07,
-      "ad_installs": 0
-    },
-    {
       "id": "1174074158",
       "name": "Baby Photos Pro: Capture & Create Pregnancy Pics",
       "icon": "",
@@ -303,7 +479,7 @@
       "name": "Background Erase +",
       "icon": "",
       "developer": "Toto Ventures Inc.",
-      "revenue": 0,
+      "revenue": 0.0,
       "downloads": 0,
       "mrr": 0.0,
       "adspend": 0,
@@ -327,17 +503,6 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 0,
       "downloads": 0,
-      "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
-      "id": "968752295",
-      "name": "Big Day Event Countdowns - Countdown to Birthdays, Vacations and More",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/19/5c/38/195c38bf-0931-8961-3e18-4e8ac526d289/mzm.yumchxzk.jpg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 8,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
@@ -398,17 +563,6 @@
       "ad_installs": 0
     },
     {
-      "id": "1232127051",
-      "name": "Emoji My Cat: Make Custom Emojis of Cats Photos",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/4c/d1/20/4cd12035-f3b3-c8c5-fd80-19161c9d0110/pr_source.jpg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 5,
-      "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
       "id": "1253822006",
       "name": "Emoji My Dog +",
       "icon": "",
@@ -420,22 +574,11 @@
       "ad_installs": 0
     },
     {
-      "id": "1232127041",
-      "name": "Emoji My Dog: Make Custom Emojis of Dogs Photos",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/95/20/24/95202499-600a-ea03-daec-2fff94d7d103/pr_source.jpg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 4,
-      "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
       "id": "898494198",
       "name": "EmojiVideo: Add Emojis to Vids",
       "icon": "",
       "developer": "Toto Ventures Inc.",
-      "revenue": 0,
+      "revenue": 0.0,
       "downloads": 0,
       "mrr": 0.0,
       "adspend": 0,
@@ -446,19 +589,8 @@
       "name": "Gratitude Journal+ Mood Tracker Happiness Diary",
       "icon": "",
       "developer": "Toto Ventures Inc.",
-      "revenue": 0,
-      "downloads": 0,
-      "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
-      "id": "950197769",
-      "name": "Magnifying Glass Reader with Light for iPhone",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/9e/4b/96/9e4b962e-66fa-5c2f-fc16-e5e2621641ae/mzl.uvphwquz.jpg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
       "revenue": 0.0,
-      "downloads": 11,
+      "downloads": 0,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
@@ -468,7 +600,7 @@
       "name": "Make Todo Lists with QuickNote",
       "icon": "",
       "developer": "Toto Ventures Inc.",
-      "revenue": 0,
+      "revenue": 0.0,
       "downloads": 0,
       "mrr": 0.0,
       "adspend": 0,
@@ -480,10 +612,10 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/85/07/3f8507ad-5c82-23ee-e901-2f33bc3bbf31/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 0.0,
-      "downloads": 2,
+      "downloads": 40,
       "mrr": 0.0,
-      "adspend": 112.6,
-      "ad_installs": 11
+      "adspend": 224.05,
+      "ad_installs": 22
     },
     {
       "id": "6760623282",
@@ -501,7 +633,7 @@
       "name": "Movie Maker+ Combine My Clips",
       "icon": "",
       "developer": "Toto Ventures Inc.",
-      "revenue": 0,
+      "revenue": 0.0,
       "downloads": 0,
       "mrr": 0.0,
       "adspend": 0,
@@ -519,22 +651,11 @@
       "ad_installs": 0
     },
     {
-      "id": "873500886",
-      "name": "My Bracket + Tournament Manager for Amateur Sports",
-      "icon": "",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 0,
-      "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
       "id": "1253821621",
       "name": "On My Video+ Add Vid Overlays",
       "icon": "",
       "developer": "Toto Ventures Inc.",
-      "revenue": 0,
+      "revenue": 0.0,
       "downloads": 0,
       "mrr": 0.0,
       "adspend": 0,
@@ -546,7 +667,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple6/v4/af/83/49/af8349d1-39b0-4eb4-e3f6-e062ea766d38/pr_source.jpg/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 0.0,
-      "downloads": 8,
+      "downloads": 112,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
@@ -561,28 +682,6 @@
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
-    },
-    {
-      "id": "977965135",
-      "name": "QuickNote Calendar - Easy Daily Todo List Task Manager (Free Version)",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple3/v4/74/6a/49/746a49fb-741d-4059-4d6f-5e2cb2cc6034/pr_source.jpg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 7,
-      "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
-      "id": "6758783264",
-      "name": "Skinny: Face & Body Editor",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/e5/c1/44e5c1c8-72b6-06bf-f063-4baa9dc9cb49/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 3,
-      "mrr": 0.0,
-      "adspend": 29.02,
-      "ad_installs": 3
     },
     {
       "id": "1174074460",
@@ -600,33 +699,11 @@
       "name": "Slideshow Pro: Create Slideshows & Video with Pics",
       "icon": "",
       "developer": "Toto Ventures Inc.",
-      "revenue": 0,
+      "revenue": 0.0,
       "downloads": 0,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
-    },
-    {
-      "id": "1123523401",
-      "name": "SlideShow: Video Maker",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple18/v4/30/eb/06/30eb0610-b2ed-0bf4-d33c-6990a3263a67/pr_source.jpg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 13,
-      "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
-      "id": "6759932194",
-      "name": "Snake ID: Identify Any Species",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/cc/d3/3dccd33c-6118-890a-35c5-2a2a5c129927/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 15,
-      "mrr": 8.5,
-      "adspend": 13.87,
-      "ad_installs": 11
     },
     {
       "id": "1314216943",
@@ -640,17 +717,6 @@
       "ad_installs": 0
     },
     {
-      "id": "886093098",
-      "name": "Speech Bubbles - Caption Your Photos",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/c1/97/a3/c197a3cb-904f-4656-9fd8-aa07768160ad/pr_source.jpg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 8,
-      "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
       "id": "6760917095",
       "name": "Spider Identifier: Spider Scan",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/24/53/55245394-7a98-bc0e-469b-634c5383c276/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
@@ -659,28 +725,6 @@
       "downloads": 10,
       "mrr": 0.0,
       "adspend": 0.0,
-      "ad_installs": 0
-    },
-    {
-      "id": "1078148357",
-      "name": "Splash of Color - Black & White Photo Grayscale Effect Editor for Instagram",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/44/95/39/44953934-efc9-98e2-282d-e5c811452c38/pr_source.png/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 16,
-      "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
-      "id": "868434888",
-      "name": "Square Shape - Crop Photo & Video to Size and Share for Instagram",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/d6/72/79/d6727975-9416-99f4-1a58-ffeab92ef567/mzl.chrakwmi.jpg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 21,
-      "mrr": 0.0,
-      "adspend": 0,
       "ad_installs": 0
     },
     {
@@ -706,22 +750,11 @@
       "ad_installs": 0
     },
     {
-      "id": "907775601",
-      "name": "TrimVideo: Edit Video Length",
-      "icon": "",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 0,
-      "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
       "id": "920646492",
       "name": "TrimVideo+ Make Videos Shorter",
       "icon": "",
       "developer": "Toto Ventures Inc.",
-      "revenue": 0,
+      "revenue": 0.0,
       "downloads": 0,
       "mrr": 0.0,
       "adspend": 0,
@@ -735,28 +768,6 @@
       "revenue": 0.0,
       "downloads": 0,
       "mrr": 0.0,
-      "adspend": 0,
-      "ad_installs": 0
-    },
-    {
-      "id": "6758317593",
-      "name": "Wine Menu Scanner",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/bd/fd/10bdfdfc-0bad-d7ee-a75c-db5326f95976/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0,
-      "downloads": 0,
-      "mrr": 0.0,
-      "adspend": 79.29,
-      "ad_installs": 18
-    },
-    {
-      "id": "6476511029",
-      "name": "Wine Tracker: Tasting Notes",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/e2/e0/8be2e00d-5962-3765-bba5-e30eb109ff7a/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": 0.0,
-      "downloads": 1,
-      "mrr": 17.86,
       "adspend": 0,
       "ad_installs": 0
     },
@@ -776,7 +787,7 @@
       "name": "MusicVid + Play Background Music on Videos for Vine and Instagram",
       "icon": "",
       "developer": "BVP",
-      "revenue": 0,
+      "revenue": 0.0,
       "downloads": 0,
       "mrr": 0.0,
       "adspend": 0,
@@ -809,22 +820,11 @@
       "name": "TrimVid + Cut & Edit Video for Vine And Instagram",
       "icon": "",
       "developer": "BVP",
-      "revenue": 0,
+      "revenue": 0.0,
       "downloads": 0,
       "mrr": 0.0,
       "adspend": 0,
       "ad_installs": 0
-    },
-    {
-      "id": "6557028325",
-      "name": "Drink Less: Alcohol Tracker",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/e1/6e/65e16e63-9e28-506f-02d4-fb02026aa148/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
-      "developer": "Toto Ventures Inc.",
-      "revenue": -12.77,
-      "downloads": 24,
-      "mrr": 211.65,
-      "adspend": 36.48,
-      "ad_installs": 20
     }
   ]
 }
