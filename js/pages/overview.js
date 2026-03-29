@@ -5,7 +5,7 @@
 const OverviewPage = (() => {
 
   function render(container, data, filterState) {
-    const { summary, revenue, sales, apps, adspend } = data;
+    const { summary, revenue, sales, apps, adspend, funnel } = data;
     container.innerHTML = '';
 
     // Shared isolation state
@@ -43,7 +43,9 @@ const OverviewPage = (() => {
         }
         if (sales && sales[appId]) {
           const dates = getFilteredDates(sales[appId], filterState);
-          dates.forEach(d => { dl += parseFloat(sales[appId][d]?.downloads) || 0; });
+          dates.forEach(d => {
+            dl += (parseFloat(sales[appId][d]?.downloads) || 0) + (parseFloat(sales[appId][d]?.re_downloads) || 0);
+          });
           if (!dayCount || dayCount === 1) dayCount = Math.max(dates.length, 1);
         }
         if (data.subscriptions && data.subscriptions[appId]) {
@@ -64,7 +66,9 @@ const OverviewPage = (() => {
         const salSource = sales && sales[appId] ? { [appId]: sales[appId] } : {};
         const adSource = adspend && adspend[appId] ? { [appId]: adspend[appId] } : {};
         const revChg = Object.keys(revSource).length ? computePeriodChange(revSource, 'total', filterState) : null;
-        const dlChg = Object.keys(salSource).length ? computePeriodChange(salSource, 'downloads', filterState) : null;
+        const dlChgNew = Object.keys(salSource).length ? computePeriodChange(salSource, 'downloads', filterState) : null;
+        const dlChgRe = Object.keys(salSource).length ? computePeriodChange(salSource, 're_downloads', filterState) : null;
+        const dlChg = dlChgNew; // Approximate with new downloads trend
         const adChg = Object.keys(adSource).length ? computePeriodChange(adSource, 'spend', filterState) : null;
         let netChg = revChg;
         if (revChg != null && adChg != null && rev > 0) {
@@ -86,10 +90,10 @@ const OverviewPage = (() => {
         ? aggregateTotals(revenue, ['total'], filterState)
         : { totals: { total: 0 }, dayCount: 1 };
       const { totals: salesTotals } = sales
-        ? aggregateTotals(sales, ['downloads'], filterState)
-        : { totals: { downloads: 0 } };
+        ? aggregateTotals(sales, ['downloads', 're_downloads'], filterState)
+        : { totals: { downloads: 0, re_downloads: 0 } };
       const totalRevenue = revTotals.total;
-      const totalDownloads = salesTotals.downloads;
+      const totalDownloads = salesTotals.downloads + salesTotals.re_downloads;
 
       let totalMRR = 0;
       if (data.subscriptions) {
@@ -128,7 +132,8 @@ const OverviewPage = (() => {
       return [
         { label: 'Net Revenue', field: 'netrevenue', value: netRevenue, perDay: netRevenue / dayCount, changePercent: netChange, isCurrency: true, description: 'Revenue minus ad spend' },
         { label: 'Total Revenue', field: 'revenue', value: totalRevenue, perDay: totalRevenue / dayCount, isCurrency: true, changePercent: computePeriodChange(revenue, 'total', filterState), description: 'Sum of all revenue sources in the selected period' },
-        { label: 'Total Downloads', field: 'downloads', value: totalDownloads, perDay: totalDownloads / dayCount, isCurrency: false, changePercent: computePeriodChange(sales, 'downloads', filterState), description: 'First-time app downloads in the selected period' },
+        { label: 'Total Downloads', field: 'downloads', value: totalDownloads, perDay: totalDownloads / dayCount, isCurrency: false, changePercent: computePeriodChange(sales, 'downloads', filterState), description: 'New downloads + re-downloads combined (SALES report)' },
+        { label: 'True First DLs', field: 'true_first_downloads', value: funnel ? (() => { const { totals } = aggregateTotals(funnel, ['first_time_downloads'], filterState); return totals.first_time_downloads; })() : 0, perDay: funnel ? (() => { const { totals, dayCount: dc } = aggregateTotals(funnel, ['first_time_downloads'], filterState); return totals.first_time_downloads / dc; })() : 0, isCurrency: false, changePercent: funnel ? computePeriodChange(funnel, 'first_time_downloads', filterState) : null, description: 'First-time downloads only (Analytics API — no updates/redownloads)' },
         { label: 'MRR', field: 'mrr', value: totalMRR, isCurrency: true, description: 'Monthly Recurring Revenue — latest snapshot of active subscription value' }
       ];
     }
@@ -136,7 +141,7 @@ const OverviewPage = (() => {
     const chartDefs = {
       netrevenue: { dataSource: null, field: 'netrevenue', title: 'Net Revenue Trend', isCurrency: true },
       revenue: { dataSource: revenue, field: 'total', title: 'Revenue Trend', isCurrency: true },
-      downloads: { dataSource: sales, field: 'downloads', title: 'Downloads Trend', isCurrency: false },
+      downloads: { dataSource: sales, field: 'total_downloads', title: 'Total Downloads Trend', isCurrency: false },
       mrr: { dataSource: null, field: 'mrr', title: 'MRR Trend', isCurrency: true }
     };
 
@@ -252,7 +257,25 @@ const OverviewPage = (() => {
         return;
       }
 
+      // Helper for computed total_downloads field
+      const resolveField = (dataPoint, f) => {
+        if (f === 'total_downloads') return (parseFloat(dataPoint?.downloads) || 0) + (parseFloat(dataPoint?.re_downloads) || 0);
+        return parseFloat(dataPoint?.[f]) || 0;
+      };
+
       if (ha) {
+        if (chartKey === 'downloads' && def.field === 'total_downloads') {
+          const appData = sales && sales[ha.id] ? sales[ha.id] : {};
+          const dates = getFullDateRange(filterState);
+          const bucketed = bucketDates(dates, filterState.granularity);
+          const labels = bucketed.map(b => b.label);
+          const values = bucketed.map(b => b.dates.reduce((sum, date) => sum + resolveField(appData[date], 'total_downloads'), 0));
+          if (labels.length > 0) {
+            const rawDates = filterState.granularity === 'daily' ? bucketed.map(b => b.dates[0]) : null;
+            TotoCharts.createAreaChart('overviewMainChart', labels, [{ label: shortAppName(ha.name), data: values }], { isCurrency: false, stacked: false, rawDates });
+          }
+          return;
+        }
         if (chartKey === 'mrr' && data.subscriptions && data.subscriptions[ha.id]) {
           const appData = data.subscriptions[ha.id];
           const dates = getFullDateRange(filterState);
@@ -301,6 +324,24 @@ const OverviewPage = (() => {
         if (labels.length > 0) {
           const rawDates = filterState.granularity === 'daily' ? bucketed.map(b => b.dates[0]) : null;
           TotoCharts.createAreaChart('overviewMainChart', labels, [{ label: 'MRR', data: values }], { isCurrency: true, stacked: false, rawDates });
+        }
+      } else if (chartKey === 'downloads' && def.field === 'total_downloads' && sales) {
+        const selectedApps = getSelectedAppIds(sales, filterState);
+        const dates = getFullDateRange(filterState);
+        const bucketed = bucketDates(dates, filterState.granularity);
+        const labels = bucketed.map(b => b.label);
+        const rawDates = filterState.granularity === 'daily' ? bucketed.map(b => b.dates[0]) : null;
+        const appTotals = selectedApps.map(pid => ({
+          pid,
+          total: dates.reduce((s, d) => s + resolveField(sales[pid]?.[d], 'total_downloads'), 0)
+        })).sort((a, b) => b.total - a.total);
+        const topApps = appTotals.slice(0, 5);
+        const datasets = topApps.map(({ pid }) => ({
+          label: shortAppName((apps || {})[pid]?.name || ('App ' + pid)),
+          data: bucketed.map(b => b.dates.reduce((sum, d) => sum + resolveField(sales[pid]?.[d], 'total_downloads'), 0))
+        }));
+        if (labels.length > 0) {
+          TotoCharts.createAreaChart('overviewMainChart', labels, datasets, { isCurrency: false, rawDates });
         }
       } else if (def.dataSource) {
         const chartData = buildTimeSeriesData(def.dataSource, def.field, apps, filterState, { topN: 5, showComparison: true });
@@ -389,7 +430,9 @@ const OverviewPage = (() => {
       }
       if (sales && sales[pid]) {
         const dates = getFilteredDates(sales[pid], filterState);
-        dates.forEach(d => { dl += parseFloat(sales[pid][d]?.downloads) || 0; });
+        dates.forEach(d => {
+          dl += (parseFloat(sales[pid][d]?.downloads) || 0) + (parseFloat(sales[pid][d]?.re_downloads) || 0);
+        });
       }
       if (subscriptions && subscriptions[pid]) {
         const dates = getFilteredDates(subscriptions[pid], filterState).sort();

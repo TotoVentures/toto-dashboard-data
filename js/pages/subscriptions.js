@@ -43,7 +43,8 @@ const SubscriptionsPage = (() => {
         { label: 'New Subscriptions', field: 'new_subscriptions', value: periodTotals.new_subscriptions, perDay: periodTotals.new_subscriptions / dayCount, changePercent: computePeriodChange(source, 'new_subscriptions', filterState), isCurrency: false, description: 'New paid subscription activations' },
         { label: 'Renewals', field: 'renewals', value: periodTotals.renewals, perDay: periodTotals.renewals / dayCount, changePercent: computePeriodChange(source, 'renewals', filterState), isCurrency: false, description: 'Subscription renewals processed in the selected period' },
         { label: 'Cancellations', field: 'cancellations', value: periodTotals.churn, perDay: periodTotals.churn / dayCount, changePercent: computePeriodChange(source, 'churn', filterState), isCurrency: false, description: 'Subscriptions cancelled or expired in the selected period' },
-        { label: 'Activations', field: 'activations', value: periodTotals.activations, perDay: periodTotals.activations / dayCount, changePercent: computePeriodChange(source, 'activations', filterState), isCurrency: false, description: 'Trial-to-paid conversions in the selected period' }
+        { label: 'Activations', field: 'activations', value: periodTotals.activations, perDay: periodTotals.activations / dayCount, changePercent: computePeriodChange(source, 'activations', filterState), isCurrency: false, description: 'Trial-to-paid conversions in the selected period' },
+        { label: 'Trial-to-Paid', field: 'trial_to_paid_rate', value: periodTotals.new_trials > 0 ? (periodTotals.new_subscriptions / periodTotals.new_trials * 100) : 0, isCurrency: false, description: 'Percentage of trials that converted to paid', format: (v) => `${v.toFixed(1)}%` }
       ];
     }
 
@@ -156,7 +157,8 @@ const SubscriptionsPage = (() => {
         { key: 'new_trials', label: 'New Trials', align: 'right', format: (val) => TotoComponents.formatNumber(val) },
         { key: 'new_subscriptions', label: 'New Subs', align: 'right', format: (val) => TotoComponents.formatNumber(val) },
         { key: 'renewals', label: 'Renewals', align: 'right', format: (val) => TotoComponents.formatNumber(val) },
-        { key: 'churn', label: 'Churn', align: 'right', format: (val) => TotoComponents.formatNumber(val) }
+        { key: 'churn', label: 'Churn', align: 'right', format: (val) => TotoComponents.formatNumber(val) },
+        { key: 't2p', label: 'T2P%', align: 'right', format: (val) => val > 0 ? `${val.toFixed(1)}%` : '\u2014' }
       ];
 
       TotoComponents.renderTable(container, columns, appRows, {
@@ -268,7 +270,8 @@ const SubscriptionsPage = (() => {
           break;
         }
       }
-      rows.push({ id: productId, name: appInfo.name || `App ${productId}`, icon: appInfo.icon || '', active_subscriptions, mrr, ...summable });
+      const t2p = summable.new_trials > 0 ? (summable.new_subscriptions / summable.new_trials * 100) : 0;
+      rows.push({ id: productId, name: appInfo.name || `App ${productId}`, icon: appInfo.icon || '', active_subscriptions, mrr, ...summable, t2p });
     });
     return rows;
   }

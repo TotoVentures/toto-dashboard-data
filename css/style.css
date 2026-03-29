@@ -925,7 +925,7 @@ button {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 120px;
+  max-width: 200px;
 }
 
 .app-developer {
@@ -1207,789 +1207,30 @@ button {
 .mb-24 { margin-bottom: 24px; }
 .hidden { display: none !important; }
 
-/* ===== Ratings Page ===== */
+/* ===== Ratings ===== */
 .rating-display {
   display: inline-flex;
   align-items: center;
   gap: 4px;
   white-space: nowrap;
 }
-
 .rating-number {
   font-weight: 600;
   font-size: 13px;
 }
-
 .star {
   font-size: 14px;
   line-height: 1;
 }
-
 .star.full {
   color: #F39C12;
 }
-
 .star.half {
   color: #F39C12;
   opacity: 0.6;
 }
-
 .star.empty {
   color: #D1D5DB;
-}
-
-/* ===== Rankings Page ===== */
-.rankings-sync-note {
-  font-size: 12px;
-  color: var(--text-muted);
-  margin-bottom: 16px;
-}
-
-.rankings-app-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 12px;
-  margin-bottom: 24px;
-}
-
-.rankings-app-card {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 16px;
-  cursor: pointer;
-  transition: all 0.15s;
-  box-shadow: var(--shadow-sm);
-}
-
-.rankings-app-card:hover {
-  border-color: var(--primary-light);
-  box-shadow: var(--shadow-md);
-}
-
-.rankings-app-card.selected {
-  border-color: var(--primary);
-  border-width: 2px;
-  box-shadow: 0 0 0 3px var(--primary-bg);
-}
-
-.rankings-app-name {
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 12px;
-  color: var(--text-primary);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.rankings-app-stats {
-  display: flex;
-  gap: 16px;
-}
-
-.rankings-stat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-}
-
-.rankings-stat-value {
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--text-primary);
-  line-height: 1;
-}
-
-.rankings-stat-gold { color: var(--primary); }
-.rankings-stat-green { color: var(--green); }
-
-.rankings-stat-label {
-  font-size: 10px;
-  font-weight: 500;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-}
-
-/* Rank distribution */
-.rankings-distribution {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 16px 20px;
-  margin-bottom: 24px;
-  box-shadow: var(--shadow-sm);
-}
-
-.rankings-dist-title {
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 12px;
-  color: var(--text-primary);
-}
-
-.rankings-dist-bar {
-  display: flex;
-  height: 24px;
-  border-radius: 12px;
-  overflow: hidden;
-  gap: 2px;
-  margin-bottom: 10px;
-}
-
-.rankings-dist-seg {
-  min-width: 4px;
-  transition: width 0.3s;
-  border-radius: 2px;
-}
-
-.rankings-dist-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  font-size: 12px;
-  color: var(--text-secondary);
-}
-
-.rankings-dist-item {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.rankings-dist-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-
-/* Keywords table styling */
-.rankings-keyword {
-  font-weight: 500;
-  color: var(--text-primary);
-}
-
-.rankings-rank {
-  font-weight: 600;
-  color: var(--text-secondary);
-}
-
-.rankings-change-up {
-  color: var(--green);
-  font-weight: 600;
-  font-size: 12px;
-}
-
-.rankings-change-down {
-  color: var(--red);
-  font-weight: 600;
-  font-size: 12px;
-}
-
-.rankings-change-flat {
-  color: var(--text-muted);
-  font-size: 14px;
-}
-
-.rankings-pop-high {
-  font-weight: 600;
-  color: var(--green);
-}
-
-.rankings-pop-med {
-  font-weight: 500;
-  color: var(--primary);
-}
-
-.rankings-pop-low {
-  color: var(--text-secondary);
-}
-
-@media (max-width: 768px) {
-  .rankings-app-grid {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-    gap: 8px;
-  }
-  .rankings-app-card {
-    padding: 12px;
-  }
-  .rankings-app-name {
-    font-size: 13px;
-  }
-  .rankings-stat-value {
-    font-size: 16px;
-  }
-}
-
-/* ===== Yesterday / Daily Toto ===== */
-/* ===== NYT + Baustein Yesterday Page ===== */
-.yesterday-page {
-  max-width: 960px;
-  margin: 0 auto;
-  font-family: 'Noto Serif', 'Georgia', serif;
-  background: #eae6df;
-  padding: 32px 24px;
-  border-radius: 4px;
-}
-
-/* Masthead — double rule, centered, authoritative */
-.newspaper-masthead {
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.masthead-rule {
-  height: 3px;
-  background: #1a1a1a;
-  margin-bottom: 0;
-}
-
-.masthead-rule:last-child {
-  height: 1px;
-  margin-top: 0;
-  background: #c5c0b8;
-}
-
-.masthead-rule + .masthead-meta {
-  margin-top: 0;
-}
-
-.masthead-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Libre Franklin', var(--font);
-  font-size: 11px;
-  color: #666;
-  padding: 6px 0;
-  font-weight: 500;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-}
-
-.masthead-weather {
-  font-size: 18px;
-}
-
-.masthead-title {
-  font-family: 'Instrument Serif', 'Georgia', serif;
-  font-size: 64px;
-  font-weight: 400;
-  letter-spacing: -1px;
-  color: #000;
-  line-height: 1.05;
-  margin: 10px 0 6px;
-}
-
-.masthead-tagline {
-  font-family: 'Noto Serif', 'Georgia', serif;
-  font-style: italic;
-  font-size: 13px;
-  color: #888;
-  margin-bottom: 10px;
-  letter-spacing: 0.3px;
-}
-
-/* Hero metrics — flat, editorial, separated by thin rules */
-.yesterday-hero-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0;
-  margin-bottom: 32px;
-  border-top: 1px solid #c5c0b8;
-  border-bottom: 1px solid #c5c0b8;
-}
-
-.yesterday-hero-card {
-  background: transparent;
-  border: none;
-  border-right: 1px solid #c5c0b8;
-  border-radius: 0;
-  padding: 18px 16px;
-  text-align: center;
-  box-shadow: none;
-  transition: background 0.15s;
-}
-
-.yesterday-hero-card:nth-child(3n) {
-  border-right: none;
-}
-
-.yesterday-hero-card:nth-child(n+4) {
-  border-top: 1px solid #c5c0b8;
-}
-
-.yesterday-hero-card:hover {
-  background: rgba(0,0,0,0.015);
-  box-shadow: none;
-}
-
-.hero-icon {
-  display: none;
-}
-
-.hero-label {
-  font-family: 'Libre Franklin', var(--font);
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #999;
-  margin-bottom: 6px;
-}
-
-.hero-value {
-  font-family: 'Instrument Serif', 'Georgia', serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #000;
-  line-height: 1.15;
-  margin-bottom: 6px;
-  letter-spacing: -0.5px;
-}
-
-.hero-wow {
-  font-size: 12px;
-}
-
-/* W/W badges — subtle, typographic */
-.wow-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
-  font-family: 'Libre Franklin', var(--font);
-  font-size: 11px;
-  font-weight: 600;
-  padding: 2px 6px;
-  border-radius: 2px;
-}
-
-.wow-badge.positive {
-  color: #1a6b3a;
-  background: #d4e8da;
-}
-
-.wow-badge.negative {
-  color: #b71c1c;
-  background: #f0d4d0;
-}
-
-.wow-badge.neutral {
-  color: #8a857e;
-  background: transparent;
-}
-
-/* Headlines — editorial column style */
-.yesterday-headlines {
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  padding: 0;
-  margin-bottom: 28px;
-  box-shadow: none;
-}
-
-.headlines-header {
-  font-family: 'Libre Franklin', var(--font);
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #000;
-  margin-bottom: 14px;
-  padding-bottom: 10px;
-  border-bottom: 3px double #000;
-}
-
-.headlines-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.headline-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 10px 0;
-  border-bottom: 1px solid #c5c0b8;
-}
-
-.headline-item:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.headline-icon {
-  font-size: 16px;
-  flex-shrink: 0;
-  line-height: 1.5;
-}
-
-.headline-text {
-  font-family: 'IBM Plex Sans', var(--font);
-  font-size: 14px;
-  font-weight: 400;
-  color: #1a1a1a;
-  line-height: 1.5;
-  letter-spacing: 0;
-}
-
-/* Podium — editorial top earners */
-.yesterday-podium {
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  padding: 0;
-  margin-bottom: 28px;
-  box-shadow: none;
-}
-
-.podium-header {
-  font-family: 'Libre Franklin', var(--font);
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #000;
-  margin-bottom: 16px;
-  padding-bottom: 10px;
-  border-bottom: 3px double #000;
-}
-
-.podium-row {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 20px;
-}
-
-.podium-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  flex: 1;
-  max-width: 200px;
-}
-
-.podium-medal {
-  font-size: 28px;
-  margin-bottom: 6px;
-}
-
-.podium-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
-  margin-bottom: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-}
-
-.podium-rank-1 .podium-icon {
-  width: 56px;
-  height: 56px;
-}
-
-.podium-app-name {
-  font-family: 'Noto Serif', 'Georgia', serif;
-  font-size: 13px;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin-bottom: 4px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 160px;
-}
-
-.podium-revenue {
-  font-family: 'Instrument Serif', 'Georgia', serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #000;
-  margin-bottom: 4px;
-  letter-spacing: -0.5px;
-}
-
-.podium-rank-1 .podium-revenue {
-  font-size: 24px;
-}
-
-.podium-wow {
-  margin-bottom: 12px;
-}
-
-/* Table section header — NYT section label */
-.table-section-header {
-  font-family: 'Libre Franklin', var(--font);
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #000;
-  margin-bottom: 12px;
-  padding-bottom: 10px;
-  border-bottom: 3px double #000;
-}
-
-.yesterday-table-section {
-  margin-bottom: 24px;
-}
-
-.yesterday-page .app-name {
-  font-family: 'IBM Plex Sans', var(--font);
-}
-
-.yesterday-page .podium-app-name {
-  font-family: 'IBM Plex Sans', var(--font);
-}
-
-/* Tighter table for Yesterday page */
-.yesterday-page .data-table th,
-.yesterday-page .data-table td {
-  padding: 10px 8px;
-}
-
-.yesterday-page .data-table th:first-child,
-.yesterday-page .data-table td:first-child {
-  padding-left: 12px;
-  width: 36px;
-}
-
-.yesterday-page .table-container {
-  max-width: 100%;
-}
-
-.yesterday-page .yesterday-table-section {
-  max-width: 100%;
-  overflow: hidden;
-}
-
-/* ===== Infographic Viz Section ===== */
-.yesterday-viz-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
-  margin-bottom: 32px;
-  padding: 24px 0;
-  border-top: 1px solid #c5c0b8;
-  border-bottom: 1px solid #c5c0b8;
-}
-
-.viz-header {
-  font-family: 'Libre Franklin', var(--font);
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-  color: #1a1a1a;
-  margin-bottom: 16px;
-}
-
-/* Dot matrix */
-.dot-matrix-wrap {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 14px;
-}
-
-.dot-matrix-svg {
-  width: 220px;
-  height: 220px;
-}
-
-.dot-matrix-svg circle {
-  transition: opacity 0.15s;
-  cursor: default;
-}
-
-.dot-matrix-svg circle[opacity="1"]:hover {
-  opacity: 0.7;
-}
-
-.dot-legend {
-  display: flex;
-  justify-content: center;
-  gap: 14px;
-  font-family: 'Libre Franklin', var(--font);
-  font-size: 10px;
-  color: #6b6560;
-  letter-spacing: 0.3px;
-}
-
-.dot-legend-item {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.dot-swatch {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-
-/* Revenue proportion bar */
-.rev-bar-track {
-  display: flex;
-  height: 24px;
-  border-radius: 3px;
-  overflow: hidden;
-  margin-bottom: 14px;
-}
-
-.rev-bar-segment {
-  transition: opacity 0.15s;
-  cursor: default;
-  min-width: 2px;
-}
-
-.rev-bar-segment:hover {
-  opacity: 0.75;
-}
-
-.rev-bar-empty {
-  color: #8a857e;
-  font-family: 'Libre Franklin', var(--font);
-  font-size: 12px;
-}
-
-.rev-legend {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.rev-legend-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Libre Franklin', var(--font);
-  font-size: 11px;
-  color: #1a1a1a;
-}
-
-.rev-legend-name {
-  flex: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.rev-legend-pct {
-  font-weight: 600;
-  color: #6b6560;
-  min-width: 30px;
-  text-align: right;
-}
-
-/* Rank dots in table */
-.rank-dot {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-}
-
-/* Podium bar on warm bg */
-.podium-bar {
-  width: 100%;
-  background: #ddd8d0;
-  border-radius: 0;
-  border: none;
-  border-bottom: 2px solid #1a1a1a;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .yesterday-page {
-    padding: 20px 16px;
-  }
-
-  .masthead-title {
-    font-size: 42px;
-  }
-
-  .yesterday-viz-section {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .dot-matrix-svg {
-    width: 180px;
-    height: 180px;
-  }
-
-  .yesterday-hero-row {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .yesterday-hero-card:nth-child(3n) {
-    border-right: 1px solid #c5c0b8;
-  }
-
-  .yesterday-hero-card:nth-child(2n) {
-    border-right: none;
-  }
-
-  .yesterday-hero-card:nth-child(n+3) {
-    border-top: 1px solid #c5c0b8;
-  }
-
-  .hero-value {
-    font-size: 24px;
-  }
-
-  .podium-row {
-    gap: 10px;
-  }
-
-  .podium-icon {
-    width: 36px;
-    height: 36px;
-  }
-
-  .podium-rank-1 .podium-icon {
-    width: 44px;
-    height: 44px;
-  }
-
-  .podium-app-name {
-    font-size: 12px;
-    max-width: 100px;
-  }
-
-  .podium-revenue {
-    font-size: 16px;
-  }
-
-  .podium-rank-1 .podium-revenue {
-    font-size: 19px;
-  }
-}
-
-@media (max-width: 480px) {
-  .masthead-title {
-    font-size: 34px;
-  }
-
-  .yesterday-hero-row {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .hero-value {
-    font-size: 20px;
-  }
-
-  .hero-icon {
-    font-size: 20px;
-  }
 }
 
 /* ===== Print ===== */
@@ -2000,5 +1241,74 @@ button {
   .main-content {
     margin-left: 0 !important;
     padding-top: 0 !important;
+  }
+}
+
+/* ===== The Daily Toto ===== */
+.yesterday-header {
+  margin-bottom: 8px;
+}
+.yesterday-stories {
+  margin: 24px 0;
+}
+.story-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.story-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  background: var(--white);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+.story-card.story-positive {
+  border-left: 4px solid var(--green);
+}
+.story-card.story-negative {
+  border-left: 4px solid var(--red);
+}
+.story-card.story-warning {
+  border-left: 4px solid var(--yellow);
+}
+.story-card.story-neutral {
+  border-left: 4px solid var(--primary);
+}
+.story-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.story-body {
+  flex: 1;
+  min-width: 0;
+}
+.story-headline {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+.story-detail {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+span.positive { color: var(--green); }
+span.negative { color: var(--red); }
+
+@media (prefers-color-scheme: dark) {
+  .story-card {
+    background: var(--white);
+    border-color: var(--border);
   }
 }

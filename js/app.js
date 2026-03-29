@@ -28,15 +28,12 @@ const TotoApp = (() => {
   };
 
   // ===== Data Cache =====
-  const DATA_BASE = 'https://raw.githubusercontent.com/TotoVentures/toto-dashboard-data/main/';
   const dataCache = {};
 
   async function fetchJSON(path) {
     if (dataCache[path]) return dataCache[path];
     try {
-      const file = path;
-      const url = DATA_BASE + file + `?_=${Date.now()}`;
-      const resp = await fetch(url);
+      const resp = await fetch(path);
       if (!resp.ok) return null;
       const data = await resp.json();
       dataCache[path] = data;
@@ -48,17 +45,19 @@ const TotoApp = (() => {
   }
 
   async function loadAllData() {
-    const [apps, sales, revenue, subscriptions, adspend, ratings, summary] = await Promise.all([
+    const [apps, sales, revenue, subscriptions, adspend, ratings, summary, funnel, subStates] = await Promise.all([
       fetchJSON('data/apps.json'),
       fetchJSON('data/sales.json'),
       fetchJSON('data/revenue.json'),
       fetchJSON('data/subscriptions.json'),
       fetchJSON('data/adspend.json'),
       fetchJSON('data/ratings.json'),
-      fetchJSON('data/summary.json')
+      fetchJSON('data/summary.json'),
+      fetchJSON('data/funnel.json'),
+      fetchJSON('data/sub_states.json'),
     ]);
 
-    state.data = { apps, sales, revenue, subscriptions, adspend, ratings, summary };
+    state.data = { apps, sales, revenue, subscriptions, adspend, ratings, summary, funnel, subStates };
     state.dataLoaded = true;
 
     // Default to last 30 days
@@ -233,19 +232,13 @@ const TotoApp = (() => {
       return;
     }
 
-    // Hide filter bar on rankings and yesterday pages (they have their own controls)
-    const filterBar = document.getElementById('filterBar');
-    if (state.currentPage === 'rankings' || state.currentPage === 'yesterday') {
-      filterBar.style.display = 'none';
-    } else {
-      filterBar.style.display = '';
-      // Only render filter bar once (or on page change) — don't destroy it on filter changes
-      if (!filterBarRendered) {
-        const appsList = getAppsList();
-        TotoComponents.renderFilterBar(filterBar, appsList, state.filter, onFilterChange);
-        filterBarRendered = true;
-        updateDateRangeIndicator();
-      }
+    // Only render filter bar once (or on page change) — don't destroy it on filter changes
+    if (!filterBarRendered) {
+      const filterBar = document.getElementById('filterBar');
+      const appsList = getAppsList();
+      TotoComponents.renderFilterBar(filterBar, appsList, state.filter, onFilterChange);
+      filterBarRendered = true;
+      updateDateRangeIndicator();
     }
 
     renderPageContent(pageContent);
@@ -254,6 +247,9 @@ const TotoApp = (() => {
   function renderPageContent(pageContent) {
     // Render page content
     switch (state.currentPage) {
+      case 'yesterday':
+        YesterdayPage.render(pageContent, state.data, state.filter);
+        break;
       case 'overview':
         OverviewPage.render(pageContent, state.data, state.filter);
         break;
@@ -263,20 +259,20 @@ const TotoApp = (() => {
       case 'sales':
         SalesPage.render(pageContent, state.data, state.filter);
         break;
+      case 'funnel':
+        FunnelPage.render(pageContent, state.data, state.filter);
+        break;
       case 'subscriptions':
         SubscriptionsPage.render(pageContent, state.data, state.filter);
+        break;
+      case 'sub-insights':
+        SubInsightsPage.render(pageContent, state.data, state.filter);
         break;
       case 'adspend':
         AdSpendPage.render(pageContent, state.data, state.filter);
         break;
       case 'ratings':
         RatingsPage.render(pageContent, state.data, state.filter);
-        break;
-      case 'rankings':
-        RankingsPage.render(pageContent);
-        break;
-      case 'yesterday':
-        YesterdayPage.render(pageContent, state.data);
         break;
       default:
         OverviewPage.render(pageContent, state.data, state.filter);
@@ -381,7 +377,7 @@ const TotoApp = (() => {
     window.addEventListener('hashchange', handleRoute);
 
     // Keyboard navigation
-    const pageKeys = { '1': 'yesterday', '2': 'overview', '3': 'revenue', '4': 'sales', '5': 'subscriptions', '6': 'adspend', '7': 'ratings', '8': 'rankings' };
+    const pageKeys = { '1': 'yesterday', '2': 'overview', '3': 'revenue', '4': 'sales', '5': 'subscriptions', '6': 'adspend', '7': 'ratings' };
     const datePresetOrder = [
       { label: '7D', days: 7 },
       { label: '30D', days: 30 },

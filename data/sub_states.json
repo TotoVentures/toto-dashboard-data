@@ -1,0 +1,1759 @@
+{
+  "1582983676": {
+    "2026-03-26": {
+      "active_paid": 594,
+      "active_trial": 67,
+      "voluntary_churn": 11063,
+      "trial_starts": 17,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Translate Video 1 week": {
+          "active_paid": 32,
+          "active_trial": 16,
+          "churn": 2587,
+          "paid_share": 1.2
+        },
+        "Translate Video 1 Year": {
+          "active_paid": 523,
+          "active_trial": 1,
+          "churn": 8057,
+          "paid_share": 6.1
+        },
+        "Translate Video 1 Year Test A": {
+          "active_paid": 38,
+          "active_trial": 50,
+          "churn": 409,
+          "paid_share": 7.6
+        },
+        "Translate Video 1 month": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 10
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 599,
+      "active_trial": 56,
+      "voluntary_churn": 11079,
+      "trial_starts": 10,
+      "paid_conversions": 3,
+      "trial_to_paid_rate": 30.0,
+      "by_plan": {
+        "Translate Video 1 Year": {
+          "active_paid": 523,
+          "active_trial": 1,
+          "churn": 8054,
+          "paid_share": 6.1
+        },
+        "Translate Video 1 Year Test A": {
+          "active_paid": 40,
+          "active_trial": 40,
+          "churn": 428,
+          "paid_share": 7.9
+        },
+        "Translate Video 1 week": {
+          "active_paid": 35,
+          "active_trial": 15,
+          "churn": 2587,
+          "paid_share": 1.3
+        },
+        "Translate Video 1 month": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 10
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 598,
+      "active_trial": 46,
+      "voluntary_churn": 11092,
+      "trial_starts": 11,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 9.1,
+      "by_plan": {
+        "Translate Video 1 week": {
+          "active_paid": 34,
+          "active_trial": 16,
+          "churn": 2588,
+          "paid_share": 1.3
+        },
+        "Translate Video 1 Year": {
+          "active_paid": 522,
+          "active_trial": 1,
+          "churn": 8051,
+          "paid_share": 6.1
+        },
+        "Translate Video 1 Year Test A": {
+          "active_paid": 41,
+          "active_trial": 29,
+          "churn": 443,
+          "paid_share": 8.0
+        },
+        "Translate Video 1 month": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 10
+        }
+      }
+    }
+  },
+  "6670757865": {
+    "2026-03-26": {
+      "active_paid": 143,
+      "active_trial": 18,
+      "voluntary_churn": 545,
+      "trial_starts": 7,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 14.3,
+      "by_plan": {
+        "Weekly subscription ": {
+          "active_paid": 19,
+          "active_trial": 6,
+          "churn": 81,
+          "paid_share": 17.9
+        },
+        "Yearly subscription ": {
+          "active_paid": 124,
+          "active_trial": 12,
+          "churn": 464,
+          "paid_share": 20.7
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 142,
+      "active_trial": 19,
+      "voluntary_churn": 548,
+      "trial_starts": 4,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Yearly subscription ": {
+          "active_paid": 124,
+          "active_trial": 10,
+          "churn": 467,
+          "paid_share": 20.6
+        },
+        "Weekly subscription ": {
+          "active_paid": 18,
+          "active_trial": 9,
+          "churn": 81,
+          "paid_share": 16.7
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 140,
+      "active_trial": 18,
+      "voluntary_churn": 551,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Yearly subscription ": {
+          "active_paid": 124,
+          "active_trial": 9,
+          "churn": 468,
+          "paid_share": 20.6
+        },
+        "Weekly subscription ": {
+          "active_paid": 16,
+          "active_trial": 9,
+          "churn": 83,
+          "paid_share": 14.8
+        }
+      }
+    }
+  },
+  "810713114": {
+    "2026-03-26": {
+      "active_paid": 37,
+      "active_trial": 3,
+      "voluntary_churn": 1017,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "1 Week Subscription": {
+          "active_paid": 18,
+          "active_trial": 3,
+          "churn": 908,
+          "paid_share": 1.9
+        },
+        "1 Year Subscription": {
+          "active_paid": 18,
+          "active_trial": 0,
+          "churn": 57
+        },
+        "1 Month Subscription": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 52
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 38,
+      "active_trial": 3,
+      "voluntary_churn": 1014,
+      "trial_starts": 1,
+      "paid_conversions": 2,
+      "trial_to_paid_rate": 200.0,
+      "by_plan": {
+        "1 Week Subscription": {
+          "active_paid": 19,
+          "active_trial": 3,
+          "churn": 905,
+          "paid_share": 2.0
+        },
+        "1 Month Subscription": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 52
+        },
+        "1 Year Subscription": {
+          "active_paid": 18,
+          "active_trial": 0,
+          "churn": 57
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 39,
+      "active_trial": 2,
+      "voluntary_churn": 1012,
+      "trial_starts": 0,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "1 Week Subscription": {
+          "active_paid": 20,
+          "active_trial": 1,
+          "churn": 904,
+          "paid_share": 2.2
+        },
+        "1 Month Subscription": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 52
+        },
+        "1 Year Subscription": {
+          "active_paid": 18,
+          "active_trial": 1,
+          "churn": 56,
+          "paid_share": 24.0
+        }
+      }
+    }
+  },
+  "630851451": {
+    "2026-03-26": {
+      "active_paid": 358,
+      "active_trial": 11,
+      "voluntary_churn": 3531,
+      "trial_starts": 1,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 100.0,
+      "by_plan": {
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 321,
+          "active_trial": 7,
+          "churn": 2588,
+          "paid_share": 11.0
+        },
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 27,
+          "active_trial": 3,
+          "churn": 788,
+          "paid_share": 3.3
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 10,
+          "active_trial": 1,
+          "churn": 155,
+          "paid_share": 6.0
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 358,
+      "active_trial": 8,
+      "voluntary_churn": 3529,
+      "trial_starts": 1,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 321,
+          "active_trial": 2,
+          "churn": 2588,
+          "paid_share": 11.0
+        },
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 27,
+          "active_trial": 3,
+          "churn": 786,
+          "paid_share": 3.3
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 10,
+          "active_trial": 3,
+          "churn": 155,
+          "paid_share": 6.0
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 357,
+      "active_trial": 10,
+      "voluntary_churn": 3525,
+      "trial_starts": 4,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 25.0,
+      "by_plan": {
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 322,
+          "active_trial": 4,
+          "churn": 2582,
+          "paid_share": 11.1
+        },
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 26,
+          "active_trial": 3,
+          "churn": 787,
+          "paid_share": 3.2
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 9,
+          "active_trial": 3,
+          "churn": 156,
+          "paid_share": 5.4
+        }
+      }
+    }
+  },
+  "1356249212": {
+    "2026-03-26": {
+      "active_paid": 75,
+      "active_trial": 0,
+      "voluntary_churn": 283,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "1 Year": {
+          "active_paid": 64,
+          "active_trial": 0,
+          "churn": 159
+        },
+        "1 Week": {
+          "active_paid": 3,
+          "active_trial": 0,
+          "churn": 68
+        },
+        "1 Month": {
+          "active_paid": 7,
+          "active_trial": 0,
+          "churn": 48
+        },
+        "6 Months": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 8
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 75,
+      "active_trial": 0,
+      "voluntary_churn": 283,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "1 Year": {
+          "active_paid": 64,
+          "active_trial": 0,
+          "churn": 159
+        },
+        "1 Week": {
+          "active_paid": 3,
+          "active_trial": 0,
+          "churn": 68
+        },
+        "1 Month": {
+          "active_paid": 7,
+          "active_trial": 0,
+          "churn": 48
+        },
+        "6 Months": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 8
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 76,
+      "active_trial": 0,
+      "voluntary_churn": 282,
+      "trial_starts": 0,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "1 Year": {
+          "active_paid": 64,
+          "active_trial": 0,
+          "churn": 159
+        },
+        "1 Week": {
+          "active_paid": 3,
+          "active_trial": 0,
+          "churn": 68
+        },
+        "1 Month": {
+          "active_paid": 8,
+          "active_trial": 0,
+          "churn": 47
+        },
+        "6 Months": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 8
+        }
+      }
+    }
+  },
+  "6557028325": {
+    "2026-03-26": {
+      "active_paid": 75,
+      "active_trial": 0,
+      "voluntary_churn": 125,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 8
+        },
+        "Yearly": {
+          "active_paid": 52,
+          "active_trial": 0,
+          "churn": 48
+        },
+        "Monthly": {
+          "active_paid": 23,
+          "active_trial": 0,
+          "churn": 69
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 75,
+      "active_trial": 0,
+      "voluntary_churn": 125,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Monthly": {
+          "active_paid": 23,
+          "active_trial": 0,
+          "churn": 69
+        },
+        "Yearly": {
+          "active_paid": 52,
+          "active_trial": 0,
+          "churn": 48
+        },
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 8
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 75,
+      "active_trial": 0,
+      "voluntary_churn": 125,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Yearly": {
+          "active_paid": 52,
+          "active_trial": 0,
+          "churn": 48
+        },
+        "Monthly": {
+          "active_paid": 23,
+          "active_trial": 0,
+          "churn": 69
+        },
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 8
+        }
+      }
+    }
+  },
+  "1015935781": {
+    "2026-03-26": {
+      "active_paid": 102,
+      "active_trial": 3,
+      "voluntary_churn": 816,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Monthly - no free trial": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 13
+        },
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 11,
+          "active_trial": 0,
+          "churn": 109
+        },
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 70,
+          "active_trial": 0,
+          "churn": 604
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 5,
+          "active_trial": 0,
+          "churn": 21
+        },
+        "Yearly - no free trial": {
+          "active_paid": 13,
+          "active_trial": 2,
+          "churn": 40,
+          "paid_share": 23.6
+        },
+        "Weekly - no free trial": {
+          "active_paid": 3,
+          "active_trial": 1,
+          "churn": 29,
+          "paid_share": 9.1
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 100,
+      "active_trial": 2,
+      "voluntary_churn": 818,
+      "trial_starts": 0,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Monthly - no free trial": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 13
+        },
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 68,
+          "active_trial": 0,
+          "churn": 605
+        },
+        "Weekly - no free trial": {
+          "active_paid": 4,
+          "active_trial": 1,
+          "churn": 29,
+          "paid_share": 11.8
+        },
+        "Yearly - no free trial": {
+          "active_paid": 12,
+          "active_trial": 1,
+          "churn": 41,
+          "paid_share": 22.2
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 5,
+          "active_trial": 0,
+          "churn": 21
+        },
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 11,
+          "active_trial": 0,
+          "churn": 109
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 100,
+      "active_trial": 3,
+      "voluntary_churn": 818,
+      "trial_starts": 3,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 11,
+          "active_trial": 0,
+          "churn": 109
+        },
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 68,
+          "active_trial": 0,
+          "churn": 603
+        },
+        "Weekly - no free trial": {
+          "active_paid": 4,
+          "active_trial": 3,
+          "churn": 30,
+          "paid_share": 10.8
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 5,
+          "active_trial": 0,
+          "churn": 21
+        },
+        "Monthly - no free trial": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 13
+        },
+        "Yearly - no free trial": {
+          "active_paid": 12,
+          "active_trial": 0,
+          "churn": 42
+        }
+      }
+    }
+  },
+  "594764457": {
+    "2026-03-26": {
+      "active_paid": 12,
+      "active_trial": 0,
+      "voluntary_churn": 6,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "worktime.yearly": {
+          "active_paid": 9,
+          "active_trial": 0,
+          "churn": 6
+        },
+        "worktime.weekly": {
+          "active_paid": 3,
+          "active_trial": 0,
+          "churn": 0
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 12,
+      "active_trial": 0,
+      "voluntary_churn": 6,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "worktime.yearly": {
+          "active_paid": 9,
+          "active_trial": 0,
+          "churn": 6
+        },
+        "worktime.weekly": {
+          "active_paid": 3,
+          "active_trial": 0,
+          "churn": 0
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 11,
+      "active_trial": 0,
+      "voluntary_churn": 6,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "worktime.weekly": {
+          "active_paid": 2,
+          "active_trial": 0,
+          "churn": 0
+        },
+        "worktime.yearly": {
+          "active_paid": 9,
+          "active_trial": 0,
+          "churn": 6
+        }
+      }
+    }
+  },
+  "1003684086": {
+    "2026-03-26": {
+      "active_paid": 821,
+      "active_trial": 23,
+      "voluntary_churn": 2938,
+      "trial_starts": 2,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "1 Month of WorkTime Pro": {
+          "active_paid": 107,
+          "active_trial": 0,
+          "churn": 697
+        },
+        "1 Week WorkTime Pro": {
+          "active_paid": 96,
+          "active_trial": 9,
+          "churn": 651,
+          "paid_share": 12.7
+        },
+        "1 Year of WorkTime Pro": {
+          "active_paid": 575,
+          "active_trial": 12,
+          "churn": 1544,
+          "paid_share": 27.0
+        },
+        "1 Year of WorkTime Pro Test A": {
+          "active_paid": 18,
+          "active_trial": 2,
+          "churn": 25,
+          "paid_share": 40.0
+        },
+        "6 Months of WorkTime Pro": {
+          "active_paid": 25,
+          "active_trial": 0,
+          "churn": 21
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 820,
+      "active_trial": 26,
+      "voluntary_churn": 2937,
+      "trial_starts": 3,
+      "paid_conversions": 2,
+      "trial_to_paid_rate": 66.7,
+      "by_plan": {
+        "1 Month of WorkTime Pro": {
+          "active_paid": 108,
+          "active_trial": 0,
+          "churn": 696
+        },
+        "6 Months of WorkTime Pro": {
+          "active_paid": 25,
+          "active_trial": 0,
+          "churn": 21
+        },
+        "1 Year of WorkTime Pro": {
+          "active_paid": 573,
+          "active_trial": 12,
+          "churn": 1544,
+          "paid_share": 26.9
+        },
+        "1 Week WorkTime Pro": {
+          "active_paid": 94,
+          "active_trial": 11,
+          "churn": 651,
+          "paid_share": 12.4
+        },
+        "1 Year of WorkTime Pro Test A": {
+          "active_paid": 20,
+          "active_trial": 3,
+          "churn": 25,
+          "paid_share": 41.7
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 821,
+      "active_trial": 31,
+      "voluntary_churn": 2933,
+      "trial_starts": 5,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "1 Month of WorkTime Pro": {
+          "active_paid": 106,
+          "active_trial": 0,
+          "churn": 697
+        },
+        "6 Months of WorkTime Pro": {
+          "active_paid": 25,
+          "active_trial": 0,
+          "churn": 21
+        },
+        "1 Week WorkTime Pro": {
+          "active_paid": 96,
+          "active_trial": 14,
+          "churn": 649,
+          "paid_share": 12.6
+        },
+        "1 Year of WorkTime Pro": {
+          "active_paid": 574,
+          "active_trial": 12,
+          "churn": 1541,
+          "paid_share": 27.0
+        },
+        "1 Year of WorkTime Pro Test A": {
+          "active_paid": 20,
+          "active_trial": 5,
+          "churn": 25,
+          "paid_share": 40.0
+        }
+      }
+    }
+  },
+  "570129169": {
+    "2026-03-26": {
+      "active_paid": 1979,
+      "active_trial": 110,
+      "voluntary_churn": 17582,
+      "trial_starts": 11,
+      "paid_conversions": 6,
+      "trial_to_paid_rate": 54.5,
+      "by_plan": {
+        "Unlock Pro 1 Year Subscription": {
+          "active_paid": 1769,
+          "active_trial": 1,
+          "churn": 12506,
+          "paid_share": 12.4
+        },
+        "Unlock Pro 1 Week Subscription": {
+          "active_paid": 114,
+          "active_trial": 5,
+          "churn": 4192,
+          "paid_share": 2.6
+        },
+        "Unlock Pro 1 Year Test A": {
+          "active_paid": 40,
+          "active_trial": 47,
+          "churn": 92,
+          "paid_share": 22.3
+        },
+        "Unlock Pro 1 Month Subscription": {
+          "active_paid": 36,
+          "active_trial": 0,
+          "churn": 768
+        },
+        "Unlock Pro 1 Week Test A": {
+          "active_paid": 20,
+          "active_trial": 57,
+          "churn": 24,
+          "paid_share": 19.8
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 1978,
+      "active_trial": 110,
+      "voluntary_churn": 17536,
+      "trial_starts": 14,
+      "paid_conversions": 4,
+      "trial_to_paid_rate": 28.6,
+      "by_plan": {
+        "Unlock Pro 1 Year Subscription": {
+          "active_paid": 1767,
+          "active_trial": 1,
+          "churn": 12463,
+          "paid_share": 12.4
+        },
+        "Unlock Pro 1 Week Subscription": {
+          "active_paid": 112,
+          "active_trial": 2,
+          "churn": 4182,
+          "paid_share": 2.6
+        },
+        "Unlock Pro 1 Year Test A": {
+          "active_paid": 42,
+          "active_trial": 44,
+          "churn": 99,
+          "paid_share": 22.7
+        },
+        "Unlock Pro 1 Month Subscription": {
+          "active_paid": 36,
+          "active_trial": 0,
+          "churn": 768
+        },
+        "Unlock Pro 1 Week Test A": {
+          "active_paid": 21,
+          "active_trial": 63,
+          "churn": 24,
+          "paid_share": 19.4
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 1980,
+      "active_trial": 120,
+      "voluntary_churn": 17505,
+      "trial_starts": 20,
+      "paid_conversions": 9,
+      "trial_to_paid_rate": 45.0,
+      "by_plan": {
+        "Unlock Pro 1 Year Subscription": {
+          "active_paid": 1763,
+          "active_trial": 1,
+          "churn": 12432,
+          "paid_share": 12.4
+        },
+        "Unlock Pro 1 Week Subscription": {
+          "active_paid": 110,
+          "active_trial": 0,
+          "churn": 4175
+        },
+        "Unlock Pro 1 Year Test A": {
+          "active_paid": 46,
+          "active_trial": 42,
+          "churn": 104,
+          "paid_share": 24.0
+        },
+        "Unlock Pro 1 Month Subscription": {
+          "active_paid": 36,
+          "active_trial": 0,
+          "churn": 766
+        },
+        "Unlock Pro 1 Week Test A": {
+          "active_paid": 25,
+          "active_trial": 77,
+          "churn": 28,
+          "paid_share": 19.2
+        }
+      }
+    }
+  },
+  "1129609742": {
+    "2026-03-26": {
+      "active_paid": 56,
+      "active_trial": 8,
+      "voluntary_churn": 1933,
+      "trial_starts": 3,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 38,
+          "active_trial": 8,
+          "churn": 1798,
+          "paid_share": 2.1
+        },
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 12,
+          "active_trial": 0,
+          "churn": 93
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 6,
+          "active_trial": 0,
+          "churn": 42
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 57,
+      "active_trial": 6,
+      "voluntary_churn": 1930,
+      "trial_starts": 1,
+      "paid_conversions": 2,
+      "trial_to_paid_rate": 200.0,
+      "by_plan": {
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 39,
+          "active_trial": 6,
+          "churn": 1799,
+          "paid_share": 2.1
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 6,
+          "active_trial": 0,
+          "churn": 42
+        },
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 12,
+          "active_trial": 0,
+          "churn": 89
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 57,
+      "active_trial": 6,
+      "voluntary_churn": 1929,
+      "trial_starts": 2,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 12,
+          "active_trial": 1,
+          "churn": 86,
+          "paid_share": 12.1
+        },
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 39,
+          "active_trial": 5,
+          "churn": 1801,
+          "paid_share": 2.1
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 6,
+          "active_trial": 0,
+          "churn": 42
+        }
+      }
+    }
+  },
+  "6759932194": {
+    "2026-03-26": {
+      "active_paid": 3,
+      "active_trial": 0,
+      "voluntary_churn": 6,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 6
+        },
+        "Yearly": {
+          "active_paid": 3,
+          "active_trial": 0,
+          "churn": 0
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 4,
+      "active_trial": 0,
+      "voluntary_churn": 6,
+      "trial_starts": 0,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Yearly": {
+          "active_paid": 4,
+          "active_trial": 0,
+          "churn": 0
+        },
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 6
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 4,
+      "active_trial": 0,
+      "voluntary_churn": 6,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Yearly": {
+          "active_paid": 4,
+          "active_trial": 0,
+          "churn": 0
+        },
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 6
+        }
+      }
+    }
+  },
+  "6759808689": {
+    "2026-03-26": {
+      "active_paid": 33,
+      "active_trial": 4,
+      "voluntary_churn": 41,
+      "trial_starts": 1,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Unlimited Identifications Yearly": {
+          "active_paid": 11,
+          "active_trial": 2,
+          "churn": 2,
+          "paid_share": 73.3
+        },
+        "Unlimited Identifications Weekly": {
+          "active_paid": 22,
+          "active_trial": 2,
+          "churn": 39,
+          "paid_share": 34.9
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 34,
+      "active_trial": 5,
+      "voluntary_churn": 41,
+      "trial_starts": 2,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 50.0,
+      "by_plan": {
+        "Unlimited Identifications Weekly": {
+          "active_paid": 23,
+          "active_trial": 2,
+          "churn": 39,
+          "paid_share": 35.9
+        },
+        "Unlimited Identifications Yearly": {
+          "active_paid": 11,
+          "active_trial": 3,
+          "churn": 2,
+          "paid_share": 68.8
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 35,
+      "active_trial": 5,
+      "voluntary_churn": 42,
+      "trial_starts": 1,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 100.0,
+      "by_plan": {
+        "Unlimited Identifications Weekly": {
+          "active_paid": 23,
+          "active_trial": 3,
+          "churn": 39,
+          "paid_share": 35.4
+        },
+        "Unlimited Identifications Yearly": {
+          "active_paid": 12,
+          "active_trial": 2,
+          "churn": 3,
+          "paid_share": 70.6
+        }
+      }
+    }
+  },
+  "6760623282": {
+    "2026-03-26": {
+      "active_paid": 0,
+      "active_trial": 3,
+      "voluntary_churn": 0,
+      "trial_starts": 1,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 2,
+          "churn": 0
+        },
+        "Yearly": {
+          "active_paid": 0,
+          "active_trial": 1,
+          "churn": 0
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 0,
+      "active_trial": 6,
+      "voluntary_churn": 0,
+      "trial_starts": 2,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 4,
+          "churn": 0
+        },
+        "Yearly": {
+          "active_paid": 0,
+          "active_trial": 2,
+          "churn": 0
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 0,
+      "active_trial": 8,
+      "voluntary_churn": 0,
+      "trial_starts": 2,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Yearly": {
+          "active_paid": 0,
+          "active_trial": 2,
+          "churn": 0
+        },
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 6,
+          "churn": 0
+        }
+      }
+    }
+  },
+  "6759501398": {
+    "2026-03-26": {
+      "active_paid": 1,
+      "active_trial": 0,
+      "voluntary_churn": 1,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 0
+        },
+        "Yearly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 1
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 1,
+      "active_trial": 0,
+      "voluntary_churn": 1,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 0
+        },
+        "Yearly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 1
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 1,
+      "active_trial": 0,
+      "voluntary_churn": 1,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Yearly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 1
+        },
+        "Weekly": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 0
+        }
+      }
+    }
+  },
+  "880790176": {
+    "2026-03-26": {
+      "active_paid": 140,
+      "active_trial": 7,
+      "voluntary_churn": 2274,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "One Year New User": {
+          "active_paid": 60,
+          "active_trial": 3,
+          "churn": 1271,
+          "paid_share": 4.5
+        },
+        "One Month New User": {
+          "active_paid": 4,
+          "active_trial": 0,
+          "churn": 130
+        },
+        "One Week New User": {
+          "active_paid": 6,
+          "active_trial": 1,
+          "churn": 271,
+          "paid_share": 2.2
+        },
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 15,
+          "active_trial": 1,
+          "churn": 164,
+          "paid_share": 8.3
+        },
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 47,
+          "active_trial": 2,
+          "churn": 374,
+          "paid_share": 11.1
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 8,
+          "active_trial": 0,
+          "churn": 64
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 138,
+      "active_trial": 4,
+      "voluntary_churn": 2278,
+      "trial_starts": 2,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 15,
+          "active_trial": 0,
+          "churn": 165
+        },
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 8,
+          "active_trial": 0,
+          "churn": 64
+        },
+        "One Year New User": {
+          "active_paid": 60,
+          "active_trial": 0,
+          "churn": 1271
+        },
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 46,
+          "active_trial": 3,
+          "churn": 376,
+          "paid_share": 10.8
+        },
+        "One Week New User": {
+          "active_paid": 5,
+          "active_trial": 1,
+          "churn": 272,
+          "paid_share": 1.8
+        },
+        "One Month New User": {
+          "active_paid": 4,
+          "active_trial": 0,
+          "churn": 130
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 138,
+      "active_trial": 3,
+      "voluntary_churn": 2278,
+      "trial_starts": 1,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Unlock All 1 Month Subscription": {
+          "active_paid": 8,
+          "active_trial": 0,
+          "churn": 64
+        },
+        "One Year New User": {
+          "active_paid": 60,
+          "active_trial": 0,
+          "churn": 1269
+        },
+        "One Month New User": {
+          "active_paid": 4,
+          "active_trial": 0,
+          "churn": 130
+        },
+        "Unlock All 1 Week Subscription": {
+          "active_paid": 15,
+          "active_trial": 0,
+          "churn": 165
+        },
+        "Unlock All 1 Year Subscription": {
+          "active_paid": 46,
+          "active_trial": 3,
+          "churn": 377,
+          "paid_share": 10.8
+        },
+        "One Week New User": {
+          "active_paid": 5,
+          "active_trial": 0,
+          "churn": 273
+        }
+      }
+    }
+  },
+  "6758317593": {
+    "2026-03-26": {
+      "active_paid": 0,
+      "active_trial": 0,
+      "voluntary_churn": 4,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 4
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 0,
+      "active_trial": 0,
+      "voluntary_churn": 4,
+      "trial_starts": 1,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 4
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 0,
+      "active_trial": 2,
+      "voluntary_churn": 4,
+      "trial_starts": 1,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 2,
+          "churn": 4
+        }
+      }
+    }
+  },
+  "6758466848": {
+    "2026-03-26": {
+      "active_paid": 1,
+      "active_trial": 1,
+      "voluntary_churn": 5,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 1,
+          "active_trial": 1,
+          "churn": 5,
+          "paid_share": 14.3
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 2,
+      "active_trial": 0,
+      "voluntary_churn": 5,
+      "trial_starts": 0,
+      "paid_conversions": 1,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 2,
+          "active_trial": 0,
+          "churn": 5
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 2,
+      "active_trial": 0,
+      "voluntary_churn": 5,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 2,
+          "active_trial": 0,
+          "churn": 5
+        }
+      }
+    }
+  },
+  "725369629": {
+    "2026-03-26": {
+      "active_paid": 0,
+      "active_trial": 0,
+      "voluntary_churn": 2,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 2
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 0,
+      "active_trial": 0,
+      "voluntary_churn": 2,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 2
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 0,
+      "active_trial": 1,
+      "voluntary_churn": 2,
+      "trial_starts": 1,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {
+        "Weekly": {
+          "active_paid": 0,
+          "active_trial": 1,
+          "churn": 2
+        }
+      }
+    }
+  },
+  "950551948": {
+    "2026-03-26": {
+      "active_paid": 1976,
+      "active_trial": 29,
+      "voluntary_churn": 37647,
+      "trial_starts": 9,
+      "paid_conversions": 3,
+      "trial_to_paid_rate": 33.3,
+      "by_plan": {
+        "Reverse Videos 1 Year": {
+          "active_paid": 1746,
+          "active_trial": 1,
+          "churn": 31985,
+          "paid_share": 5.2
+        },
+        "Reverse Video 1 Year Test A": {
+          "active_paid": 97,
+          "active_trial": 22,
+          "churn": 648,
+          "paid_share": 12.6
+        },
+        "Annual Offer": {
+          "active_paid": 6,
+          "active_trial": 0,
+          "churn": 7
+        },
+        "Reverse Videos 1 Month": {
+          "active_paid": 23,
+          "active_trial": 0,
+          "churn": 1018
+        },
+        "Reverse Videos 1 week": {
+          "active_paid": 95,
+          "active_trial": 6,
+          "churn": 3976,
+          "paid_share": 2.3
+        },
+        "Reverse Video 1 Week Test A": {
+          "active_paid": 9,
+          "active_trial": 0,
+          "churn": 13
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 1984,
+      "active_trial": 38,
+      "voluntary_churn": 37600,
+      "trial_starts": 17,
+      "paid_conversions": 7,
+      "trial_to_paid_rate": 41.2,
+      "by_plan": {
+        "Reverse Videos 1 week": {
+          "active_paid": 96,
+          "active_trial": 6,
+          "churn": 3975,
+          "paid_share": 2.4
+        },
+        "Reverse Videos 1 Month": {
+          "active_paid": 22,
+          "active_trial": 0,
+          "churn": 1016
+        },
+        "Reverse Videos 1 Year": {
+          "active_paid": 1748,
+          "active_trial": 1,
+          "churn": 31937,
+          "paid_share": 5.2
+        },
+        "Reverse Video 1 Year Test A": {
+          "active_paid": 100,
+          "active_trial": 31,
+          "churn": 652,
+          "paid_share": 12.8
+        },
+        "Reverse Video 1 Week Test A": {
+          "active_paid": 12,
+          "active_trial": 0,
+          "churn": 13
+        },
+        "Annual Offer": {
+          "active_paid": 6,
+          "active_trial": 0,
+          "churn": 7
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 1976,
+      "active_trial": 44,
+      "voluntary_churn": 37562,
+      "trial_starts": 12,
+      "paid_conversions": 3,
+      "trial_to_paid_rate": 25.0,
+      "by_plan": {
+        "Reverse Videos 1 Year": {
+          "active_paid": 1739,
+          "active_trial": 1,
+          "churn": 31901,
+          "paid_share": 5.2
+        },
+        "Reverse Videos 1 week": {
+          "active_paid": 96,
+          "active_trial": 6,
+          "churn": 3971,
+          "paid_share": 2.4
+        },
+        "Reverse Videos 1 Month": {
+          "active_paid": 22,
+          "active_trial": 0,
+          "churn": 1013
+        },
+        "Reverse Video 1 Year Test A": {
+          "active_paid": 100,
+          "active_trial": 37,
+          "churn": 657,
+          "paid_share": 12.6
+        },
+        "Reverse Video 1 Week Test A": {
+          "active_paid": 13,
+          "active_trial": 0,
+          "churn": 13
+        },
+        "Annual Offer": {
+          "active_paid": 6,
+          "active_trial": 0,
+          "churn": 7
+        }
+      }
+    }
+  },
+  "1487907617": {
+    "2026-03-26": {
+      "active_paid": 13,
+      "active_trial": 0,
+      "voluntary_churn": 106,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "1 Week": {
+          "active_paid": 4,
+          "active_trial": 0,
+          "churn": 95
+        },
+        "1 Year": {
+          "active_paid": 8,
+          "active_trial": 0,
+          "churn": 7
+        },
+        "6 Months": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 2
+        },
+        "1 Month": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 2
+        }
+      }
+    },
+    "2026-03-27": {
+      "active_paid": 13,
+      "active_trial": 0,
+      "voluntary_churn": 105,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "1 Week": {
+          "active_paid": 4,
+          "active_trial": 0,
+          "churn": 94
+        },
+        "1 Month": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 2
+        },
+        "1 Year": {
+          "active_paid": 8,
+          "active_trial": 0,
+          "churn": 7
+        },
+        "6 Months": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 2
+        }
+      }
+    },
+    "2026-03-28": {
+      "active_paid": 13,
+      "active_trial": 0,
+      "voluntary_churn": 105,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "1 Week": {
+          "active_paid": 4,
+          "active_trial": 0,
+          "churn": 94
+        },
+        "1 Year": {
+          "active_paid": 8,
+          "active_trial": 0,
+          "churn": 7
+        },
+        "6 Months": {
+          "active_paid": 0,
+          "active_trial": 0,
+          "churn": 2
+        },
+        "1 Month": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 2
+        }
+      }
+    }
+  }
+}

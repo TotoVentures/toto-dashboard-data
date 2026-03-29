@@ -1,0 +1,471 @@
+{
+  "6449641148": {
+    "current": {
+      "rating": 4.02,
+      "count": 142
+    },
+    "territories": {
+      "US": {
+        "rating": 4.03,
+        "count": 78
+      },
+      "DE": {
+        "rating": 4.11,
+        "count": 9
+      },
+      "GB": {
+        "rating": 4,
+        "count": 8
+      },
+      "CA": {
+        "rating": 4.2,
+        "count": 5
+      },
+      "IT": {
+        "rating": 5,
+        "count": 4
+      },
+      "IN": {
+        "rating": 3.67,
+        "count": 3
+      },
+      "AU": {
+        "rating": 3,
+        "count": 3
+      },
+      "TR": {
+        "rating": 4.5,
+        "count": 2
+      },
+      "RU": {
+        "rating": 3,
+        "count": 2
+      },
+      "GH": {
+        "rating": 4.5,
+        "count": 2
+      },
+      "CZ": {
+        "rating": 1,
+        "count": 2
+      },
+      "NL": {
+        "rating": 4.5,
+        "count": 2
+      },
+      "NP": {
+        "rating": 5,
+        "count": 2
+      },
+      "ZA": {
+        "rating": 2.5,
+        "count": 2
+      },
+      "PT": {
+        "rating": 3,
+        "count": 2
+      },
+      "MX": {
+        "rating": 5,
+        "count": 2
+      },
+      "ID": {
+        "rating": 4,
+        "count": 2
+      },
+      "SE": {
+        "rating": 1,
+        "count": 1
+      },
+      "PL": {
+        "rating": 5,
+        "count": 1
+      },
+      "UY": {
+        "rating": 5,
+        "count": 1
+      },
+      "PK": {
+        "rating": 5,
+        "count": 1
+      },
+      "UG": {
+        "rating": 5,
+        "count": 1
+      },
+      "ES": {
+        "rating": 5,
+        "count": 1
+      },
+      "BR": {
+        "rating": 5,
+        "count": 1
+      },
+      "CH": {
+        "rating": 5,
+        "count": 1
+      },
+      "BE": {
+        "rating": 4,
+        "count": 1
+      },
+      "MY": {
+        "rating": 4,
+        "count": 1
+      },
+      "AE": {
+        "rating": 4,
+        "count": 1
+      },
+      "JO": {
+        "rating": 5,
+        "count": 1
+      }
+    },
+    "history": {
+      "2026-03-16": {
+        "rating": 4.02,
+        "count": 142
+      }
+    }
+  },
+  "1356249212": {
+    "current": {
+      "rating": 3.71,
+      "count": 964
+    },
+    "territories": {
+      "BR": {
+        "rating": 3.65,
+        "count": 316
+      },
+      "US": {
+        "rating": 3.78,
+        "count": 228
+      },
+      "MX": {
+        "rating": 4.14,
+        "count": 51
+      },
+      "RU": {
+        "rating": 3.45,
+        "count": 49
+      },
+      "CO": {
+        "rating": 3.89,
+        "count": 28
+      },
+      "SA": {
+        "rating": 4.25,
+        "count": 24
+      },
+      "CL": {
+        "rating": 3.7,
+        "count": 20
+      },
+      "IN": {
+        "rating": 4.11,
+        "count": 18
+      },
+      "ES": {
+        "rating": 3.73,
+        "count": 15
+      },
+      "AR": {
+        "rating": 3.43,
+        "count": 14
+      },
+      "GB": {
+        "rating": 3.55,
+        "count": 11
+      },
+      "EG": {
+        "rating": 4.1,
+        "count": 10
+      },
+      "GH": {
+        "rating": 3.4,
+        "count": 10
+      },
+      "LK": {
+        "rating": 3.89,
+        "count": 9
+      },
+      "CA": {
+        "rating": 3.25,
+        "count": 8
+      },
+      "ID": {
+        "rating": 3.75,
+        "count": 8
+      },
+      "AE": {
+        "rating": 3.38,
+        "count": 8
+      },
+      "IT": {
+        "rating": 3.62,
+        "count": 8
+      },
+      "AU": {
+        "rating": 4,
+        "count": 8
+      },
+      "JO": {
+        "rating": 3.43,
+        "count": 7
+      },
+      "FR": {
+        "rating": 3.86,
+        "count": 7
+      },
+      "UA": {
+        "rating": 4.14,
+        "count": 7
+      },
+      "PT": {
+        "rating": 4,
+        "count": 7
+      },
+      "PK": {
+        "rating": 3.67,
+        "count": 6
+      },
+      "MY": {
+        "rating": 3.4,
+        "count": 5
+      },
+      "PH": {
+        "rating": 3.8,
+        "count": 5
+      },
+      "TR": {
+        "rating": 1.6,
+        "count": 5
+      },
+      "CN": {
+        "rating": 3,
+        "count": 4
+      },
+      "EC": {
+        "rating": 3.5,
+        "count": 4
+      },
+      "GT": {
+        "rating": 3,
+        "count": 4
+      },
+      "DE": {
+        "rating": 5,
+        "count": 4
+      },
+      "ZA": {
+        "rating": 4.5,
+        "count": 4
+      },
+      "NP": {
+        "rating": 3.67,
+        "count": 3
+      },
+      "CR": {
+        "rating": 2.67,
+        "count": 3
+      },
+      "VE": {
+        "rating": 2.33,
+        "count": 3
+      },
+      "QA": {
+        "rating": 3.33,
+        "count": 3
+      },
+      "IL": {
+        "rating": 5,
+        "count": 3
+      },
+      "UY": {
+        "rating": 3,
+        "count": 2
+      },
+      "KW": {
+        "rating": 3,
+        "count": 2
+      },
+      "PE": {
+        "rating": 3,
+        "count": 2
+      },
+      "NO": {
+        "rating": 2.5,
+        "count": 2
+      },
+      "PA": {
+        "rating": 1.5,
+        "count": 2
+      },
+      "SV": {
+        "rating": 5,
+        "count": 2
+      },
+      "FI": {
+        "rating": 5,
+        "count": 2
+      },
+      "JP": {
+        "rating": 1,
+        "count": 2
+      },
+      "AZ": {
+        "rating": 3,
+        "count": 2
+      },
+      "NG": {
+        "rating": 4,
+        "count": 2
+      },
+      "NL": {
+        "rating": 1,
+        "count": 1
+      },
+      "HU": {
+        "rating": 5,
+        "count": 1
+      },
+      "GR": {
+        "rating": 4,
+        "count": 1
+      },
+      "HR": {
+        "rating": 5,
+        "count": 1
+      },
+      "TZ": {
+        "rating": 4,
+        "count": 1
+      },
+      "KR": {
+        "rating": 5,
+        "count": 1
+      },
+      "HK": {
+        "rating": 4,
+        "count": 1
+      },
+      "NZ": {
+        "rating": 1,
+        "count": 1
+      },
+      "BG": {
+        "rating": 5,
+        "count": 1
+      },
+      "NE": {
+        "rating": 1,
+        "count": 1
+      },
+      "PY": {
+        "rating": 5,
+        "count": 1
+      },
+      "BY": {
+        "rating": 5,
+        "count": 1
+      },
+      "IS": {
+        "rating": 1,
+        "count": 1
+      },
+      "VN": {
+        "rating": 5,
+        "count": 1
+      },
+      "KE": {
+        "rating": 5,
+        "count": 1
+      },
+      "SE": {
+        "rating": 4,
+        "count": 1
+      },
+      "OM": {
+        "rating": 5,
+        "count": 1
+      }
+    },
+    "history": {
+      "2026-03-16": {
+        "rating": 3.71,
+        "count": 964
+      }
+    }
+  },
+  "6502181178": {
+    "current": {
+      "rating": 4.33,
+      "count": 12
+    },
+    "territories": {
+      "PH": {
+        "rating": 4.2,
+        "count": 5
+      },
+      "CA": {
+        "rating": 5,
+        "count": 2
+      },
+      "US": {
+        "rating": 5,
+        "count": 2
+      },
+      "GB": {
+        "rating": 5,
+        "count": 2
+      },
+      "ID": {
+        "rating": 1,
+        "count": 1
+      }
+    },
+    "history": {
+      "2026-03-16": {
+        "rating": 4.33,
+        "count": 12
+      }
+    }
+  },
+  "6759808689": {
+    "current": {
+      "rating": 5,
+      "count": 3
+    },
+    "territories": {
+      "US": {
+        "rating": 5,
+        "count": 2
+      },
+      "MX": {
+        "rating": 5,
+        "count": 1
+      }
+    },
+    "history": {
+      "2026-03-16": {
+        "rating": 5,
+        "count": 3
+      }
+    }
+  },
+  "725369629": {
+    "current": {
+      "rating": 0,
+      "count": 0
+    },
+    "territories": {},
+    "history": {
+      "2026-03-15": {
+        "rating": 0,
+        "count": 0
+      }
+    }
+  }
+}

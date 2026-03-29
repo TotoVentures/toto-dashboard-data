@@ -1,591 +1,378 @@
 /**
- * yesterday.js — "The Daily Toto" newspaper front page
- * Shows yesterday's key metrics with week-over-week comparison
- * Baustein-inspired infographic + NYT editorial typography
+ * yesterday.js — The Daily Toto
+ * Morning briefing: what happened yesterday, what needs attention.
  */
 
 const YesterdayPage = (() => {
 
-  // Baustein color palette
-  const COLORS = {
-    green:  '#2d8a4e',
-    blue:   '#2563eb',
-    amber:  '#d97706',
-    red:    '#dc2626',
-    gray:   '#1a1a1a',
-    muted:  '#c5c0b8',
-    bg:     '#eae6df',
-  };
-
-  function render(container, data) {
-    const { apps, revenue, sales, subscriptions, ratings, adspend, summary } = data;
+  function render(container, data, filterState) {
+    const { apps, revenue, sales, subscriptions, adspend, summary, funnel, subStates } = data;
     container.innerHTML = '';
 
-    if (!summary || !revenue) {
+    // Find the most recent date with data
+    const latestDate = findLatestDate(revenue, sales);
+    if (!latestDate) {
       TotoComponents.renderEmptyState(container, 'No data yet', 'Run the sync script to populate dashboard data.');
       return;
     }
 
-    // Determine "yesterday" = last date in the data
-    const endDate = summary.date_range?.end;
-    if (!endDate) {
-      TotoComponents.renderEmptyState(container, 'No date range', 'Sync data is missing date range info.');
-      return;
-    }
+    // Compute 7-day window ending at latestDate
+    const dates7d = getPrevDates(latestDate, 7);
+    const dates7dNoToday = dates7d.slice(0, -1); // previous 6 days for comparison
 
-    const yesterday = endDate;
-    const yesterdayDate = new Date(yesterday + 'T00:00:00');
+    // --- Header ---
+    const header = document.createElement('div');
+    header.className = 'yesterday-header';
+    const d = new Date(latestDate + 'T00:00:00');
+    const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    header.innerHTML = `
+      <h1 class="page-title">The Daily Toto</h1>
+      <p class="page-subtitle">${dayNames[d.getDay()]}, ${monthNames[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}</p>
+    `;
+    container.appendChild(header);
 
-    // Same day last week
-    const lastWeekDate = new Date(yesterdayDate);
-    lastWeekDate.setDate(lastWeekDate.getDate() - 7);
-    const lastWeek = lastWeekDate.toISOString().slice(0, 10);
-
-    // Day before yesterday (for ratings delta)
-    const dayBeforeDate = new Date(yesterdayDate);
-    dayBeforeDate.setDate(dayBeforeDate.getDate() - 1);
-    const dayBefore = dayBeforeDate.toISOString().slice(0, 10);
-
-    const appMap = apps || {};
-
-    // ===== Compute per-app metrics =====
-    const appRows = [];
-    const allApps = []; // includes $0 apps for dot matrix
-    let totalRev = 0, totalRevLW = 0;
-    let totalDL = 0, totalDLLW = 0;
-    let totalTrials = 0, totalTrialsLW = 0;
-    let totalNewRatings = 0, totalNewRatingsLW = 0;
-    let totalAdSpend = 0, totalAdSpendLW = 0;
-
-    Object.keys(appMap).forEach(appId => {
-      const appInfo = appMap[appId];
-      if (appInfo.parent_id != null) return;
-
-      // Revenue
-      const rev = parseFloat(revenue?.[appId]?.[yesterday]?.total) || 0;
-      const revLW = parseFloat(revenue?.[appId]?.[lastWeek]?.total) || 0;
-
-      // Downloads
-      const dl = parseInt(sales?.[appId]?.[yesterday]?.downloads) || 0;
-      const dlLW = parseInt(sales?.[appId]?.[lastWeek]?.downloads) || 0;
-
-      // Trials
-      const trials = parseInt(subscriptions?.[appId]?.[yesterday]?.new_trials) || 0;
-      const trialsLW = parseInt(subscriptions?.[appId]?.[lastWeek]?.new_trials) || 0;
-
-      // Ad spend
-      const spend = parseFloat(adspend?.[appId]?.[yesterday]?.spend) || 0;
-      const spendLW = parseFloat(adspend?.[appId]?.[lastWeek]?.spend) || 0;
-
-      // Ratings delta
-      let newRatings = 0;
-      let newRatingsLW = 0;
-      const ratingsHistory = ratings?.[appId]?.history || {};
-      const ratingDates = Object.keys(ratingsHistory).sort();
-      if (ratingDates.length >= 2) {
-        const yesterdayRating = findClosestDate(ratingDates, yesterday, ratingsHistory);
-        const dayBeforeRating = findClosestDate(ratingDates, dayBefore, ratingsHistory);
-        if (yesterdayRating != null && dayBeforeRating != null) {
-          newRatings = Math.max(0, yesterdayRating - dayBeforeRating);
-        }
-        const lwRating = findClosestDate(ratingDates, lastWeek, ratingsHistory);
-        const lwDayBefore = new Date(lastWeekDate);
-        lwDayBefore.setDate(lwDayBefore.getDate() - 1);
-        const lwDayBeforeRating = findClosestDate(ratingDates, lwDayBefore.toISOString().slice(0, 10), ratingsHistory);
-        if (lwRating != null && lwDayBeforeRating != null) {
-          newRatingsLW = Math.max(0, lwRating - lwDayBeforeRating);
-        }
-      }
-
-      totalRev += rev; totalRevLW += revLW;
-      totalDL += dl; totalDLLW += dlLW;
-      totalTrials += trials; totalTrialsLW += trialsLW;
-      totalNewRatings += newRatings; totalNewRatingsLW += newRatingsLW;
-      totalAdSpend += spend; totalAdSpendLW += spendLW;
-
-      const appData = {
-        id: appId,
-        name: appInfo.name || `App ${appId}`,
-        icon: appInfo.icon || '',
-        revenue: rev,
-        revenueLW: revLW,
-        downloads: dl,
-        downloadsLW: dlLW,
-        trials: trials,
-        trialsLW: trialsLW,
-        newRatings,
-        adSpend: spend
-      };
-
-      allApps.push(appData);
-      if (rev > 0 || dl > 0 || trials > 0) {
-        appRows.push(appData);
-      }
+    // --- Collect per-app data for the day ---
+    const appIds = Object.keys(apps || {}).filter(id => {
+      const app = apps[id];
+      return !app.parent_id;
     });
 
-    appRows.sort((a, b) => b.revenue - a.revenue);
-    allApps.sort((a, b) => b.revenue - a.revenue);
+    const rows = [];
+    let portfolioRev = 0, portfolioDl = 0, portfolioTrials = 0, portfolioConv = 0;
+    let portfolioAdSpend = 0, portfolioCancels = 0, portfolioActiveSubs = 0;
+    let portfolio7dRev = 0, portfolio7dDl = 0, portfolio7dTrials = 0, portfolio7dAdSpend = 0;
 
-    const totalNet = totalRev - totalAdSpend;
-    const totalNetLW = totalRevLW - totalAdSpendLW;
+    appIds.forEach(id => {
+      const appInfo = apps[id] || {};
+      const dayRev = getDayValue(revenue, id, latestDate, 'total');
+      const dayDl = getDayValue(sales, id, latestDate, 'downloads') + getDayValue(sales, id, latestDate, 're_downloads');
+      const dayTrials = getDayValue(data.subscriptions, id, latestDate, 'trial_starts') || getDayMetric(data, id, latestDate, 'trial_starts');
+      const dayConv = getDayValue(data.subscriptions, id, latestDate, 'paid_conversions') || getDayMetric(data, id, latestDate, 'paid_conversions');
+      const dayCancels = getDayMetric(data, id, latestDate, 'cancellations');
+      const dayAdSpend = getDayValue(adspend, id, latestDate, 'spend');
+      const dayActiveSubs = getDayMetric(data, id, latestDate, 'active_subs');
 
-    // ===== Generate headlines =====
-    const headlines = generateHeadlines(appRows, appMap, yesterday, data);
+      // 7-day averages
+      const avg7dRev = getAvgValue(revenue, id, dates7dNoToday, 'total');
+      const avg7dDl = getAvgValue(sales, id, dates7dNoToday, 'downloads') + getAvgValue(sales, id, dates7dNoToday, 're_downloads');
+      const avg7dAdSpend = getAvgValue(adspend, id, dates7dNoToday, 'spend');
 
-    // ===== Weather icon =====
-    const weather = getWeatherIcon(totalRev, totalRevLW, totalDL, totalDLLW);
+      // Funnel data
+      const dayImpressions = getDayValue(funnel, id, latestDate, 'impressions');
+      const dayTrueFirstDl = getDayValue(funnel, id, latestDate, 'first_time_downloads');
+      const dayTTR = getDayValue(funnel, id, latestDate, 'tap_through_rate');
+      const dayCVR = getDayValue(funnel, id, latestDate, 'conversion_rate');
+      const dayT2P = getDayValue(funnel, id, latestDate, 'trial_to_paid_rate');
 
-    // ===== Edition number =====
-    const epoch = new Date('2024-01-01T00:00:00');
-    const edition = Math.floor((yesterdayDate - epoch) / 86400000);
-
-    // ===== Render the page =====
-    const page = document.createElement('div');
-    page.className = 'yesterday-page';
-
-    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    const dateStr = `${days[yesterdayDate.getDay()]}, ${months[yesterdayDate.getMonth()]} ${yesterdayDate.getDate()}, ${yesterdayDate.getFullYear()}`;
-
-    // Masthead
-    page.innerHTML = `
-      <div class="newspaper-masthead">
-        <div class="masthead-rule"></div>
-        <div class="masthead-meta">
-          <span class="masthead-edition">No. ${edition}</span>
-          <span class="masthead-weather">${weather.icon}</span>
-          <span class="masthead-date">${dateStr}</span>
-        </div>
-        <h1 class="masthead-title">The Daily Toto</h1>
-        <div class="masthead-tagline">"All the revenue that's fit to print"</div>
-        <div class="masthead-rule"></div>
-      </div>
-    `;
-
-    // Hero metrics row
-    const heroRow = document.createElement('div');
-    heroRow.className = 'yesterday-hero-row';
-    heroRow.innerHTML = `
-      ${heroCard('Net Revenue', totalNet, totalNetLW, true)}
-      ${heroCard('Gross Revenue', totalRev, totalRevLW, true)}
-      ${heroCard('Downloads', totalDL, totalDLLW, false)}
-      ${heroCard('New Trials', totalTrials, totalTrialsLW, false)}
-      ${heroCard('New Ratings', totalNewRatings, totalNewRatingsLW, false)}
-      ${heroCard('Ad Spend', totalAdSpend, totalAdSpendLW, true, true)}
-    `;
-    page.appendChild(heroRow);
-
-    // ===== Portfolio Dot Matrix + Revenue Bar (side by side) =====
-    const vizSection = document.createElement('div');
-    vizSection.className = 'yesterday-viz-section';
-
-    // Dot matrix
-    const dotMatrix = buildDotMatrix(allApps, totalRev);
-
-    // Revenue proportion bar
-    const revBar = buildRevenueBar(appRows, totalRev);
-
-    vizSection.innerHTML = `
-      <div class="viz-left">
-        <div class="viz-header">Portfolio Health</div>
-        ${dotMatrix}
-      </div>
-      <div class="viz-right">
-        <div class="viz-header">Revenue Split</div>
-        ${revBar}
-      </div>
-    `;
-    page.appendChild(vizSection);
-
-    // Headlines section
-    if (headlines.length > 0) {
-      const headlinesSection = document.createElement('div');
-      headlinesSection.className = 'yesterday-headlines';
-      headlinesSection.innerHTML = `
-        <div class="headlines-header">Headlines</div>
-        <div class="headlines-list">
-          ${headlines.map(h => `
-            <div class="headline-item">
-              <span class="headline-icon">${h.icon}</span>
-              <span class="headline-text">${TotoComponents.escapeHtml(h.text)}</span>
-            </div>
-          `).join('')}
-        </div>
-      `;
-      page.appendChild(headlinesSection);
-    }
-
-    // Podium — top 3 earners
-    if (appRows.length >= 3) {
-      const podiumSection = document.createElement('div');
-      podiumSection.className = 'yesterday-podium';
-      podiumSection.innerHTML = `
-        <div class="podium-header">Top Earners</div>
-        <div class="podium-row">
-          ${podiumCard(appRows[1], 2)}
-          ${podiumCard(appRows[0], 1)}
-          ${podiumCard(appRows[2], 3)}
-        </div>
-      `;
-      page.appendChild(podiumSection);
-    }
-
-    // Full breakdown table
-    const tableSection = document.createElement('div');
-    tableSection.className = 'yesterday-table-section';
-    tableSection.innerHTML = `<div class="table-section-header">Full Breakdown</div>`;
-    page.appendChild(tableSection);
-
-    const maxRev = Math.max(...appRows.map(r => r.revenue), 1);
-    const columns = [
-      {
-        key: 'rank', label: '#', align: 'center',
-        render: (val, row, i) => {
-          const color = getTierColor(row.revenue, totalRev);
-          return `<span class="rank-dot" style="background:${color}"></span>`;
-        }
-      },
-      {
-        key: 'name', label: 'App',
-        render: (val, row) => {
-          const icon = row.icon ? `<img class="app-icon" src="${TotoComponents.escapeHtml(row.icon)}" alt="" onerror="this.style.display='none'">` : '<div class="app-icon"></div>';
-          return `<div class="app-cell">${icon}<div><div class="app-name">${TotoComponents.escapeHtml(shortAppName(row.name))}</div></div></div>`;
-        }
-      },
-      {
-        key: 'revenue', label: 'Revenue', align: 'right', barMax: maxRev,
-        format: (val) => TotoComponents.formatNumber(val, { currency: true })
-      },
-      {
-        key: 'revenueWoW', label: 'W/W', align: 'right',
-        render: (val, row) => wowBadge(row.revenue, row.revenueLW)
-      },
-      {
-        key: 'downloads', label: 'Downloads', align: 'right',
-        format: (val) => TotoComponents.formatNumber(val)
-      },
-      {
-        key: 'downloadsWoW', label: 'W/W', align: 'right',
-        render: (val, row) => wowBadge(row.downloads, row.downloadsLW)
-      },
-      {
-        key: 'trials', label: 'Trials', align: 'right',
-        format: (val) => val > 0 ? TotoComponents.formatNumber(val) : '--'
-      },
-      {
-        key: 'newRatings', label: 'Ratings', align: 'right',
-        format: (val) => val > 0 ? `+${val}` : '--'
+      // Source attribution
+      let topSource = '';
+      let topSourcePct = 0;
+      const bySource = funnel?.[id]?.[latestDate]?.by_source;
+      if (bySource) {
+        const totalSourceDl = Object.values(bySource).reduce((s, v) => s + (v.downloads || 0), 0);
+        Object.entries(bySource).forEach(([src, v]) => {
+          const pct = totalSourceDl > 0 ? (v.downloads || 0) / totalSourceDl * 100 : 0;
+          if (pct > topSourcePct) { topSource = src; topSourcePct = pct; }
+        });
       }
-    ];
 
-    TotoComponents.renderTable(tableSection, columns, appRows, {
-      defaultSort: 'revenue',
-      defaultSortDir: 'desc'
-    });
+      // Sub state
+      const dayActivePaid = getDayValue(subStates, id, latestDate, 'active_paid');
 
-    container.appendChild(page);
-  }
+      const netRev = dayRev - dayAdSpend;
+      const rpd = dayDl > 0 ? dayRev / dayDl : 0;
 
-  // ===== Dot Matrix: circular grid, colored by revenue tier =====
-  function buildDotMatrix(allApps, totalRev) {
-    // Build circular dot positions
-    const size = 280;
-    const center = size / 2;
-    const dotR = 7;
-    const spacing = 20;
+      // Revenue change vs 7d avg
+      const revChange = avg7dRev > 0 ? ((dayRev - avg7dRev) / avg7dRev) * 100 : (dayRev > 0 ? 100 : null);
+      const dlChange = avg7dDl > 0 ? ((dayDl - avg7dDl) / avg7dDl) * 100 : (dayDl > 0 ? 100 : null);
 
-    // Generate grid positions within a circle
-    const positions = [];
-    for (let y = dotR + 2; y < size - dotR; y += spacing) {
-      for (let x = dotR + 2; x < size - dotR; x += spacing) {
-        const dx = x - center;
-        const dy = y - center;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < center - dotR - 4) {
-          positions.push({ x, y });
-        }
-      }
-    }
+      portfolioRev += dayRev;
+      portfolioDl += dayDl;
+      portfolioTrials += dayTrials;
+      portfolioConv += dayConv;
+      portfolioAdSpend += dayAdSpend;
+      portfolioCancels += dayCancels;
+      portfolioActiveSubs += dayActiveSubs;
+      portfolio7dRev += avg7dRev;
+      portfolio7dDl += avg7dDl;
+      portfolio7dAdSpend += avg7dAdSpend;
 
-    // Sort positions by distance from center (inside-out)
-    positions.sort((a, b) => {
-      const da = Math.sqrt((a.x - center) ** 2 + (a.y - center) ** 2);
-      const db = Math.sqrt((b.x - center) ** 2 + (b.y - center) ** 2);
-      return da - db;
-    });
-
-    // Assign apps to dots — active apps first (colored), then fill rest with muted
-    const dots = [];
-    const activeApps = allApps.filter(a => a.revenue > 0 || a.downloads > 0);
-    const inactiveCount = Math.max(0, positions.length - activeApps.length);
-
-    activeApps.forEach((app, i) => {
-      if (i < positions.length) {
-        dots.push({
-          ...positions[i],
-          color: getTierColor(app.revenue, totalRev),
-          name: shortAppName(app.name),
-          revenue: app.revenue
+      if (dayRev > 0 || dayDl > 0 || dayTrials > 0 || dayAdSpend > 0 || dayImpressions > 0) {
+        rows.push({
+          id, name: appInfo.name || `App ${id}`, icon: appInfo.icon || '',
+          revenue: dayRev, downloads: dayDl, trials: dayTrials, conversions: dayConv,
+          cancellations: dayCancels, adSpend: dayAdSpend, netRevenue: netRev, rpd,
+          revChange, dlChange, avg7dRev, activeSubs: dayActiveSubs,
+          impressions: dayImpressions, trueFirstDl: dayTrueFirstDl,
+          ttr: dayTTR, cvr: dayCVR, t2p: dayT2P,
+          topSource, topSourcePct, activePaid: dayActivePaid,
         });
       }
     });
 
-    // Fill remaining positions with muted dots
-    for (let i = activeApps.length; i < positions.length; i++) {
-      dots.push({
-        ...positions[i],
-        color: COLORS.muted,
-        name: '',
-        revenue: 0
+    const portfolioNet = portfolioRev - portfolioAdSpend;
+    const portfolioRevChange = portfolio7dRev > 0 ? ((portfolioRev - portfolio7dRev) / portfolio7dRev) * 100 : null;
+    const portfolioDlChange = portfolio7dDl > 0 ? ((portfolioDl - portfolio7dDl) / portfolio7dDl) * 100 : null;
+    const portfolioNetChange = (portfolio7dRev - portfolio7dAdSpend) > 0
+      ? ((portfolioNet - (portfolio7dRev - portfolio7dAdSpend)) / Math.abs(portfolio7dRev - portfolio7dAdSpend)) * 100 : null;
+
+    // --- KPI Cards ---
+    const metrics = [
+      { label: 'Net Revenue', field: 'net', value: portfolioNet, changePercent: portfolioNetChange, isCurrency: true, description: 'Revenue minus ad spend, vs 7-day avg' },
+      { label: 'Revenue', field: 'rev', value: portfolioRev, changePercent: portfolioRevChange, isCurrency: true, description: 'Total proceeds, vs 7-day avg' },
+      { label: 'Downloads', field: 'dl', value: portfolioDl, changePercent: portfolioDlChange, isCurrency: false, description: 'New + re-downloads, vs 7-day avg' },
+      { label: 'Trial Starts', field: 'trials', value: portfolioTrials, isCurrency: false, description: 'Subscription trials started' },
+      { label: 'Conversions', field: 'conv', value: portfolioConv, isCurrency: false, description: 'Trials converted to paid' },
+    ];
+    TotoComponents.renderKPICards(container, metrics, {});
+
+    // --- Stories Section ---
+    const stories = buildStories(rows, portfolioRev, portfolio7dRev, portfolioDl, portfolio7dDl, portfolioTrials, portfolioConv, portfolioCancels);
+    if (stories.length > 0) {
+      const storiesSection = document.createElement('div');
+      storiesSection.className = 'yesterday-stories';
+      storiesSection.innerHTML = `<h2 class="section-title">What Happened</h2>`;
+      const storyList = document.createElement('div');
+      storyList.className = 'story-cards';
+      stories.forEach(s => {
+        const card = document.createElement('div');
+        card.className = `story-card story-${s.type}`;
+        card.innerHTML = `
+          <div class="story-icon">${s.icon}</div>
+          <div class="story-body">
+            <div class="story-headline">${s.headline}</div>
+            <div class="story-detail">${s.detail}</div>
+          </div>
+        `;
+        storyList.appendChild(card);
+      });
+      storiesSection.appendChild(storyList);
+      container.appendChild(storiesSection);
+    }
+
+    // --- App Table ---
+    rows.sort((a, b) => b.revenue - a.revenue);
+
+    if (rows.length > 0) {
+      const maxRev = Math.max(...rows.map(r => r.revenue), 1);
+
+      const columns = [
+        {
+          key: 'rank', label: '#', align: 'center',
+          render: (val, row, i) => {
+            const cls = i === 0 ? 'gold' : i === 1 ? 'silver' : i === 2 ? 'bronze' : '';
+            return cls ? `<span class="rank-badge ${cls}">${i + 1}</span>` : `<span>${i + 1}</span>`;
+          }
+        },
+        {
+          key: 'name', label: 'App',
+          render: (val, row) => {
+            const icon = row.icon ? `<img class="app-icon" src="${TotoComponents.escapeHtml(row.icon)}" alt="" onerror="this.style.display='none'">` : '<div class="app-icon"></div>';
+            return `<div class="app-cell">${icon}<div><div class="app-name">${TotoComponents.escapeHtml(shortAppName(row.name))}</div></div></div>`;
+          }
+        },
+        {
+          key: 'revenue', label: 'Revenue', align: 'right', barMax: maxRev,
+          render: (val, row) => {
+            const revStr = TotoComponents.formatNumber(val, { currency: true });
+            const change = row.revChange != null ? TotoComponents.formatChange(row.revChange) : '';
+            return `${revStr} ${change}`;
+          }
+        },
+        { key: 'downloads', label: 'DLs', align: 'right', format: (val) => TotoComponents.formatNumber(val) },
+        { key: 'rpd', label: 'RPD', align: 'right', format: (val) => val > 0 ? TotoComponents.formatNumber(val, { currency: true, compact: false, decimals: 2 }) : '\u2014' },
+        { key: 'trials', label: 'Trials', align: 'right', format: (val) => val > 0 ? TotoComponents.formatNumber(val) : '\u2014' },
+        { key: 'conversions', label: 'Conv', align: 'right', format: (val) => val > 0 ? TotoComponents.formatNumber(val) : '\u2014' },
+        { key: 'impressions', label: 'Impr', align: 'right', format: (val) => val > 0 ? TotoComponents.formatNumber(val) : '\u2014' },
+        { key: 'cvr', label: 'CVR', align: 'right', format: (val) => val > 0 ? `${val.toFixed(1)}%` : '\u2014' },
+        { key: 't2p', label: 'T2P', align: 'right', format: (val) => val > 0 ? `${val.toFixed(0)}%` : '\u2014' },
+        { key: 'adSpend', label: 'Ad Spend', align: 'right', format: (val) => val > 0 ? TotoComponents.formatNumber(val, { currency: true }) : '\u2014' },
+        { key: 'netRevenue', label: 'Net', align: 'right', format: (val, row) => {
+          const cls = val < 0 ? 'negative' : val > 0 ? 'positive' : '';
+          return `<span class="${cls}">${TotoComponents.formatNumber(val, { currency: true })}</span>`;
+        }},
+      ];
+
+      TotoComponents.renderTable(container, columns, rows, {
+        title: 'App Scorecard',
+        defaultSort: 'revenue',
+        defaultSortDir: 'desc',
+        hideZerosField: 'revenue',
       });
     }
-
-    // Build SVG
-    const dotsSvg = dots.map(d => {
-      const title = d.name ? `${d.name}: ${TotoComponents.formatNumber(d.revenue, { currency: true })}` : '';
-      return `<circle cx="${d.x}" cy="${d.y}" r="${dotR}" fill="${d.color}" opacity="${d.name ? 1 : 0.35}">
-        ${title ? `<title>${TotoComponents.escapeHtml(title)}</title>` : ''}
-      </circle>`;
-    }).join('');
-
-    // Legend
-    const legend = `
-      <div class="dot-legend">
-        <span class="dot-legend-item"><span class="dot-swatch" style="background:${COLORS.green}"></span> Top</span>
-        <span class="dot-legend-item"><span class="dot-swatch" style="background:${COLORS.blue}"></span> Solid</span>
-        <span class="dot-legend-item"><span class="dot-swatch" style="background:${COLORS.amber}"></span> Small</span>
-        <span class="dot-legend-item"><span class="dot-swatch" style="background:${COLORS.muted};opacity:0.35"></span> Inactive</span>
-      </div>
-    `;
-
-    return `
-      <div class="dot-matrix-wrap">
-        <svg viewBox="0 0 ${size} ${size}" class="dot-matrix-svg">
-          ${dotsSvg}
-        </svg>
-      </div>
-      ${legend}
-    `;
   }
 
-  // ===== Revenue Proportion Bar =====
-  function buildRevenueBar(appRows, totalRev) {
-    if (totalRev <= 0) return '<div class="rev-bar-empty">No revenue</div>';
+  // --- Helpers ---
 
-    const topN = 6;
-    const top = appRows.slice(0, topN);
-    const otherRev = appRows.slice(topN).reduce((s, a) => s + a.revenue, 0);
+  function findLatestDate(revenue, sales) {
+    const dates = new Set();
+    [revenue, sales].forEach(source => {
+      if (!source) return;
+      Object.values(source).forEach(appData => {
+        Object.keys(appData).forEach(k => {
+          if (/^\d{4}-\d{2}-\d{2}$/.test(k)) dates.add(k);
+        });
+      });
+    });
+    const sorted = [...dates].sort();
+    return sorted.length > 0 ? sorted[sorted.length - 1] : null;
+  }
 
-    const barColors = [COLORS.green, COLORS.blue, '#6366f1', COLORS.amber, '#f97316', '#8b5cf6'];
-
-    let bars = top.map((app, i) => {
-      const pct = (app.revenue / totalRev * 100);
-      if (pct < 1) return '';
-      return `
-        <div class="rev-bar-segment" style="width:${pct}%;background:${barColors[i % barColors.length]}"
-             title="${TotoComponents.escapeHtml(shortAppName(app.name))}: ${TotoComponents.formatNumber(app.revenue, { currency: true })} (${pct.toFixed(0)}%)">
-        </div>
-      `;
-    }).join('');
-
-    if (otherRev > 0) {
-      const pct = (otherRev / totalRev * 100);
-      bars += `<div class="rev-bar-segment" style="width:${pct}%;background:${COLORS.muted}" title="Other: ${TotoComponents.formatNumber(otherRev, { currency: true })} (${pct.toFixed(0)}%)"></div>`;
+  function getPrevDates(dateStr, count) {
+    const dates = [];
+    const d = new Date(dateStr + 'T00:00:00');
+    for (let i = count - 1; i >= 0; i--) {
+      const prev = new Date(d);
+      prev.setDate(prev.getDate() - i);
+      dates.push(prev.toISOString().slice(0, 10));
     }
-
-    // Legend items
-    const legendItems = top.map((app, i) => {
-      const pct = (app.revenue / totalRev * 100).toFixed(0);
-      return `
-        <div class="rev-legend-item">
-          <span class="dot-swatch" style="background:${barColors[i % barColors.length]}"></span>
-          <span class="rev-legend-name">${TotoComponents.escapeHtml(shortAppName(app.name))}</span>
-          <span class="rev-legend-pct">${pct}%</span>
-        </div>
-      `;
-    }).join('');
-
-    const otherLegend = otherRev > 0 ? `
-      <div class="rev-legend-item">
-        <span class="dot-swatch" style="background:${COLORS.muted}"></span>
-        <span class="rev-legend-name">Other</span>
-        <span class="rev-legend-pct">${(otherRev / totalRev * 100).toFixed(0)}%</span>
-      </div>
-    ` : '';
-
-    return `
-      <div class="rev-bar-track">${bars}</div>
-      <div class="rev-legend">${legendItems}${otherLegend}</div>
-    `;
+    return dates;
   }
 
-  // ===== Tier color for an app's revenue =====
-  function getTierColor(rev, totalRev) {
-    if (rev <= 0) return COLORS.muted;
-    const pct = (rev / totalRev) * 100;
-    if (pct >= 15) return COLORS.green;   // top earner
-    if (pct >= 5) return COLORS.blue;     // solid
-    return COLORS.amber;                   // small
+  function getDayValue(source, appId, date, field) {
+    if (!source || !source[appId] || !source[appId][date]) return 0;
+    return parseFloat(source[appId][date][field]) || 0;
   }
 
-  // ===== Helper: find closest rating count for a date =====
-  function findClosestDate(sortedDates, targetDate, history) {
-    let closest = null;
-    for (let i = sortedDates.length - 1; i >= 0; i--) {
-      if (sortedDates[i] <= targetDate) {
-        closest = sortedDates[i];
-        break;
+  function getDayMetric(data, appId, date, field) {
+    // Try daily_metrics-style data if available
+    if (data.metrics && data.metrics[appId] && data.metrics[appId][date]) {
+      return parseFloat(data.metrics[appId][date][field]) || 0;
+    }
+    // Try subscriptions data
+    if (data.subscriptions && data.subscriptions[appId] && data.subscriptions[appId][date]) {
+      return parseFloat(data.subscriptions[appId][date][field]) || 0;
+    }
+    return 0;
+  }
+
+  function getAvgValue(source, appId, dates, field) {
+    if (!source || !source[appId] || dates.length === 0) return 0;
+    let sum = 0, count = 0;
+    dates.forEach(d => {
+      const val = parseFloat(source[appId]?.[d]?.[field]) || 0;
+      if (source[appId]?.[d]) { sum += val; count++; }
+    });
+    return count > 0 ? sum / count : 0;
+  }
+
+  // --- Story Builder ---
+
+  function buildStories(rows, portfolioRev, avg7dRev, portfolioDl, avg7dDl, portfolioTrials, portfolioConv, portfolioCancels) {
+    const stories = [];
+
+    // Portfolio-level stories
+    if (avg7dRev > 0) {
+      const pct = ((portfolioRev - avg7dRev) / avg7dRev) * 100;
+      if (pct > 20) {
+        stories.push({
+          type: 'positive', icon: '\u{1F4C8}',
+          headline: `Revenue up ${pct.toFixed(0)}% vs 7-day average`,
+          detail: `$${portfolioRev.toFixed(2)} yesterday vs $${avg7dRev.toFixed(2)} avg`
+        });
+      } else if (pct < -20) {
+        stories.push({
+          type: 'negative', icon: '\u{1F4C9}',
+          headline: `Revenue down ${Math.abs(pct).toFixed(0)}% vs 7-day average`,
+          detail: `$${portfolioRev.toFixed(2)} yesterday vs $${avg7dRev.toFixed(2)} avg`
+        });
       }
     }
-    return closest ? (history[closest]?.count || 0) : null;
-  }
 
-  // ===== Helper: hero card HTML =====
-  function heroCard(label, value, lastWeekValue, isCurrency, invertColor) {
-    const formatted = TotoComponents.formatNumber(value, { currency: isCurrency, compact: true });
-    const wow = wowPercent(value, lastWeekValue);
-    const wowStr = wow !== null ? wowBadge(value, lastWeekValue, invertColor) : '<span class="wow-badge neutral">--</span>';
-
-    return `
-      <div class="yesterday-hero-card">
-        <div class="hero-label">${label}</div>
-        <div class="hero-value">${formatted}</div>
-        <div class="hero-wow">${wowStr}</div>
-      </div>
-    `;
-  }
-
-  // ===== Helper: podium card =====
-  function podiumCard(app, rank) {
-    const medals = { 1: '&#x1F947;', 2: '&#x1F948;', 3: '&#x1F949;' };
-    const heights = { 1: '120px', 2: '90px', 3: '70px' };
-    const formatted = TotoComponents.formatNumber(app.revenue, { currency: true });
-    const wow = wowBadge(app.revenue, app.revenueLW);
-    const iconImg = app.icon ? `<img class="podium-icon" src="${TotoComponents.escapeHtml(app.icon)}" alt="" onerror="this.style.display='none'">` : '';
-
-    return `
-      <div class="podium-card podium-rank-${rank}">
-        <div class="podium-medal">${medals[rank]}</div>
-        ${iconImg}
-        <div class="podium-app-name">${TotoComponents.escapeHtml(shortAppName(app.name))}</div>
-        <div class="podium-revenue">${formatted}</div>
-        <div class="podium-wow">${wow}</div>
-        <div class="podium-bar" style="height:${heights[rank]}"></div>
-      </div>
-    `;
-  }
-
-  // ===== Helper: W/W percent =====
-  function wowPercent(current, lastWeek) {
-    if (lastWeek === 0 && current === 0) return 0;
-    if (lastWeek === 0) return current > 0 ? 100 : 0;
-    return ((current - lastWeek) / Math.abs(lastWeek)) * 100;
-  }
-
-  // ===== Helper: W/W badge HTML =====
-  function wowBadge(current, lastWeek, invertColor) {
-    const pct = wowPercent(current, lastWeek);
-    if (pct === null || (current === 0 && lastWeek === 0)) return '<span class="wow-badge neutral">--</span>';
-
-    const isUp = pct > 0;
-    const isDown = pct < 0;
-    let cls;
-    if (invertColor) {
-      cls = isUp ? 'negative' : isDown ? 'positive' : 'neutral';
-    } else {
-      cls = isUp ? 'positive' : isDown ? 'negative' : 'neutral';
-    }
-    const arrow = isUp ? '\u2191' : isDown ? '\u2193' : '';
-    const sign = isUp ? '+' : '';
-    return `<span class="wow-badge ${cls}">${arrow}${sign}${pct.toFixed(0)}%</span>`;
-  }
-
-  // ===== Generate auto-headlines =====
-  function generateHeadlines(appRows, appMap, yesterday, data) {
-    const headlines = [];
-    if (appRows.length === 0) return headlines;
-
-    const top = appRows[0];
-    if (top.revenue > 0) {
-      headlines.push({
-        icon: '\u{1F451}',
-        text: `${shortAppName(top.name)} led the portfolio with ${TotoComponents.formatNumber(top.revenue, { currency: true })} in revenue`
+    if (portfolioConv > 0 && portfolioTrials > 0) {
+      const convRate = (portfolioConv / portfolioTrials) * 100;
+      stories.push({
+        type: 'neutral', icon: '\u{1F504}',
+        headline: `${portfolioConv} trial${portfolioConv !== 1 ? 's' : ''} converted to paid (${convRate.toFixed(0)}% rate)`,
+        detail: `${portfolioTrials} trial starts, ${portfolioConv} conversions, ${portfolioCancels} cancellations`
       });
     }
 
-    const gainers = appRows
-      .filter(a => a.revenueLW > 0 && a.revenue > a.revenueLW)
-      .map(a => ({ ...a, gain: ((a.revenue - a.revenueLW) / a.revenueLW) * 100 }))
-      .sort((a, b) => b.gain - a.gain);
-    if (gainers.length > 0 && gainers[0].gain > 20) {
-      const g = gainers[0];
-      headlines.push({
-        icon: '\u{1F680}',
-        text: `${shortAppName(g.name)} revenue up ${g.gain.toFixed(0)}% vs last week`
+    // Per-app standouts
+    const bigMoversUp = rows
+      .filter(r => r.revChange != null && r.revChange > 50 && r.revenue > 5)
+      .sort((a, b) => b.revChange - a.revChange)
+      .slice(0, 3);
+
+    bigMoversUp.forEach(r => {
+      stories.push({
+        type: 'positive', icon: '\u{1F680}',
+        headline: `${shortAppName(r.name)} revenue +${r.revChange.toFixed(0)}%`,
+        detail: `$${r.revenue.toFixed(2)} yesterday vs $${r.avg7dRev.toFixed(2)} avg`
+      });
+    });
+
+    const bigMoversDown = rows
+      .filter(r => r.revChange != null && r.revChange < -40 && r.avg7dRev > 5)
+      .sort((a, b) => a.revChange - b.revChange)
+      .slice(0, 3);
+
+    bigMoversDown.forEach(r => {
+      stories.push({
+        type: 'negative', icon: '\u{26A0}\u{FE0F}',
+        headline: `${shortAppName(r.name)} revenue ${r.revChange.toFixed(0)}%`,
+        detail: `$${r.revenue.toFixed(2)} yesterday vs $${r.avg7dRev.toFixed(2)} avg`
+      });
+    });
+
+    // Apps spending more on ads than they earned
+    const unprofitable = rows
+      .filter(r => r.adSpend > 0 && r.netRevenue < 0)
+      .sort((a, b) => a.netRevenue - b.netRevenue);
+
+    if (unprofitable.length > 0) {
+      const names = unprofitable.map(r => shortAppName(r.name)).join(', ');
+      const totalLoss = unprofitable.reduce((s, r) => s + r.netRevenue, 0);
+      stories.push({
+        type: 'warning', icon: '\u{1F4B8}',
+        headline: `${unprofitable.length} app${unprofitable.length !== 1 ? 's' : ''} spent more on ads than earned`,
+        detail: `${names} — net loss $${Math.abs(totalLoss).toFixed(2)}`
       });
     }
 
-    const decliners = appRows
-      .filter(a => a.revenueLW > 2 && a.revenue < a.revenueLW)
-      .map(a => ({ ...a, drop: ((a.revenueLW - a.revenue) / a.revenueLW) * 100 }))
-      .sort((a, b) => b.drop - a.drop);
-    if (decliners.length > 0 && decliners[0].drop > 30) {
-      const d = decliners[0];
-      headlines.push({
-        icon: '\u{1F4C9}',
-        text: `${shortAppName(d.name)} revenue down ${d.drop.toFixed(0)}% vs last week`
+    // Best-converting apps (funnel)
+    const bestCVR = rows
+      .filter(r => r.cvr > 0 && r.impressions >= 50)
+      .sort((a, b) => b.cvr - a.cvr)
+      .slice(0, 2);
+
+    bestCVR.forEach(r => {
+      stories.push({
+        type: 'positive', icon: '\u{1F3AF}',
+        headline: `${shortAppName(r.name)}: ${r.cvr.toFixed(1)}% conversion rate`,
+        detail: `${TotoComponents.formatNumber(r.impressions)} impressions \u2192 ${r.trueFirstDl} downloads`
       });
-    }
+    });
 
-    const dlLeader = [...appRows].sort((a, b) => b.downloads - a.downloads)[0];
-    if (dlLeader && dlLeader.downloads > 0 && dlLeader.id !== top.id) {
-      headlines.push({
-        icon: '\u{1F4F2}',
-        text: `${shortAppName(dlLeader.name)} had the most downloads (${dlLeader.downloads})`
+    // Source attribution highlights
+    const searchDominated = rows
+      .filter(r => r.topSourcePct >= 80 && r.trueFirstDl >= 5 && r.topSource === 'App Store search')
+      .slice(0, 1);
+
+    searchDominated.forEach(r => {
+      stories.push({
+        type: 'neutral', icon: '\u{1F50D}',
+        headline: `${shortAppName(r.name)}: ${r.topSourcePct.toFixed(0)}% of downloads from search`,
+        detail: `ASO is working \u2014 ${r.trueFirstDl} first-time downloads`
       });
-    }
+    });
 
-    const ratedApps = appRows.filter(a => a.newRatings > 0);
-    if (ratedApps.length > 0) {
-      const totalNew = ratedApps.reduce((sum, a) => sum + a.newRatings, 0);
-      const names = ratedApps.map(a => shortAppName(a.name)).slice(0, 3).join(', ');
-      headlines.push({
-        icon: '\u2B50',
-        text: `${totalNew} new rating${totalNew > 1 ? 's' : ''} across ${names}`
+    // High RPD apps (noteworthy performers)
+    const highRPD = rows
+      .filter(r => r.rpd > 1 && r.downloads >= 3)
+      .sort((a, b) => b.rpd - a.rpd)
+      .slice(0, 2);
+
+    highRPD.forEach(r => {
+      stories.push({
+        type: 'positive', icon: '\u{1F4B0}',
+        headline: `${shortAppName(r.name)}: $${r.rpd.toFixed(2)} revenue per download`,
+        detail: `${r.downloads} downloads generating $${r.revenue.toFixed(2)}`
       });
-    }
+    });
 
-    const trialLeader = [...appRows].sort((a, b) => b.trials - a.trials)[0];
-    if (trialLeader && trialLeader.trials > 3) {
-      headlines.push({
-        icon: '\u{1F3AF}',
-        text: `${shortAppName(trialLeader.name)} started ${trialLeader.trials} new trial${trialLeader.trials > 1 ? 's' : ''}`
-      });
-    }
-
-    const zeroDays = appRows.filter(a => a.revenue === 0 && a.revenueLW > 5);
-    if (zeroDays.length > 0) {
-      const names = zeroDays.map(a => shortAppName(a.name)).slice(0, 3).join(', ');
-      headlines.push({
-        icon: '\u{1F6A8}',
-        text: `${names} had $0 revenue (earned last week)`
-      });
-    }
-
-    return headlines.slice(0, 6);
-  }
-
-  // ===== Weather icon based on performance =====
-  function getWeatherIcon(rev, revLW, dl, dlLW) {
-    const revChange = revLW > 0 ? (rev - revLW) / revLW : 0;
-    const dlChange = dlLW > 0 ? (dl - dlLW) / dlLW : 0;
-    const composite = revChange * 0.8 + dlChange * 0.2;
-
-    if (composite > 0.15) return { icon: '\u2600\uFE0F', label: 'Great day' };
-    if (composite > 0.0) return { icon: '\u{1F324}\uFE0F', label: 'Good day' };
-    if (composite > -0.1) return { icon: '\u26C5', label: 'Average day' };
-    if (composite > -0.25) return { icon: '\u{1F325}\uFE0F', label: 'Slow day' };
-    return { icon: '\u{1F327}\uFE0F', label: 'Rough day' };
+    return stories;
   }
 
   return { render };
