@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Clearing cache...</title></head>
+<body style="background:#0d1117;color:#fff;font-family:system-ui;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;">
+<div id="msg" style="text-align:center;">
+  <p style="font-size:24px;">Clearing cache...</p>
+</div>
+<script>
+(async () => {
+  const msg = document.getElementById('msg');
+  // Unregister all service workers
+  if ('serviceWorker' in navigator) {
+    const regs = await navigator.serviceWorker.getRegistrations();
+    for (const r of regs) await r.unregister();
+    msg.innerHTML += '<p>Service workers removed</p>';
+  }
+  // Clear all caches
+  const names = await caches.keys();
+  for (const n of names) await caches.delete(n);
+  msg.innerHTML += '<p>Caches cleared</p>';
+  msg.innerHTML += '<p style="font-size:18px;margin-top:20px;">Redirecting...</p>';
+  // Redirect to dashboard with cache-bust
+  setTimeout(() => {
+    window.location.href = '/dash/?_=' + Date.now();
+  }, 1000);
+})();
+</script>
+</body>
+</html>

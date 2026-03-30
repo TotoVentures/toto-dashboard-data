@@ -1244,71 +1244,271 @@ button {
   }
 }
 
-/* ===== The Daily Toto ===== */
-.yesterday-header {
+/* ===== The Daily Toto — Newspaper Style ===== */
+
+/* Masthead */
+.newspaper-masthead {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.masthead-rule {
+  height: 3px;
+  background: var(--text-primary);
   margin-bottom: 8px;
 }
-.yesterday-stories {
-  margin: 24px 0;
+.masthead-rule + .masthead-meta {
+  margin-top: 0;
 }
-.story-cards {
+.masthead-meta {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text-secondary);
+  padding: 4px 0;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
 }
-.story-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  padding: 14px 18px;
-  border-radius: var(--radius-md);
+.masthead-weather {
+  font-size: 20px;
+}
+.masthead-title {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: var(--text-primary);
+  line-height: 1.1;
+  margin: 8px 0 4px;
+}
+.masthead-tagline {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+/* Hero metrics row */
+.yesterday-hero-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.yesterday-hero-card {
   background: var(--white);
   border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.15s;
+}
+.yesterday-hero-card:hover {
+  box-shadow: var(--shadow-md);
+}
+.hero-icon {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+.hero-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.hero-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+.hero-wow {
+  font-size: 13px;
+}
+
+/* W/W badges */
+.wow-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.wow-badge.positive {
+  color: var(--green);
+  background: var(--green-bg);
+}
+.wow-badge.negative {
+  color: var(--red);
+  background: var(--red-bg);
+}
+.wow-badge.neutral {
+  color: var(--text-muted);
+  background: var(--bg);
+}
+
+/* Headlines */
+.yesterday-headlines {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  margin-bottom: 24px;
   box-shadow: var(--shadow-sm);
 }
-.story-card.story-positive {
-  border-left: 4px solid var(--green);
-}
-.story-card.story-negative {
-  border-left: 4px solid var(--red);
-}
-.story-card.story-warning {
-  border-left: 4px solid var(--yellow);
-}
-.story-card.story-neutral {
-  border-left: 4px solid var(--primary);
-}
-.story-icon {
-  font-size: 20px;
-  flex-shrink: 0;
-  margin-top: 1px;
-}
-.story-body {
-  flex: 1;
-  min-width: 0;
-}
-.story-headline {
-  font-weight: 600;
-  font-size: 14px;
-  color: var(--text-primary);
-  margin-bottom: 2px;
-}
-.story-detail {
-  font-size: 13px;
-  color: var(--text-secondary);
-}
-.section-title {
+.headlines-header {
+  font-family: 'Georgia', 'Times New Roman', serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--text-primary);
 }
+.headlines-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.headline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-light);
+}
+.headline-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.headline-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+.headline-text {
+  font-size: 14px;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+/* Podium */
+.yesterday-podium {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+}
+.podium-header {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--text-primary);
+}
+.podium-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 16px;
+}
+.podium-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  max-width: 200px;
+}
+.podium-medal {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.podium-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+.podium-rank-1 .podium-icon {
+  width: 56px;
+  height: 56px;
+}
+.podium-app-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+}
+.podium-revenue {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.podium-rank-1 .podium-revenue {
+  font-size: 22px;
+}
+.podium-wow {
+  margin-bottom: 12px;
+}
+.podium-bar {
+  width: 100%;
+  background: linear-gradient(to top, var(--primary-lighter), var(--primary-bg));
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  border: 1px solid var(--border);
+  border-bottom: 3px solid var(--primary);
+}
+
+/* Table section header */
+.table-section-header {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--text-primary);
+}
+.yesterday-table-section {
+  margin-bottom: 24px;
+}
+
 span.positive { color: var(--green); }
 span.negative { color: var(--red); }
 
-@media (prefers-color-scheme: dark) {
-  .story-card {
-    background: var(--white);
-    border-color: var(--border);
+/* Responsive */
+@media (max-width: 768px) {
+  .masthead-title {
+    font-size: 32px;
+  }
+  .yesterday-hero-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero-value {
+    font-size: 22px;
+  }
+  .podium-row {
+    gap: 8px;
+  }
+  .podium-icon {
+    width: 36px;
+    height: 36px;
   }
 }
