@@ -25,7 +25,9 @@
       "new_subscriptions": 0,
       "renewals": 2,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 2279
     },
     "2026-03-23": {
       "mrr": 700.75,
@@ -43,7 +45,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 1,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 2274
     },
     "2025-12-30": {
       "mrr": 743.53,
@@ -790,7 +794,9 @@
       "new_subscriptions": 0,
       "renewals": 6,
       "churn": 8,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 2278
     },
     "2026-03-28": {
       "mrr": 680.01,
@@ -799,7 +805,9 @@
       "new_subscriptions": 0,
       "renewals": 4,
       "churn": 1,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 2278
     },
     "2026-03-29": {
       "mrr": 665.13,
@@ -808,7 +816,9 @@
       "new_subscriptions": 0,
       "renewals": 3,
       "churn": 2,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 2275
     }
   },
   "1003684086": {
@@ -837,7 +847,9 @@
       "new_subscriptions": 0,
       "renewals": 19,
       "churn": 1,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 50.0,
+      "churn_voluntary": 2940
     },
     "2026-03-23": {
       "mrr": 4009.59,
@@ -855,7 +867,9 @@
       "new_subscriptions": 0,
       "renewals": 26,
       "churn": 3,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 2938
     },
     "2025-12-30": {
       "mrr": 4207.28,
@@ -1602,7 +1616,9 @@
       "new_subscriptions": 1,
       "renewals": 30,
       "churn": 3,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 66.7,
+      "churn_voluntary": 2937
     },
     "2026-03-28": {
       "mrr": 4037.44,
@@ -1611,7 +1627,9 @@
       "new_subscriptions": 0,
       "renewals": 14,
       "churn": 2,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 2933
     },
     "2026-03-29": {
       "mrr": 4014.36,
@@ -1620,7 +1638,9 @@
       "new_subscriptions": 0,
       "renewals": 15,
       "churn": 5,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 2928
     }
   },
   "1015935781": {
@@ -1649,7 +1669,9 @@
       "new_subscriptions": 1,
       "renewals": 4,
       "churn": 0,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 100.0,
+      "churn_voluntary": 820
     },
     "2026-03-23": {
       "mrr": 571.85,
@@ -1667,7 +1689,9 @@
       "new_subscriptions": 0,
       "renewals": 3,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 816
     },
     "2025-12-30": {
       "mrr": 598.75,
@@ -2414,7 +2438,9 @@
       "new_subscriptions": 0,
       "renewals": 1,
       "churn": 2,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 818
     },
     "2026-03-28": {
       "mrr": 553.95,
@@ -2423,7 +2449,9 @@
       "new_subscriptions": 0,
       "renewals": 4,
       "churn": 2,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 818
     },
     "2026-03-29": {
       "mrr": 553.79,
@@ -2432,7 +2460,9 @@
       "new_subscriptions": 0,
       "renewals": 2,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 816
     }
   },
   "1582983676": {
@@ -2461,7 +2491,9 @@
       "new_subscriptions": 3,
       "renewals": 3,
       "churn": 17,
-      "activations": 3
+      "activations": 3,
+      "trial_to_paid_rate": 12.0,
+      "churn_voluntary": 11056
     },
     "2026-03-23": {
       "mrr": 1611.76,
@@ -2479,7 +2511,9 @@
       "new_subscriptions": 2,
       "renewals": 4,
       "churn": 24,
-      "activations": 2
+      "activations": 2,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 11063
     },
     "2025-12-30": {
       "mrr": 1587.11,
@@ -3226,7 +3260,9 @@
       "new_subscriptions": 1,
       "renewals": 7,
       "churn": 23,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 30.0,
+      "churn_voluntary": 11079
     },
     "2026-03-28": {
       "mrr": 1637.12,
@@ -3235,7 +3271,9 @@
       "new_subscriptions": 2,
       "renewals": 6,
       "churn": 18,
-      "activations": 2
+      "activations": 2,
+      "trial_to_paid_rate": 9.1,
+      "churn_voluntary": 11092
     },
     "2026-03-29": {
       "mrr": 1647.56,
@@ -3244,7 +3282,9 @@
       "new_subscriptions": 1,
       "renewals": 3,
       "churn": 13,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 27.3,
+      "churn_voluntary": 11102
     }
   },
   "6502181178": {
@@ -4897,7 +4937,9 @@
       "new_subscriptions": 0,
       "renewals": 5,
       "churn": 1,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 284
     },
     "2026-03-23": {
       "mrr": 276.65,
@@ -4915,7 +4957,9 @@
       "new_subscriptions": 0,
       "renewals": 1,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 283
     },
     "2025-12-30": {
       "mrr": 303.87,
@@ -5662,7 +5706,9 @@
       "new_subscriptions": 0,
       "renewals": 2,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 283
     },
     "2026-03-28": {
       "mrr": 284.11,
@@ -5671,7 +5717,9 @@
       "new_subscriptions": 1,
       "renewals": 2,
       "churn": 0,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 282
     },
     "2026-03-29": {
       "mrr": 279.45,
@@ -5680,7 +5728,9 @@
       "new_subscriptions": 0,
       "renewals": 3,
       "churn": 1,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 283
     }
   },
   "570129169": {
@@ -5709,7 +5759,9 @@
       "new_subscriptions": 3,
       "renewals": 28,
       "churn": 20,
-      "activations": 3
+      "activations": 3,
+      "trial_to_paid_rate": 16.7,
+      "churn_voluntary": 17605
     },
     "2026-03-23": {
       "mrr": 8126.57,
@@ -5727,7 +5779,9 @@
       "new_subscriptions": 5,
       "renewals": 10,
       "churn": 14,
-      "activations": 5
+      "activations": 5,
+      "trial_to_paid_rate": 54.5,
+      "churn_voluntary": 17582
     },
     "2025-12-30": {
       "mrr": 9048.54,
@@ -6474,7 +6528,9 @@
       "new_subscriptions": 5,
       "renewals": 12,
       "churn": 16,
-      "activations": 5
+      "activations": 5,
+      "trial_to_paid_rate": 28.6,
+      "churn_voluntary": 17536
     },
     "2026-03-28": {
       "mrr": 8136.9,
@@ -6483,7 +6539,9 @@
       "new_subscriptions": 13,
       "renewals": 26,
       "churn": 25,
-      "activations": 13
+      "activations": 13,
+      "trial_to_paid_rate": 45.0,
+      "churn_voluntary": 17505
     },
     "2026-03-29": {
       "mrr": 8149.03,
@@ -6492,7 +6550,9 @@
       "new_subscriptions": 8,
       "renewals": 28,
       "churn": 20,
-      "activations": 8
+      "activations": 8,
+      "trial_to_paid_rate": 45.5,
+      "churn_voluntary": 17501
     }
   },
   "6557028325": {
@@ -6521,7 +6581,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 125
     },
     "2026-03-23": {
       "mrr": 213.77,
@@ -6539,7 +6601,9 @@
       "new_subscriptions": 0,
       "renewals": 3,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 125
     },
     "2025-12-30": {
       "mrr": 152.94,
@@ -7286,7 +7350,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 125
     },
     "2026-03-28": {
       "mrr": 207.26,
@@ -7295,7 +7361,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 1,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 125
     },
     "2026-03-29": {
       "mrr": 219.32,
@@ -7304,7 +7372,9 @@
       "new_subscriptions": 1,
       "renewals": 0,
       "churn": 0,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 126
     }
   },
   "1213054524": {
@@ -8145,7 +8215,9 @@
       "new_subscriptions": 1,
       "renewals": 5,
       "churn": 3,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 3535
     },
     "2026-03-23": {
       "mrr": 1470.28,
@@ -8163,7 +8235,9 @@
       "new_subscriptions": 0,
       "renewals": 4,
       "churn": 5,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 100.0,
+      "churn_voluntary": 3531
     },
     "2025-12-30": {
       "mrr": 1674.35,
@@ -8910,7 +8984,9 @@
       "new_subscriptions": 0,
       "renewals": 4,
       "churn": 5,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 3529
     },
     "2026-03-28": {
       "mrr": 1442.63,
@@ -8919,7 +8995,9 @@
       "new_subscriptions": 1,
       "renewals": 6,
       "churn": 3,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 25.0,
+      "churn_voluntary": 3525
     },
     "2026-03-29": {
       "mrr": 1435.79,
@@ -8928,7 +9006,9 @@
       "new_subscriptions": 0,
       "renewals": 2,
       "churn": 4,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 3526
     }
   },
   "6670757865": {
@@ -8957,7 +9037,9 @@
       "new_subscriptions": 0,
       "renewals": 4,
       "churn": 3,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 544
     },
     "2026-03-23": {
       "mrr": 557.48,
@@ -8975,7 +9057,9 @@
       "new_subscriptions": 1,
       "renewals": 6,
       "churn": 2,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 14.3,
+      "churn_voluntary": 545
     },
     "2025-12-30": {
       "mrr": 204.9,
@@ -9722,7 +9806,9 @@
       "new_subscriptions": 0,
       "renewals": 1,
       "churn": 5,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 548
     },
     "2026-03-28": {
       "mrr": 557.56,
@@ -9731,7 +9817,9 @@
       "new_subscriptions": 0,
       "renewals": 2,
       "churn": 1,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 551
     },
     "2026-03-29": {
       "mrr": 559.51,
@@ -9740,7 +9828,9 @@
       "new_subscriptions": 1,
       "renewals": 2,
       "churn": 3,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 554
     }
   },
   "6449641148": {
@@ -10581,7 +10671,9 @@
       "new_subscriptions": 0,
       "renewals": 3,
       "churn": 2,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 1015
     },
     "2026-03-23": {
       "mrr": 257.11,
@@ -10599,7 +10691,9 @@
       "new_subscriptions": 0,
       "renewals": 3,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 1017
     },
     "2025-12-30": {
       "mrr": 345.46,
@@ -11346,7 +11440,9 @@
       "new_subscriptions": 2,
       "renewals": 6,
       "churn": 0,
-      "activations": 2
+      "activations": 2,
+      "trial_to_paid_rate": 200.0,
+      "churn_voluntary": 1014
     },
     "2026-03-28": {
       "mrr": 328.38,
@@ -11355,7 +11451,9 @@
       "new_subscriptions": 1,
       "renewals": 1,
       "churn": 2,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 1012
     },
     "2026-03-29": {
       "mrr": 328.15,
@@ -11364,7 +11462,9 @@
       "new_subscriptions": 0,
       "renewals": 1,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 1009
     }
   },
   "1129609742": {
@@ -11393,7 +11493,9 @@
       "new_subscriptions": 1,
       "renewals": 12,
       "churn": 1,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 50.0,
+      "churn_voluntary": 1935
     },
     "2026-03-23": {
       "mrr": 671.35,
@@ -11411,7 +11513,9 @@
       "new_subscriptions": 2,
       "renewals": 6,
       "churn": 2,
-      "activations": 2
+      "activations": 2,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 1933
     },
     "2025-12-30": {
       "mrr": 787.81,
@@ -12158,7 +12262,9 @@
       "new_subscriptions": 0,
       "renewals": 6,
       "churn": 3,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 200.0,
+      "churn_voluntary": 1930
     },
     "2026-03-28": {
       "mrr": 725.56,
@@ -12167,7 +12273,9 @@
       "new_subscriptions": 0,
       "renewals": 4,
       "churn": 2,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 1929
     },
     "2026-03-29": {
       "mrr": 709.29,
@@ -12176,7 +12284,9 @@
       "new_subscriptions": 0,
       "renewals": 5,
       "churn": 3,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 1929
     }
   },
   "1399633974": {
@@ -13008,7 +13118,9 @@
       "new_subscriptions": 7,
       "renewals": 14,
       "churn": 18,
-      "activations": 7
+      "activations": 7,
+      "trial_to_paid_rate": 100.0,
+      "churn_voluntary": 37729
     },
     "2026-03-25": {
       "mrr": 8667.31,
@@ -13017,7 +13129,9 @@
       "new_subscriptions": 4,
       "renewals": 13,
       "churn": 25,
-      "activations": 4
+      "activations": 4,
+      "trial_to_paid_rate": 30.0,
+      "churn_voluntary": 37687
     },
     "2026-03-23": {
       "mrr": 8712.84,
@@ -13035,7 +13149,9 @@
       "new_subscriptions": 6,
       "renewals": 10,
       "churn": 18,
-      "activations": 6
+      "activations": 6,
+      "trial_to_paid_rate": 33.3,
+      "churn_voluntary": 37647
     },
     "2025-12-30": {
       "mrr": 10677.16,
@@ -13782,7 +13898,9 @@
       "new_subscriptions": 4,
       "renewals": 20,
       "churn": 10,
-      "activations": 4
+      "activations": 4,
+      "trial_to_paid_rate": 41.2,
+      "churn_voluntary": 37600
     },
     "2026-03-28": {
       "mrr": 8744.68,
@@ -13791,7 +13909,9 @@
       "new_subscriptions": 5,
       "renewals": 10,
       "churn": 14,
-      "activations": 5
+      "activations": 5,
+      "trial_to_paid_rate": 25.0,
+      "churn_voluntary": 37562
     },
     "2026-03-29": {
       "mrr": 8738.92,
@@ -13800,7 +13920,9 @@
       "new_subscriptions": 5,
       "renewals": 23,
       "churn": 20,
-      "activations": 5
+      "activations": 5,
+      "trial_to_paid_rate": 50.0,
+      "churn_voluntary": 37528
     }
   },
   "1487907617": {
@@ -13820,7 +13942,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 106
     },
     "2026-03-25": {
       "mrr": 66.93,
@@ -13829,7 +13953,9 @@
       "new_subscriptions": 0,
       "renewals": 1,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 106
     },
     "2026-03-23": {
       "mrr": 66.64,
@@ -13847,7 +13973,9 @@
       "new_subscriptions": 0,
       "renewals": 2,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 106
     },
     "2025-12-30": {
       "mrr": 87.42,
@@ -14594,7 +14722,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 105
     },
     "2026-03-28": {
       "mrr": 66.46,
@@ -14603,7 +14733,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 1,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 105
     },
     "2026-03-29": {
       "mrr": 66.29,
@@ -14612,7 +14744,9 @@
       "new_subscriptions": 0,
       "renewals": 2,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 104
     }
   },
   "6758466848": {
@@ -14641,7 +14775,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 5
     },
     "2026-03-23": {
       "mrr": 21.49,
@@ -14659,7 +14795,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 5
     },
     "2026-01-31": {
       "mrr": 0.0,
@@ -15073,7 +15211,9 @@
       "new_subscriptions": 1,
       "renewals": 0,
       "churn": 0,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 5
     },
     "2026-03-28": {
       "mrr": 39.88,
@@ -15082,7 +15222,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 5
     },
     "2026-03-29": {
       "mrr": 39.84,
@@ -15091,7 +15233,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 5
     }
   },
   "594764457": {
@@ -15120,7 +15264,9 @@
       "new_subscriptions": 1,
       "renewals": 0,
       "churn": 0,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 6
     },
     "2026-03-23": {
       "mrr": 54.42,
@@ -15138,7 +15284,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 6
     },
     "2026-02-20": {
       "mrr": 0.0,
@@ -15408,7 +15556,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 6
     },
     "2026-03-28": {
       "mrr": 54.0,
@@ -15417,7 +15567,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 6
     },
     "2026-03-29": {
       "mrr": 53.91,
@@ -15426,7 +15578,9 @@
       "new_subscriptions": 0,
       "renewals": 1,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 6
     }
   },
   "6759501398": {
@@ -15455,7 +15609,9 @@
       "new_subscriptions": 0,
       "renewals": 1,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 1
     },
     "2026-03-23": {
       "mrr": 13.32,
@@ -15473,7 +15629,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 1
     },
     "2026-03-01": {
       "mrr": 0.0,
@@ -15662,7 +15820,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 1
     },
     "2026-03-28": {
       "mrr": 13.29,
@@ -15671,7 +15831,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 1
     },
     "2026-03-29": {
       "mrr": 13.27,
@@ -15680,7 +15842,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 1
     }
   },
   "6759808689": {
@@ -15709,7 +15873,9 @@
       "new_subscriptions": 5,
       "renewals": 6,
       "churn": 1,
-      "activations": 5
+      "activations": 5,
+      "trial_to_paid_rate": 250.0,
+      "churn_voluntary": 41
     },
     "2026-03-23": {
       "mrr": 303.67,
@@ -15727,7 +15893,9 @@
       "new_subscriptions": 0,
       "renewals": 5,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 41
     },
     "2026-03-05": {
       "mrr": 0.0,
@@ -15889,7 +16057,9 @@
       "new_subscriptions": 1,
       "renewals": 2,
       "churn": 0,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 50.0,
+      "churn_voluntary": 41
     },
     "2026-03-28": {
       "mrr": 373.93,
@@ -15898,7 +16068,9 @@
       "new_subscriptions": 1,
       "renewals": 0,
       "churn": 1,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 100.0,
+      "churn_voluntary": 42
     },
     "2026-03-29": {
       "mrr": 388.65,
@@ -15907,7 +16079,9 @@
       "new_subscriptions": 1,
       "renewals": 0,
       "churn": 0,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 50.0,
+      "churn_voluntary": 42
     }
   },
   "6759932194": {
@@ -15936,7 +16110,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 6
     },
     "2026-03-23": {
       "mrr": 26.94,
@@ -15954,7 +16130,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 6
     },
     "2026-03-11": {
       "mrr": 73.83,
@@ -16062,7 +16240,9 @@
       "new_subscriptions": 1,
       "renewals": 0,
       "churn": 0,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 6
     },
     "2026-03-28": {
       "mrr": 29.77,
@@ -16071,7 +16251,9 @@
       "new_subscriptions": 1,
       "renewals": 0,
       "churn": 0,
-      "activations": 1
+      "activations": 1,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 6
     },
     "2026-03-29": {
       "mrr": 29.77,
@@ -16080,7 +16262,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 6
     }
   },
   "6760623282": {
@@ -16100,7 +16284,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 0
     },
     "2026-03-26": {
       "mrr": 0.0,
@@ -16109,7 +16295,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 0
     },
     "2026-03-27": {
       "mrr": 0.0,
@@ -16118,7 +16306,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 0
     },
     "2026-03-28": {
       "mrr": 0.0,
@@ -16127,7 +16317,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 0
     },
     "2026-03-29": {
       "mrr": 0.0,
@@ -16136,7 +16328,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 0
     }
   },
   "6758317593": {
@@ -16246,7 +16440,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 4
     },
     "2026-03-28": {
       "mrr": 0.0,
@@ -16255,7 +16451,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 4
     }
   },
   "725369629": {
@@ -16347,7 +16545,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 2
     }
   },
   "6758783264": {
@@ -16522,7 +16722,9 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0.0,
+      "churn_voluntary": 0
     }
   }
 }
