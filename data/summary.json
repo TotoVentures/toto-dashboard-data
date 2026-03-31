@@ -1,5 +1,5 @@
 {
-  "sync_date": "2026-03-31T16:53:40Z",
+  "sync_date": "2026-03-31T18:56:07Z",
   "date_range": {
     "start": "2025-12-31",
     "end": "2026-03-30"
@@ -19,20 +19,20 @@
       "developer": "BVP",
       "revenue": 23434.63,
       "downloads": 14861,
-      "true_first_downloads": 840,
-      "impressions": 89017,
-      "page_views": 5558,
-      "tap_through_rate": 6.2,
-      "conversion_rate": 15.1,
-      "active_paid": 1979,
-      "active_trials": 47,
-      "trial_to_paid_rate": 50.0,
+      "true_first_downloads": 993,
+      "impressions": 99310,
+      "page_views": 5923,
+      "tap_through_rate": 6.0,
+      "conversion_rate": 16.8,
+      "active_paid": 1974,
+      "active_trials": 36,
+      "trial_to_paid_rate": 66.7,
       "mrr": 8641.92,
       "adspend": 22646.61,
       "ad_installs": 21787,
-      "installations": 39430,
-      "deletions": 1005,
-      "net_installs": 38425
+      "installations": 85863,
+      "deletions": 3511,
+      "net_installs": 82352
     },
     {
       "id": "570129169",
@@ -52,9 +52,9 @@
       "mrr": 8103.21,
       "adspend": 27678.23,
       "ad_installs": 25956,
-      "installations": 4802,
-      "deletions": 289,
-      "net_installs": 4513
+      "installations": 38360,
+      "deletions": 1496,
+      "net_installs": 36864
     },
     {
       "id": "1003684086",
@@ -74,9 +74,9 @@
       "mrr": 3968.77,
       "adspend": 0.51,
       "ad_installs": 2,
-      "installations": 364,
-      "deletions": 92,
-      "net_installs": 272
+      "installations": 10458,
+      "deletions": 527,
+      "net_installs": 9931
     },
     {
       "id": "1582983676",
@@ -96,9 +96,9 @@
       "mrr": 1659.45,
       "adspend": 400.16,
       "ad_installs": 313,
-      "installations": 2329,
-      "deletions": 250,
-      "net_installs": 2079
+      "installations": 7029,
+      "deletions": 1114,
+      "net_installs": 5915
     },
     {
       "id": "630851451",
@@ -118,9 +118,9 @@
       "mrr": 1438.42,
       "adspend": 2035.42,
       "ad_installs": 1878,
-      "installations": 70,
-      "deletions": 34,
-      "net_installs": 36
+      "installations": 492,
+      "deletions": 178,
+      "net_installs": 314
     },
     {
       "id": "880790176",
@@ -140,9 +140,9 @@
       "mrr": 665.06,
       "adspend": 647.26,
       "ad_installs": 496,
-      "installations": 2621,
-      "deletions": 28,
-      "net_installs": 2593
+      "installations": 2992,
+      "deletions": 146,
+      "net_installs": 2846
     },
     {
       "id": "1129609742",
@@ -162,9 +162,9 @@
       "mrr": 708.3,
       "adspend": 18.88,
       "ad_installs": 7,
-      "installations": 63,
-      "deletions": 31,
-      "net_installs": 32
+      "installations": 523,
+      "deletions": 226,
+      "net_installs": 297
     },
     {
       "id": "1015935781",
@@ -184,9 +184,9 @@
       "mrr": 549.92,
       "adspend": 0,
       "ad_installs": 0,
-      "installations": 187,
-      "deletions": 21,
-      "net_installs": 166
+      "installations": 5276,
+      "deletions": 158,
+      "net_installs": 5118
     },
     {
       "id": "6670757865",
@@ -206,9 +206,9 @@
       "mrr": 577.79,
       "adspend": 88.85,
       "ad_installs": 46,
-      "installations": 275,
-      "deletions": 21,
-      "net_installs": 254
+      "installations": 952,
+      "deletions": 108,
+      "net_installs": 844
     },
     {
       "id": "1356249212",
@@ -228,9 +228,9 @@
       "mrr": 279.26,
       "adspend": 204.67,
       "ad_installs": 123,
-      "installations": 0,
-      "deletions": 0,
-      "net_installs": 0
+      "installations": 28,
+      "deletions": 17,
+      "net_installs": 11
     },
     {
       "id": "810713114",
@@ -250,9 +250,9 @@
       "mrr": 327.82,
       "adspend": 0,
       "ad_installs": 0,
-      "installations": 49,
-      "deletions": 12,
-      "net_installs": 37
+      "installations": 1385,
+      "deletions": 71,
+      "net_installs": 1314
     },
     {
       "id": "6557028325",
@@ -272,9 +272,9 @@
       "mrr": 219.12,
       "adspend": 145.8,
       "ad_installs": 92,
-      "installations": 8,
-      "deletions": 4,
-      "net_installs": 4
+      "installations": 40,
+      "deletions": 19,
+      "net_installs": 21
     },
     {
       "id": "6759808689",
@@ -294,9 +294,9 @@
       "mrr": 388.61,
       "adspend": 20.84,
       "ad_installs": 14,
-      "installations": 10,
-      "deletions": 8,
-      "net_installs": 2
+      "installations": 114,
+      "deletions": 48,
+      "net_installs": 66
     },
     {
       "id": "594764457",
@@ -316,9 +316,9 @@
       "mrr": 53.84,
       "adspend": 15.91,
       "ad_installs": 4,
-      "installations": 1003,
-      "deletions": 24,
-      "net_installs": 979
+      "installations": 2819,
+      "deletions": 116,
+      "net_installs": 2703
     },
     {
       "id": "1213054524",
@@ -349,11 +349,11 @@
       "developer": "BVP",
       "revenue": 255.63,
       "downloads": 155,
-      "true_first_downloads": 9,
-      "impressions": 1694,
-      "page_views": 62,
-      "tap_through_rate": 3.7,
-      "conversion_rate": 14.5,
+      "true_first_downloads": 10,
+      "impressions": 1855,
+      "page_views": 63,
+      "tap_through_rate": 3.4,
+      "conversion_rate": 15.9,
       "active_paid": 12,
       "active_trials": 0,
       "trial_to_paid_rate": 0,
@@ -404,9 +404,9 @@
       "mrr": 29.77,
       "adspend": 28.18,
       "ad_installs": 22,
-      "installations": 0,
-      "deletions": 0,
-      "net_installs": 0
+      "installations": 17,
+      "deletions": 8,
+      "net_installs": 9
     },
     {
       "id": "6502181178",
@@ -602,9 +602,9 @@
       "mrr": 18.66,
       "adspend": 79.74,
       "ad_installs": 0,
-      "installations": 0,
+      "installations": 6,
       "deletions": 0,
-      "net_installs": 0
+      "net_installs": 6
     },
     {
       "id": "907775601",
@@ -800,9 +800,9 @@
       "mrr": 21.33,
       "adspend": 161.79,
       "ad_installs": 37,
-      "installations": 0,
+      "installations": 5,
       "deletions": 0,
-      "net_installs": 0
+      "net_installs": 5
     },
     {
       "id": "868434888",
@@ -1559,11 +1559,11 @@
       "developer": "BVP",
       "revenue": 0.0,
       "downloads": 63,
-      "true_first_downloads": 55,
-      "impressions": 2102,
-      "page_views": 238,
-      "tap_through_rate": 11.3,
-      "conversion_rate": 23.1,
+      "true_first_downloads": 61,
+      "impressions": 2318,
+      "page_views": 265,
+      "tap_through_rate": 11.4,
+      "conversion_rate": 23.0,
       "active_paid": 0,
       "active_trials": 0,
       "trial_to_paid_rate": 0,

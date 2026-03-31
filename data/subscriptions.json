@@ -13922,7 +13922,9 @@
       "new_subscriptions": 3,
       "renewals": 18,
       "churn": 28,
-      "activations": 3
+      "activations": 3,
+      "trial_to_paid_rate": 66.7,
+      "churn_voluntary": 37500
     }
   },
   "1487907617": {
@@ -14746,7 +14748,9 @@
       "new_subscriptions": 0,
       "renewals": 1,
       "churn": 0,
-      "activations": 0
+      "activations": 0,
+      "trial_to_paid_rate": 0,
+      "churn_voluntary": 104
     }
   },
   "6758466848": {

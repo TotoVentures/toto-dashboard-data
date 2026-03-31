@@ -257,6 +257,49 @@
           "churn": 7
         }
       }
+    },
+    "2026-03-30": {
+      "active_paid": 1974,
+      "active_trial": 36,
+      "voluntary_churn": 37500,
+      "trial_starts": 6,
+      "paid_conversions": 4,
+      "trial_to_paid_rate": 66.7,
+      "by_plan": {
+        "Reverse Videos 1 Month": {
+          "active_paid": 22,
+          "active_trial": 0,
+          "churn": 1009
+        },
+        "Reverse Videos 1 Year": {
+          "active_paid": 1733,
+          "active_trial": 1,
+          "churn": 31818,
+          "paid_share": 5.2
+        },
+        "Reverse Video 1 Week Test A": {
+          "active_paid": 15,
+          "active_trial": 0,
+          "churn": 16
+        },
+        "Reverse Videos 1 week": {
+          "active_paid": 95,
+          "active_trial": 9,
+          "churn": 3970,
+          "paid_share": 2.3
+        },
+        "Annual Offer": {
+          "active_paid": 6,
+          "active_trial": 0,
+          "churn": 7
+        },
+        "Reverse Video 1 Year Test A": {
+          "active_paid": 103,
+          "active_trial": 26,
+          "churn": 680,
+          "paid_share": 12.7
+        }
+      }
     }
   },
   "1487907617": {
@@ -435,6 +478,36 @@
         },
         "1 Month": {
           "active_paid": 1,
+          "active_trial": 0,
+          "churn": 2
+        }
+      }
+    },
+    "2026-03-30": {
+      "active_paid": 12,
+      "active_trial": 0,
+      "voluntary_churn": 104,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {
+        "1 Week": {
+          "active_paid": 4,
+          "active_trial": 0,
+          "churn": 93
+        },
+        "1 Year": {
+          "active_paid": 7,
+          "active_trial": 0,
+          "churn": 7
+        },
+        "1 Month": {
+          "active_paid": 1,
+          "active_trial": 0,
+          "churn": 2
+        },
+        "6 Months": {
+          "active_paid": 0,
           "active_trial": 0,
           "churn": 2
         }
