@@ -2953,15 +2953,15 @@
       "redownloads": 20
     },
     "2026-03-31": {
-      "spend": 64.04,
+      "spend": 65.15,
       "impressions": 517,
       "taps": 68,
-      "installs": 71,
-      "new_downloads": 52,
+      "installs": 70,
+      "new_downloads": 51,
       "redownloads": 19
     },
     "2026-04-01": {
-      "spend": 51.54,
+      "spend": 52.29,
       "impressions": 462,
       "taps": 59,
       "installs": 52,
@@ -2969,23 +2969,23 @@
       "redownloads": 16
     },
     "2026-04-02": {
-      "spend": 62.3,
+      "spend": 63.37,
       "impressions": 609,
       "taps": 72,
-      "installs": 61,
+      "installs": 60,
       "new_downloads": 40,
-      "redownloads": 21
+      "redownloads": 20
     },
     "2026-04-03": {
-      "spend": 89.01,
-      "impressions": 777,
+      "spend": 90.64,
+      "impressions": 776,
       "taps": 93,
       "installs": 81,
       "new_downloads": 57,
       "redownloads": 24
     },
     "2026-04-04": {
-      "spend": 120.45,
+      "spend": 122.67,
       "impressions": 1038,
       "taps": 130,
       "installs": 118,
@@ -2993,7 +2993,7 @@
       "redownloads": 35
     },
     "2026-04-05": {
-      "spend": 110.66,
+      "spend": 112.74,
       "impressions": 895,
       "taps": 120,
       "installs": 97,
@@ -3001,7 +3001,7 @@
       "redownloads": 35
     },
     "2026-04-06": {
-      "spend": 53.46,
+      "spend": 54.37,
       "impressions": 721,
       "taps": 63,
       "installs": 57,
@@ -3009,7 +3009,7 @@
       "redownloads": 16
     },
     "2026-04-07": {
-      "spend": 59.07,
+      "spend": 59.92,
       "impressions": 778,
       "taps": 63,
       "installs": 60,
@@ -3017,15 +3017,15 @@
       "redownloads": 20
     },
     "2026-04-08": {
-      "spend": 63.06,
+      "spend": 63.82,
       "impressions": 724,
       "taps": 71,
-      "installs": 70,
-      "new_downloads": 51,
+      "installs": 69,
+      "new_downloads": 50,
       "redownloads": 19
     },
     "2026-04-09": {
-      "spend": 66.16,
+      "spend": 66.84,
       "impressions": 957,
       "taps": 71,
       "installs": 62,
@@ -3033,7 +3033,7 @@
       "redownloads": 22
     },
     "2026-04-10": {
-      "spend": 72.79,
+      "spend": 73.58,
       "impressions": 822,
       "taps": 78,
       "installs": 68,
@@ -3041,7 +3041,7 @@
       "redownloads": 24
     },
     "2026-04-11": {
-      "spend": 126.48,
+      "spend": 127.83,
       "impressions": 1271,
       "taps": 130,
       "installs": 109,
@@ -3049,15 +3049,15 @@
       "redownloads": 33
     },
     "2026-04-12": {
-      "spend": 78.6,
+      "spend": 79.64,
       "impressions": 913,
       "taps": 83,
-      "installs": 79,
-      "new_downloads": 57,
+      "installs": 78,
+      "new_downloads": 56,
       "redownloads": 22
     },
     "2026-04-13": {
-      "spend": 52.33,
+      "spend": 52.79,
       "impressions": 675,
       "taps": 54,
       "installs": 46,
@@ -3065,7 +3065,7 @@
       "redownloads": 12
     },
     "2026-04-14": {
-      "spend": 55.9,
+      "spend": 56.22,
       "impressions": 727,
       "taps": 68,
       "installs": 53,
@@ -3073,24 +3073,24 @@
       "redownloads": 19
     },
     "2026-04-15": {
-      "spend": 60.72,
+      "spend": 60.98,
       "impressions": 759,
       "taps": 65,
-      "installs": 67,
-      "new_downloads": 46,
+      "installs": 66,
+      "new_downloads": 45,
       "redownloads": 21
     },
     "2026-04-16": {
-      "spend": 56.64,
+      "spend": 56.75,
       "impressions": 952,
       "taps": 69,
-      "installs": 55,
-      "new_downloads": 40,
+      "installs": 54,
+      "new_downloads": 39,
       "redownloads": 15
     },
     "2026-04-17": {
-      "spend": 124.4,
-      "impressions": 1465,
+      "spend": 124.38,
+      "impressions": 1464,
       "taps": 128,
       "installs": 112,
       "new_downloads": 84,
@@ -6043,7 +6043,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 1.33,
+      "spend": 1.36,
       "impressions": 29,
       "taps": 2,
       "installs": 2,
@@ -6051,7 +6051,7 @@
       "redownloads": 0
     },
     "2026-04-01": {
-      "spend": 2.21,
+      "spend": 2.24,
       "impressions": 27,
       "taps": 3,
       "installs": 0,
@@ -6059,7 +6059,7 @@
       "redownloads": 0
     },
     "2026-04-02": {
-      "spend": 0.82,
+      "spend": 0.83,
       "impressions": 16,
       "taps": 1,
       "installs": 0,
@@ -6075,7 +6075,7 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 4.08,
+      "spend": 4.15,
       "impressions": 34,
       "taps": 5,
       "installs": 2,
@@ -6083,7 +6083,7 @@
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 1.9,
+      "spend": 1.94,
       "impressions": 60,
       "taps": 2,
       "installs": 1,
@@ -6091,7 +6091,7 @@
       "redownloads": 0
     },
     "2026-04-06": {
-      "spend": 3.84,
+      "spend": 3.91,
       "impressions": 63,
       "taps": 5,
       "installs": 3,
@@ -6099,7 +6099,7 @@
       "redownloads": 0
     },
     "2026-04-07": {
-      "spend": 1.03,
+      "spend": 1.04,
       "impressions": 24,
       "taps": 1,
       "installs": 0,
@@ -6107,7 +6107,7 @@
       "redownloads": 0
     },
     "2026-04-08": {
-      "spend": 0.35,
+      "spend": 0.36,
       "impressions": 35,
       "taps": 1,
       "installs": 0,
@@ -6115,7 +6115,7 @@
       "redownloads": 0
     },
     "2026-04-09": {
-      "spend": 1.0,
+      "spend": 1.01,
       "impressions": 21,
       "taps": 1,
       "installs": 0,
@@ -6123,7 +6123,7 @@
       "redownloads": 0
     },
     "2026-04-10": {
-      "spend": 1.4,
+      "spend": 1.41,
       "impressions": 29,
       "taps": 2,
       "installs": 1,
@@ -6131,7 +6131,7 @@
       "redownloads": 0
     },
     "2026-04-11": {
-      "spend": 1.86,
+      "spend": 1.88,
       "impressions": 49,
       "taps": 2,
       "installs": 1,
@@ -6139,7 +6139,7 @@
       "redownloads": 0
     },
     "2026-04-12": {
-      "spend": 2.86,
+      "spend": 2.9,
       "impressions": 42,
       "taps": 4,
       "installs": 2,
@@ -6147,7 +6147,7 @@
       "redownloads": 0
     },
     "2026-04-13": {
-      "spend": 0.68,
+      "spend": 0.69,
       "impressions": 67,
       "taps": 3,
       "installs": 3,
@@ -6163,7 +6163,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 1.22,
+      "spend": 1.23,
       "impressions": 40,
       "taps": 2,
       "installs": 1,
@@ -8237,7 +8237,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 0.93,
+      "spend": 0.95,
       "impressions": 9,
       "taps": 1,
       "installs": 1,
@@ -8253,7 +8253,7 @@
       "redownloads": 0
     },
     "2026-04-02": {
-      "spend": 1.34,
+      "spend": 1.36,
       "impressions": 7,
       "taps": 2,
       "installs": 1,
@@ -8261,7 +8261,7 @@
       "redownloads": 0
     },
     "2026-04-03": {
-      "spend": 0.66,
+      "spend": 0.68,
       "impressions": 10,
       "taps": 1,
       "installs": 0,
@@ -8269,7 +8269,7 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 1.14,
+      "spend": 1.16,
       "impressions": 14,
       "taps": 2,
       "installs": 2,
@@ -8277,7 +8277,7 @@
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 1.36,
+      "spend": 1.39,
       "impressions": 12,
       "taps": 2,
       "installs": 1,
@@ -8285,7 +8285,7 @@
       "redownloads": 0
     },
     "2026-04-06": {
-      "spend": 0.47,
+      "spend": 0.48,
       "impressions": 6,
       "taps": 1,
       "installs": 1,
@@ -8317,7 +8317,7 @@
       "redownloads": 0
     },
     "2026-04-10": {
-      "spend": 0.91,
+      "spend": 0.92,
       "impressions": 8,
       "taps": 1,
       "installs": 0,
@@ -8357,7 +8357,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 0.82,
+      "spend": 0.83,
       "impressions": 9,
       "taps": 1,
       "installs": 0,
@@ -13713,7 +13713,7 @@
       "redownloads": 1
     },
     "2026-03-31": {
-      "spend": 2.92,
+      "spend": 2.98,
       "impressions": 69,
       "taps": 4,
       "installs": 4,
@@ -13721,7 +13721,7 @@
       "redownloads": 0
     },
     "2026-04-01": {
-      "spend": 8.14,
+      "spend": 8.26,
       "impressions": 59,
       "taps": 8,
       "installs": 10,
@@ -13729,7 +13729,7 @@
       "redownloads": 4
     },
     "2026-04-02": {
-      "spend": 4.03,
+      "spend": 4.1,
       "impressions": 74,
       "taps": 6,
       "installs": 3,
@@ -13737,7 +13737,7 @@
       "redownloads": 1
     },
     "2026-04-03": {
-      "spend": 4.19,
+      "spend": 4.27,
       "impressions": 63,
       "taps": 4,
       "installs": 3,
@@ -13745,15 +13745,15 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 5.94,
+      "spend": 6.05,
       "impressions": 74,
       "taps": 9,
-      "installs": 6,
-      "new_downloads": 6,
+      "installs": 5,
+      "new_downloads": 5,
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 1.27,
+      "spend": 1.29,
       "impressions": 67,
       "taps": 4,
       "installs": 3,
@@ -13761,7 +13761,7 @@
       "redownloads": 1
     },
     "2026-04-06": {
-      "spend": 5.35,
+      "spend": 5.44,
       "impressions": 87,
       "taps": 6,
       "installs": 3,
@@ -13769,7 +13769,7 @@
       "redownloads": 0
     },
     "2026-04-07": {
-      "spend": 2.21,
+      "spend": 2.24,
       "impressions": 73,
       "taps": 5,
       "installs": 4,
@@ -13777,7 +13777,7 @@
       "redownloads": 1
     },
     "2026-04-08": {
-      "spend": 2.54,
+      "spend": 2.57,
       "impressions": 91,
       "taps": 5,
       "installs": 2,
@@ -13785,7 +13785,7 @@
       "redownloads": 1
     },
     "2026-04-09": {
-      "spend": 2.07,
+      "spend": 2.09,
       "impressions": 46,
       "taps": 4,
       "installs": 5,
@@ -13793,7 +13793,7 @@
       "redownloads": 1
     },
     "2026-04-10": {
-      "spend": 5.01,
+      "spend": 5.07,
       "impressions": 76,
       "taps": 6,
       "installs": 4,
@@ -13801,7 +13801,7 @@
       "redownloads": 0
     },
     "2026-04-11": {
-      "spend": 4.19,
+      "spend": 4.24,
       "impressions": 63,
       "taps": 4,
       "installs": 3,
@@ -13809,7 +13809,7 @@
       "redownloads": 1
     },
     "2026-04-12": {
-      "spend": 6.25,
+      "spend": 6.33,
       "impressions": 55,
       "taps": 7,
       "installs": 3,
@@ -13817,7 +13817,7 @@
       "redownloads": 1
     },
     "2026-04-13": {
-      "spend": 2.59,
+      "spend": 2.62,
       "impressions": 72,
       "taps": 5,
       "installs": 6,
@@ -13825,7 +13825,7 @@
       "redownloads": 0
     },
     "2026-04-14": {
-      "spend": 3.6,
+      "spend": 3.62,
       "impressions": 53,
       "taps": 4,
       "installs": 4,
@@ -13833,7 +13833,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 5.67,
+      "spend": 5.7,
       "impressions": 46,
       "taps": 8,
       "installs": 6,
@@ -13841,7 +13841,7 @@
       "redownloads": 3
     },
     "2026-04-16": {
-      "spend": 2.0,
+      "spend": 2.01,
       "impressions": 66,
       "taps": 3,
       "installs": 3,
@@ -16819,7 +16819,7 @@
       "redownloads": 19
     },
     "2026-03-31": {
-      "spend": 48.32,
+      "spend": 49.16,
       "impressions": 998,
       "taps": 62,
       "installs": 46,
@@ -16827,23 +16827,23 @@
       "redownloads": 8
     },
     "2026-04-01": {
-      "spend": 43.65,
+      "spend": 44.29,
       "impressions": 768,
       "taps": 59,
-      "installs": 51,
+      "installs": 50,
       "new_downloads": 38,
-      "redownloads": 13
+      "redownloads": 12
     },
     "2026-04-02": {
-      "spend": 40.38,
-      "impressions": 846,
+      "spend": 41.07,
+      "impressions": 845,
       "taps": 48,
       "installs": 42,
       "new_downloads": 26,
       "redownloads": 16
     },
     "2026-04-03": {
-      "spend": 44.95,
+      "spend": 45.77,
       "impressions": 894,
       "taps": 56,
       "installs": 37,
@@ -16851,7 +16851,7 @@
       "redownloads": 14
     },
     "2026-04-04": {
-      "spend": 46.94,
+      "spend": 47.8,
       "impressions": 1006,
       "taps": 54,
       "installs": 38,
@@ -16859,7 +16859,7 @@
       "redownloads": 8
     },
     "2026-04-05": {
-      "spend": 44.38,
+      "spend": 45.22,
       "impressions": 1225,
       "taps": 57,
       "installs": 46,
@@ -16867,7 +16867,7 @@
       "redownloads": 13
     },
     "2026-04-06": {
-      "spend": 59.01,
+      "spend": 60.01,
       "impressions": 1007,
       "taps": 61,
       "installs": 52,
@@ -16875,7 +16875,7 @@
       "redownloads": 10
     },
     "2026-04-07": {
-      "spend": 62.21,
+      "spend": 63.1,
       "impressions": 1199,
       "taps": 67,
       "installs": 41,
@@ -16883,7 +16883,7 @@
       "redownloads": 13
     },
     "2026-04-08": {
-      "spend": 40.58,
+      "spend": 41.07,
       "impressions": 1201,
       "taps": 41,
       "installs": 37,
@@ -16891,31 +16891,31 @@
       "redownloads": 8
     },
     "2026-04-09": {
-      "spend": 49.09,
-      "impressions": 1153,
+      "spend": 49.59,
+      "impressions": 1154,
       "taps": 51,
       "installs": 34,
       "new_downloads": 25,
       "redownloads": 9
     },
     "2026-04-10": {
-      "spend": 46.18,
+      "spend": 46.68,
       "impressions": 1169,
       "taps": 50,
-      "installs": 38,
-      "new_downloads": 29,
+      "installs": 36,
+      "new_downloads": 27,
       "redownloads": 9
     },
     "2026-04-11": {
-      "spend": 50.49,
+      "spend": 51.03,
       "impressions": 1363,
       "taps": 55,
-      "installs": 43,
-      "new_downloads": 29,
-      "redownloads": 14
+      "installs": 41,
+      "new_downloads": 28,
+      "redownloads": 13
     },
     "2026-04-12": {
-      "spend": 54.08,
+      "spend": 54.8,
       "impressions": 1736,
       "taps": 69,
       "installs": 47,
@@ -16923,15 +16923,15 @@
       "redownloads": 9
     },
     "2026-04-13": {
-      "spend": 45.08,
+      "spend": 45.48,
       "impressions": 1083,
       "taps": 52,
-      "installs": 33,
-      "new_downloads": 26,
+      "installs": 34,
+      "new_downloads": 27,
       "redownloads": 7
     },
     "2026-04-14": {
-      "spend": 37.8,
+      "spend": 38.02,
       "impressions": 1147,
       "taps": 44,
       "installs": 32,
@@ -16939,7 +16939,7 @@
       "redownloads": 8
     },
     "2026-04-15": {
-      "spend": 42.12,
+      "spend": 42.3,
       "impressions": 980,
       "taps": 52,
       "installs": 39,
@@ -16947,16 +16947,16 @@
       "redownloads": 9
     },
     "2026-04-16": {
-      "spend": 51.28,
-      "impressions": 1523,
+      "spend": 51.38,
+      "impressions": 1522,
       "taps": 50,
       "installs": 41,
       "new_downloads": 33,
       "redownloads": 8
     },
     "2026-04-17": {
-      "spend": 72.64,
-      "impressions": 1791,
+      "spend": 72.62,
+      "impressions": 1792,
       "taps": 71,
       "installs": 40,
       "new_downloads": 31,
@@ -17945,7 +17945,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 1.14,
+      "spend": 1.16,
       "impressions": 65,
       "taps": 1,
       "installs": 0,
@@ -17961,7 +17961,7 @@
       "redownloads": 0
     },
     "2026-04-02": {
-      "spend": 0.93,
+      "spend": 0.94,
       "impressions": 94,
       "taps": 1,
       "installs": 0,
@@ -17969,7 +17969,7 @@
       "redownloads": 0
     },
     "2026-04-03": {
-      "spend": 1.17,
+      "spend": 1.19,
       "impressions": 120,
       "taps": 1,
       "installs": 1,
@@ -17977,7 +17977,7 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 2.5,
+      "spend": 2.54,
       "impressions": 106,
       "taps": 2,
       "installs": 1,
@@ -17985,7 +17985,7 @@
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 3.97,
+      "spend": 4.05,
       "impressions": 50,
       "taps": 4,
       "installs": 1,
@@ -17993,7 +17993,7 @@
       "redownloads": 0
     },
     "2026-04-06": {
-      "spend": 0.88,
+      "spend": 0.9,
       "impressions": 67,
       "taps": 1,
       "installs": 0,
@@ -18009,7 +18009,7 @@
       "redownloads": 0
     },
     "2026-04-08": {
-      "spend": 1.33,
+      "spend": 1.35,
       "impressions": 71,
       "taps": 1,
       "installs": 0,
@@ -18025,7 +18025,7 @@
       "redownloads": 0
     },
     "2026-04-10": {
-      "spend": 1.11,
+      "spend": 1.12,
       "impressions": 117,
       "taps": 1,
       "installs": 0,
@@ -18033,7 +18033,7 @@
       "redownloads": 0
     },
     "2026-04-11": {
-      "spend": 1.27,
+      "spend": 1.28,
       "impressions": 148,
       "taps": 1,
       "installs": 0,
@@ -18041,7 +18041,7 @@
       "redownloads": 0
     },
     "2026-04-12": {
-      "spend": 0.31,
+      "spend": 0.32,
       "impressions": 121,
       "taps": 1,
       "installs": 0,
@@ -18049,7 +18049,7 @@
       "redownloads": 0
     },
     "2026-04-13": {
-      "spend": 1.03,
+      "spend": 1.04,
       "impressions": 53,
       "taps": 1,
       "installs": 0,
@@ -18057,7 +18057,7 @@
       "redownloads": 0
     },
     "2026-04-14": {
-      "spend": 1.63,
+      "spend": 1.64,
       "impressions": 69,
       "taps": 2,
       "installs": 0,
@@ -18065,7 +18065,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 2.95,
+      "spend": 2.96,
       "impressions": 75,
       "taps": 3,
       "installs": 0,
@@ -18073,7 +18073,7 @@
       "redownloads": 0
     },
     "2026-04-16": {
-      "spend": 1.2,
+      "spend": 1.21,
       "impressions": 130,
       "taps": 1,
       "installs": 0,
@@ -18081,7 +18081,7 @@
       "redownloads": 0
     },
     "2026-04-17": {
-      "spend": 6.13,
+      "spend": 6.12,
       "impressions": 158,
       "taps": 5,
       "installs": 0,
@@ -18761,7 +18761,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 0.84,
+      "spend": 0.86,
       "impressions": 420,
       "taps": 2,
       "installs": 0,
@@ -18769,7 +18769,7 @@
       "redownloads": 0
     },
     "2026-04-01": {
-      "spend": 0.61,
+      "spend": 0.62,
       "impressions": 282,
       "taps": 2,
       "installs": 0,
@@ -18777,7 +18777,7 @@
       "redownloads": 0
     },
     "2026-04-02": {
-      "spend": 2.18,
+      "spend": 2.22,
       "impressions": 226,
       "taps": 4,
       "installs": 1,
@@ -18785,7 +18785,7 @@
       "redownloads": 0
     },
     "2026-04-03": {
-      "spend": 0.54,
+      "spend": 0.55,
       "impressions": 282,
       "taps": 1,
       "installs": 1,
@@ -18793,7 +18793,7 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 0.57,
+      "spend": 0.58,
       "impressions": 127,
       "taps": 2,
       "installs": 0,
@@ -18809,7 +18809,7 @@
       "redownloads": 0
     },
     "2026-04-06": {
-      "spend": 1.16,
+      "spend": 1.18,
       "impressions": 281,
       "taps": 5,
       "installs": 2,
@@ -18817,7 +18817,7 @@
       "redownloads": 0
     },
     "2026-04-07": {
-      "spend": 4.62,
+      "spend": 4.69,
       "impressions": 450,
       "taps": 8,
       "installs": 3,
@@ -18825,7 +18825,7 @@
       "redownloads": 0
     },
     "2026-04-08": {
-      "spend": 4.92,
+      "spend": 4.98,
       "impressions": 379,
       "taps": 8,
       "installs": 1,
@@ -18833,7 +18833,7 @@
       "redownloads": 0
     },
     "2026-04-09": {
-      "spend": 1.87,
+      "spend": 1.89,
       "impressions": 350,
       "taps": 3,
       "installs": 0,
@@ -18841,7 +18841,7 @@
       "redownloads": 0
     },
     "2026-04-10": {
-      "spend": 4.29,
+      "spend": 4.34,
       "impressions": 184,
       "taps": 4,
       "installs": 2,
@@ -18849,7 +18849,7 @@
       "redownloads": 0
     },
     "2026-04-11": {
-      "spend": 4.54,
+      "spend": 4.59,
       "impressions": 150,
       "taps": 4,
       "installs": 0,
@@ -18857,7 +18857,7 @@
       "redownloads": 0
     },
     "2026-04-12": {
-      "spend": 1.44,
+      "spend": 1.46,
       "impressions": 184,
       "taps": 4,
       "installs": 1,
@@ -18865,7 +18865,7 @@
       "redownloads": 0
     },
     "2026-04-13": {
-      "spend": 5.87,
+      "spend": 5.92,
       "impressions": 286,
       "taps": 6,
       "installs": 4,
@@ -18873,7 +18873,7 @@
       "redownloads": 0
     },
     "2026-04-14": {
-      "spend": 5.7,
+      "spend": 5.73,
       "impressions": 326,
       "taps": 9,
       "installs": 3,
@@ -18881,7 +18881,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 7.34,
+      "spend": 7.37,
       "impressions": 408,
       "taps": 7,
       "installs": 4,
@@ -18889,7 +18889,7 @@
       "redownloads": 1
     },
     "2026-04-16": {
-      "spend": 4.56,
+      "spend": 4.57,
       "impressions": 172,
       "taps": 5,
       "installs": 1,
@@ -19179,7 +19179,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 1.68,
+      "spend": 1.71,
       "impressions": 61,
       "taps": 3,
       "installs": 1,
@@ -19187,7 +19187,7 @@
       "redownloads": 0
     },
     "2026-04-01": {
-      "spend": 4.62,
+      "spend": 4.69,
       "impressions": 47,
       "taps": 7,
       "installs": 5,
@@ -19195,7 +19195,7 @@
       "redownloads": 0
     },
     "2026-04-02": {
-      "spend": 12.5,
+      "spend": 12.72,
       "impressions": 55,
       "taps": 17,
       "installs": 14,
@@ -19203,7 +19203,7 @@
       "redownloads": 1
     },
     "2026-04-03": {
-      "spend": 7.54,
+      "spend": 7.68,
       "impressions": 45,
       "taps": 10,
       "installs": 10,
@@ -19211,7 +19211,7 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 3.71,
+      "spend": 3.78,
       "impressions": 46,
       "taps": 7,
       "installs": 3,
@@ -19219,15 +19219,15 @@
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 5.89,
+      "spend": 6.0,
       "impressions": 79,
       "taps": 10,
-      "installs": 7,
-      "new_downloads": 6,
+      "installs": 6,
+      "new_downloads": 5,
       "redownloads": 1
     },
     "2026-04-06": {
-      "spend": 7.23,
+      "spend": 7.35,
       "impressions": 60,
       "taps": 12,
       "installs": 9,
@@ -19235,7 +19235,7 @@
       "redownloads": 0
     },
     "2026-04-07": {
-      "spend": 7.34,
+      "spend": 7.44,
       "impressions": 60,
       "taps": 10,
       "installs": 10,
@@ -19243,7 +19243,7 @@
       "redownloads": 2
     },
     "2026-04-08": {
-      "spend": 7.37,
+      "spend": 7.45,
       "impressions": 74,
       "taps": 11,
       "installs": 8,
@@ -19251,7 +19251,7 @@
       "redownloads": 1
     },
     "2026-04-09": {
-      "spend": 8.18,
+      "spend": 8.26,
       "impressions": 70,
       "taps": 13,
       "installs": 8,
@@ -19259,15 +19259,15 @@
       "redownloads": 1
     },
     "2026-04-10": {
-      "spend": 6.72,
-      "impressions": 69,
+      "spend": 6.79,
+      "impressions": 70,
       "taps": 10,
       "installs": 6,
       "new_downloads": 5,
       "redownloads": 1
     },
     "2026-04-11": {
-      "spend": 9.18,
+      "spend": 9.28,
       "impressions": 78,
       "taps": 12,
       "installs": 13,
@@ -19275,7 +19275,7 @@
       "redownloads": 1
     },
     "2026-04-12": {
-      "spend": 5.39,
+      "spend": 5.46,
       "impressions": 72,
       "taps": 9,
       "installs": 4,
@@ -19283,7 +19283,7 @@
       "redownloads": 0
     },
     "2026-04-13": {
-      "spend": 5.04,
+      "spend": 5.09,
       "impressions": 64,
       "taps": 8,
       "installs": 7,
@@ -19291,7 +19291,7 @@
       "redownloads": 0
     },
     "2026-04-14": {
-      "spend": 5.71,
+      "spend": 5.75,
       "impressions": 51,
       "taps": 9,
       "installs": 9,
@@ -19299,7 +19299,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 4.24,
+      "spend": 4.26,
       "impressions": 62,
       "taps": 6,
       "installs": 4,
@@ -19307,15 +19307,15 @@
       "redownloads": 1
     },
     "2026-04-16": {
-      "spend": 6.84,
+      "spend": 6.85,
       "impressions": 68,
       "taps": 10,
-      "installs": 10,
-      "new_downloads": 9,
+      "installs": 9,
+      "new_downloads": 8,
       "redownloads": 1
     },
     "2026-04-17": {
-      "spend": 9.51,
+      "spend": 9.5,
       "impressions": 74,
       "taps": 13,
       "installs": 11,
@@ -19565,7 +19565,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 4.55,
+      "spend": 4.63,
       "impressions": 49,
       "taps": 4,
       "installs": 5,
@@ -19573,7 +19573,7 @@
       "redownloads": 0
     },
     "2026-04-01": {
-      "spend": 5.68,
+      "spend": 5.76,
       "impressions": 27,
       "taps": 5,
       "installs": 3,
@@ -19581,7 +19581,7 @@
       "redownloads": 0
     },
     "2026-04-02": {
-      "spend": 1.28,
+      "spend": 1.3,
       "impressions": 31,
       "taps": 2,
       "installs": 2,
@@ -19597,7 +19597,7 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 0.98,
+      "spend": 1.0,
       "impressions": 13,
       "taps": 1,
       "installs": 1,
@@ -19605,7 +19605,7 @@
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 3.18,
+      "spend": 3.24,
       "impressions": 25,
       "taps": 3,
       "installs": 3,
@@ -19613,7 +19613,7 @@
       "redownloads": 0
     },
     "2026-04-06": {
-      "spend": 2.21,
+      "spend": 2.25,
       "impressions": 30,
       "taps": 2,
       "installs": 2,
@@ -19621,7 +19621,7 @@
       "redownloads": 0
     },
     "2026-04-07": {
-      "spend": 1.0,
+      "spend": 1.01,
       "impressions": 24,
       "taps": 1,
       "installs": 2,
@@ -19629,7 +19629,7 @@
       "redownloads": 0
     },
     "2026-04-08": {
-      "spend": 1.26,
+      "spend": 1.28,
       "impressions": 20,
       "taps": 1,
       "installs": 1,
@@ -19645,11 +19645,11 @@
       "redownloads": 0
     },
     "2026-04-10": {
-      "spend": 3.43,
+      "spend": 3.47,
       "impressions": 23,
       "taps": 3,
-      "installs": 4,
-      "new_downloads": 4,
+      "installs": 3,
+      "new_downloads": 3,
       "redownloads": 0
     },
     "2026-04-11": {
@@ -19661,7 +19661,7 @@
       "redownloads": 0
     },
     "2026-04-12": {
-      "spend": 1.04,
+      "spend": 1.05,
       "impressions": 21,
       "taps": 1,
       "installs": 1,
@@ -19669,7 +19669,7 @@
       "redownloads": 0
     },
     "2026-04-13": {
-      "spend": 5.97,
+      "spend": 6.02,
       "impressions": 52,
       "taps": 5,
       "installs": 2,
@@ -19677,7 +19677,7 @@
       "redownloads": 0
     },
     "2026-04-14": {
-      "spend": 9.08,
+      "spend": 9.13,
       "impressions": 40,
       "taps": 8,
       "installs": 1,
@@ -19685,7 +19685,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 5.31,
+      "spend": 5.33,
       "impressions": 65,
       "taps": 5,
       "installs": 6,
@@ -19693,7 +19693,7 @@
       "redownloads": 1
     },
     "2026-04-16": {
-      "spend": 9.15,
+      "spend": 9.17,
       "impressions": 55,
       "taps": 8,
       "installs": 5,
@@ -19943,7 +19943,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 2.82,
+      "spend": 2.87,
       "impressions": 165,
       "taps": 6,
       "installs": 0,
@@ -19975,7 +19975,7 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 0.92,
+      "spend": 0.94,
       "impressions": 59,
       "taps": 2,
       "installs": 0,
@@ -19983,7 +19983,7 @@
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 2.06,
+      "spend": 2.1,
       "impressions": 148,
       "taps": 4,
       "installs": 2,
@@ -19999,7 +19999,7 @@
       "redownloads": 0
     },
     "2026-04-07": {
-      "spend": 1.95,
+      "spend": 1.98,
       "impressions": 224,
       "taps": 4,
       "installs": 0,
@@ -20007,7 +20007,7 @@
       "redownloads": 0
     },
     "2026-04-08": {
-      "spend": 1.88,
+      "spend": 1.9,
       "impressions": 172,
       "taps": 4,
       "installs": 0,
@@ -20015,7 +20015,7 @@
       "redownloads": 0
     },
     "2026-04-09": {
-      "spend": 1.56,
+      "spend": 1.58,
       "impressions": 115,
       "taps": 3,
       "installs": 0,
@@ -20023,7 +20023,7 @@
       "redownloads": 0
     },
     "2026-04-10": {
-      "spend": 1.76,
+      "spend": 1.78,
       "impressions": 125,
       "taps": 4,
       "installs": 0,
@@ -20031,7 +20031,7 @@
       "redownloads": 0
     },
     "2026-04-11": {
-      "spend": 1.19,
+      "spend": 1.2,
       "impressions": 85,
       "taps": 3,
       "installs": 0,
@@ -20039,7 +20039,7 @@
       "redownloads": 0
     },
     "2026-04-12": {
-      "spend": 0.47,
+      "spend": 0.48,
       "impressions": 212,
       "taps": 1,
       "installs": 0,
@@ -20047,7 +20047,7 @@
       "redownloads": 0
     },
     "2026-04-13": {
-      "spend": 2.18,
+      "spend": 2.2,
       "impressions": 165,
       "taps": 5,
       "installs": 0,
@@ -20071,7 +20071,7 @@
       "redownloads": 0
     },
     "2026-04-16": {
-      "spend": 1.41,
+      "spend": 1.42,
       "impressions": 54,
       "taps": 1,
       "installs": 0,
@@ -20321,7 +20321,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 2.74,
+      "spend": 2.79,
       "impressions": 161,
       "taps": 5,
       "installs": 3,
@@ -20329,7 +20329,7 @@
       "redownloads": 1
     },
     "2026-04-01": {
-      "spend": 0.48,
+      "spend": 0.49,
       "impressions": 94,
       "taps": 1,
       "installs": 0,
@@ -20337,15 +20337,15 @@
       "redownloads": 0
     },
     "2026-04-02": {
-      "spend": 2.86,
-      "impressions": 94,
+      "spend": 2.91,
+      "impressions": 93,
       "taps": 3,
       "installs": 2,
       "new_downloads": 2,
       "redownloads": 0
     },
     "2026-04-03": {
-      "spend": 1.78,
+      "spend": 1.81,
       "impressions": 93,
       "taps": 2,
       "installs": 2,
@@ -20361,7 +20361,7 @@
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 0.53,
+      "spend": 0.54,
       "impressions": 87,
       "taps": 2,
       "installs": 1,
@@ -20369,7 +20369,7 @@
       "redownloads": 0
     },
     "2026-04-06": {
-      "spend": 1.33,
+      "spend": 1.35,
       "impressions": 140,
       "taps": 2,
       "installs": 1,
@@ -20377,7 +20377,7 @@
       "redownloads": 0
     },
     "2026-04-07": {
-      "spend": 0.69,
+      "spend": 0.7,
       "impressions": 317,
       "taps": 2,
       "installs": 0,
@@ -20393,7 +20393,7 @@
       "redownloads": 0
     },
     "2026-04-09": {
-      "spend": 2.93,
+      "spend": 2.96,
       "impressions": 111,
       "taps": 2,
       "installs": 1,
@@ -20409,7 +20409,7 @@
       "redownloads": 0
     },
     "2026-04-11": {
-      "spend": 4.11,
+      "spend": 4.16,
       "impressions": 118,
       "taps": 5,
       "installs": 2,
@@ -20417,7 +20417,7 @@
       "redownloads": 1
     },
     "2026-04-12": {
-      "spend": 1.35,
+      "spend": 1.37,
       "impressions": 115,
       "taps": 3,
       "installs": 0,
@@ -20425,7 +20425,7 @@
       "redownloads": 0
     },
     "2026-04-13": {
-      "spend": 1.36,
+      "spend": 1.37,
       "impressions": 145,
       "taps": 2,
       "installs": 1,
@@ -20433,7 +20433,7 @@
       "redownloads": 0
     },
     "2026-04-14": {
-      "spend": 2.07,
+      "spend": 2.08,
       "impressions": 139,
       "taps": 4,
       "installs": 4,
@@ -20441,7 +20441,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 2.36,
+      "spend": 2.37,
       "impressions": 146,
       "taps": 3,
       "installs": 1,
@@ -20452,8 +20452,8 @@
       "spend": 2.8,
       "impressions": 111,
       "taps": 4,
-      "installs": 3,
-      "new_downloads": 3,
+      "installs": 2,
+      "new_downloads": 2,
       "redownloads": 0
     },
     "2026-04-17": {
@@ -20635,7 +20635,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 6.47,
+      "spend": 6.59,
       "impressions": 18,
       "taps": 4,
       "installs": 4,
@@ -20643,7 +20643,7 @@
       "redownloads": 0
     },
     "2026-04-01": {
-      "spend": 9.36,
+      "spend": 9.5,
       "impressions": 16,
       "taps": 5,
       "installs": 3,
@@ -20651,7 +20651,7 @@
       "redownloads": 0
     },
     "2026-04-02": {
-      "spend": 4.11,
+      "spend": 4.18,
       "impressions": 15,
       "taps": 2,
       "installs": 0,
@@ -20659,7 +20659,7 @@
       "redownloads": 0
     },
     "2026-04-03": {
-      "spend": 9.18,
+      "spend": 9.35,
       "impressions": 26,
       "taps": 6,
       "installs": 5,
@@ -20667,7 +20667,7 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 4.1,
+      "spend": 4.17,
       "impressions": 28,
       "taps": 2,
       "installs": 3,
@@ -20675,7 +20675,7 @@
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 7.22,
+      "spend": 7.36,
       "impressions": 29,
       "taps": 4,
       "installs": 3,
@@ -20683,7 +20683,7 @@
       "redownloads": 0
     },
     "2026-04-06": {
-      "spend": 2.47,
+      "spend": 2.51,
       "impressions": 35,
       "taps": 2,
       "installs": 0,
@@ -20691,7 +20691,7 @@
       "redownloads": 0
     },
     "2026-04-07": {
-      "spend": 4.7,
+      "spend": 4.77,
       "impressions": 29,
       "taps": 4,
       "installs": 4,
@@ -20699,7 +20699,7 @@
       "redownloads": 0
     },
     "2026-04-08": {
-      "spend": 3.63,
+      "spend": 3.67,
       "impressions": 23,
       "taps": 2,
       "installs": 1,
@@ -20707,7 +20707,7 @@
       "redownloads": 0
     },
     "2026-04-09": {
-      "spend": 3.47,
+      "spend": 3.51,
       "impressions": 17,
       "taps": 2,
       "installs": 2,
@@ -20715,7 +20715,7 @@
       "redownloads": 0
     },
     "2026-04-10": {
-      "spend": 15.56,
+      "spend": 15.73,
       "impressions": 35,
       "taps": 8,
       "installs": 5,
@@ -20723,7 +20723,7 @@
       "redownloads": 0
     },
     "2026-04-11": {
-      "spend": 18.92,
+      "spend": 19.12,
       "impressions": 41,
       "taps": 10,
       "installs": 9,
@@ -20731,7 +20731,7 @@
       "redownloads": 0
     },
     "2026-04-12": {
-      "spend": 9.92,
+      "spend": 10.05,
       "impressions": 32,
       "taps": 7,
       "installs": 5,
@@ -20739,7 +20739,7 @@
       "redownloads": 0
     },
     "2026-04-13": {
-      "spend": 14.69,
+      "spend": 14.82,
       "impressions": 24,
       "taps": 8,
       "installs": 7,
@@ -20747,7 +20747,7 @@
       "redownloads": 0
     },
     "2026-04-14": {
-      "spend": 12.79,
+      "spend": 12.87,
       "impressions": 40,
       "taps": 7,
       "installs": 5,
@@ -20755,7 +20755,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 6.38,
+      "spend": 6.41,
       "impressions": 44,
       "taps": 3,
       "installs": 2,
@@ -20763,7 +20763,7 @@
       "redownloads": 0
     },
     "2026-04-16": {
-      "spend": 12.06,
+      "spend": 12.08,
       "impressions": 35,
       "taps": 9,
       "installs": 6,
@@ -20771,7 +20771,7 @@
       "redownloads": 0
     },
     "2026-04-17": {
-      "spend": 16.83,
+      "spend": 16.82,
       "impressions": 36,
       "taps": 9,
       "installs": 7,
@@ -20933,7 +20933,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 4.01,
+      "spend": 4.08,
       "impressions": 73,
       "taps": 4,
       "installs": 4,
@@ -20941,7 +20941,7 @@
       "redownloads": 0
     },
     "2026-04-01": {
-      "spend": 2.56,
+      "spend": 2.6,
       "impressions": 49,
       "taps": 3,
       "installs": 3,
@@ -20949,7 +20949,7 @@
       "redownloads": 0
     },
     "2026-04-02": {
-      "spend": 1.62,
+      "spend": 1.65,
       "impressions": 56,
       "taps": 2,
       "installs": 3,
@@ -20957,7 +20957,7 @@
       "redownloads": 0
     },
     "2026-04-03": {
-      "spend": 1.2,
+      "spend": 1.23,
       "impressions": 91,
       "taps": 2,
       "installs": 0,
@@ -20965,7 +20965,7 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 5.13,
+      "spend": 5.22,
       "impressions": 38,
       "taps": 6,
       "installs": 6,
@@ -20973,7 +20973,7 @@
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 2.69,
+      "spend": 2.74,
       "impressions": 27,
       "taps": 3,
       "installs": 2,
@@ -20981,7 +20981,7 @@
       "redownloads": 0
     },
     "2026-04-06": {
-      "spend": 1.92,
+      "spend": 1.96,
       "impressions": 11,
       "taps": 2,
       "installs": 3,
@@ -20989,7 +20989,7 @@
       "redownloads": 0
     },
     "2026-04-07": {
-      "spend": 0.94,
+      "spend": 0.95,
       "impressions": 5,
       "taps": 1,
       "installs": 1,
@@ -21021,7 +21021,7 @@
       "redownloads": 0
     },
     "2026-04-11": {
-      "spend": 3.84,
+      "spend": 3.88,
       "impressions": 10,
       "taps": 4,
       "installs": 3,
@@ -21029,7 +21029,7 @@
       "redownloads": 0
     },
     "2026-04-12": {
-      "spend": 0.99,
+      "spend": 1.0,
       "impressions": 6,
       "taps": 1,
       "installs": 1,
@@ -21037,7 +21037,7 @@
       "redownloads": 0
     },
     "2026-04-13": {
-      "spend": 2.72,
+      "spend": 2.74,
       "impressions": 10,
       "taps": 3,
       "installs": 2,
@@ -21045,7 +21045,7 @@
       "redownloads": 0
     },
     "2026-04-14": {
-      "spend": 6.48,
+      "spend": 6.52,
       "impressions": 27,
       "taps": 6,
       "installs": 4,
@@ -21053,7 +21053,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 3.04,
+      "spend": 3.05,
       "impressions": 9,
       "taps": 3,
       "installs": 4,
@@ -21061,7 +21061,7 @@
       "redownloads": 0
     },
     "2026-04-16": {
-      "spend": 3.43,
+      "spend": 3.44,
       "impressions": 17,
       "taps": 4,
       "installs": 3,
@@ -21127,7 +21127,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 1.08,
+      "spend": 1.1,
       "impressions": 196,
       "taps": 2,
       "installs": 0,
@@ -21151,7 +21151,7 @@
       "redownloads": 0
     },
     "2026-04-03": {
-      "spend": 1.41,
+      "spend": 1.43,
       "impressions": 30,
       "taps": 3,
       "installs": 1,
@@ -21233,7 +21233,7 @@
       "redownloads": 0
     },
     "2026-03-31": {
-      "spend": 2.02,
+      "spend": 2.06,
       "impressions": 36,
       "taps": 3,
       "installs": 3,
@@ -21241,7 +21241,7 @@
       "redownloads": 0
     },
     "2026-04-01": {
-      "spend": 2.89,
+      "spend": 2.93,
       "impressions": 21,
       "taps": 3,
       "installs": 3,
@@ -21249,7 +21249,7 @@
       "redownloads": 0
     },
     "2026-04-02": {
-      "spend": 1.69,
+      "spend": 1.72,
       "impressions": 41,
       "taps": 3,
       "installs": 3,
@@ -21257,7 +21257,7 @@
       "redownloads": 0
     },
     "2026-04-03": {
-      "spend": 5.82,
+      "spend": 5.92,
       "impressions": 43,
       "taps": 7,
       "installs": 6,
@@ -21265,7 +21265,7 @@
       "redownloads": 0
     },
     "2026-04-04": {
-      "spend": 5.0,
+      "spend": 5.09,
       "impressions": 17,
       "taps": 5,
       "installs": 4,
@@ -21273,7 +21273,7 @@
       "redownloads": 0
     },
     "2026-04-05": {
-      "spend": 3.05,
+      "spend": 3.11,
       "impressions": 37,
       "taps": 4,
       "installs": 2,
@@ -21281,7 +21281,7 @@
       "redownloads": 0
     },
     "2026-04-06": {
-      "spend": 2.64,
+      "spend": 2.69,
       "impressions": 33,
       "taps": 3,
       "installs": 2,
@@ -21289,7 +21289,7 @@
       "redownloads": 0
     },
     "2026-04-07": {
-      "spend": 8.81,
+      "spend": 8.94,
       "impressions": 43,
       "taps": 10,
       "installs": 7,
@@ -21297,7 +21297,7 @@
       "redownloads": 1
     },
     "2026-04-08": {
-      "spend": 4.38,
+      "spend": 4.44,
       "impressions": 37,
       "taps": 5,
       "installs": 5,
@@ -21305,7 +21305,7 @@
       "redownloads": 0
     },
     "2026-04-09": {
-      "spend": 4.78,
+      "spend": 4.83,
       "impressions": 41,
       "taps": 5,
       "installs": 4,
@@ -21313,7 +21313,7 @@
       "redownloads": 0
     },
     "2026-04-10": {
-      "spend": 10.75,
+      "spend": 10.86,
       "impressions": 47,
       "taps": 10,
       "installs": 5,
@@ -21321,7 +21321,7 @@
       "redownloads": 0
     },
     "2026-04-11": {
-      "spend": 8.52,
+      "spend": 8.62,
       "impressions": 61,
       "taps": 7,
       "installs": 5,
@@ -21329,7 +21329,7 @@
       "redownloads": 0
     },
     "2026-04-12": {
-      "spend": 11.4,
+      "spend": 11.56,
       "impressions": 59,
       "taps": 11,
       "installs": 8,
@@ -21337,7 +21337,7 @@
       "redownloads": 0
     },
     "2026-04-13": {
-      "spend": 7.54,
+      "spend": 7.6,
       "impressions": 55,
       "taps": 9,
       "installs": 4,
@@ -21345,7 +21345,7 @@
       "redownloads": 0
     },
     "2026-04-14": {
-      "spend": 9.2,
+      "spend": 9.26,
       "impressions": 59,
       "taps": 8,
       "installs": 2,
@@ -21353,7 +21353,7 @@
       "redownloads": 0
     },
     "2026-04-15": {
-      "spend": 14.33,
+      "spend": 14.39,
       "impressions": 60,
       "taps": 14,
       "installs": 7,
@@ -21361,7 +21361,7 @@
       "redownloads": 0
     },
     "2026-04-16": {
-      "spend": 14.7,
+      "spend": 14.72,
       "impressions": 61,
       "taps": 13,
       "installs": 12,
@@ -21369,7 +21369,7 @@
       "redownloads": 0
     },
     "2026-04-17": {
-      "spend": 9.85,
+      "spend": 9.84,
       "impressions": 47,
       "taps": 8,
       "installs": 5,
