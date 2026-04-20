@@ -1,5 +1,5 @@
 {
-  "sync_date": "2026-04-20T16:52:41Z",
+  "sync_date": "2026-04-20T21:27:07Z",
   "date_range": {
     "start": "2026-01-20",
     "end": "2026-04-19"
@@ -29,10 +29,10 @@
       "trial_to_paid_rate": 32.1,
       "mrr": 8239.09,
       "adspend": 29307.63,
-      "ad_installs": 27493,
-      "installations": 50683,
-      "deletions": 2201,
-      "net_installs": 48482
+      "ad_installs": 27494,
+      "installations": 63755,
+      "deletions": 2397,
+      "net_installs": 61358
     },
     {
       "id": "950551948",
@@ -51,7 +51,7 @@
       "trial_to_paid_rate": 27.3,
       "mrr": 8324.04,
       "adspend": 23677.5,
-      "ad_installs": 22630,
+      "ad_installs": 22631,
       "installations": 113409,
       "deletions": 4138,
       "net_installs": 109271
@@ -74,9 +74,9 @@
       "mrr": 3980.6,
       "adspend": 0.51,
       "ad_installs": 3,
-      "installations": 12058,
-      "deletions": 815,
-      "net_installs": 11243
+      "installations": 12205,
+      "deletions": 898,
+      "net_installs": 11307
     },
     {
       "id": "1582983676",
@@ -95,10 +95,10 @@
       "trial_to_paid_rate": 13.0,
       "mrr": 1786.1,
       "adspend": 541.71,
-      "ad_installs": 473,
-      "installations": 8841,
-      "deletions": 1715,
-      "net_installs": 7126
+      "ad_installs": 475,
+      "installations": 9162,
+      "deletions": 1805,
+      "net_installs": 7357
     },
     {
       "id": "630851451",
@@ -118,9 +118,9 @@
       "mrr": 1411.74,
       "adspend": 2122.9,
       "ad_installs": 1967,
-      "installations": 874,
-      "deletions": 258,
-      "net_installs": 616
+      "installations": 929,
+      "deletions": 283,
+      "net_installs": 646
     },
     {
       "id": "880790176",
@@ -140,9 +140,9 @@
       "mrr": 667.29,
       "adspend": 677.01,
       "ad_installs": 514,
-      "installations": 3449,
-      "deletions": 239,
-      "net_installs": 3210
+      "installations": 3530,
+      "deletions": 268,
+      "net_installs": 3262
     },
     {
       "id": "1129609742",
@@ -162,9 +162,9 @@
       "mrr": 643.19,
       "adspend": 53.55,
       "ad_installs": 31,
-      "installations": 1171,
-      "deletions": 306,
-      "net_installs": 865
+      "installations": 2488,
+      "deletions": 330,
+      "net_installs": 2158
     },
     {
       "id": "1015935781",
@@ -184,9 +184,9 @@
       "mrr": 573.74,
       "adspend": 0,
       "ad_installs": 0,
-      "installations": 6185,
-      "deletions": 265,
-      "net_installs": 5920
+      "installations": 6242,
+      "deletions": 282,
+      "net_installs": 5960
     },
     {
       "id": "6670757865",
@@ -205,10 +205,10 @@
       "trial_to_paid_rate": 0.0,
       "mrr": 667.68,
       "adspend": 161.62,
-      "ad_installs": 105,
-      "installations": 1346,
-      "deletions": 154,
-      "net_installs": 1192
+      "ad_installs": 107,
+      "installations": 1365,
+      "deletions": 166,
+      "net_installs": 1199
     },
     {
       "id": "6759808689",
@@ -228,9 +228,9 @@
       "mrr": 461.37,
       "adspend": 213.51,
       "ad_installs": 97,
-      "installations": 139,
-      "deletions": 59,
-      "net_installs": 80
+      "installations": 194,
+      "deletions": 84,
+      "net_installs": 110
     },
     {
       "id": "1356249212",
@@ -250,9 +250,9 @@
       "mrr": 283.63,
       "adspend": 204.67,
       "ad_installs": 123,
-      "installations": 90,
-      "deletions": 57,
-      "net_installs": 33
+      "installations": 104,
+      "deletions": 72,
+      "net_installs": 32
     },
     {
       "id": "810713114",
@@ -272,9 +272,9 @@
       "mrr": 278.26,
       "adspend": 0,
       "ad_installs": 0,
-      "installations": 1873,
-      "deletions": 121,
-      "net_installs": 1752
+      "installations": 4125,
+      "deletions": 149,
+      "net_installs": 3976
     },
     {
       "id": "6557028325",
@@ -294,9 +294,9 @@
       "mrr": 230.56,
       "adspend": 162.8,
       "ad_installs": 106,
-      "installations": 175,
-      "deletions": 43,
-      "net_installs": 132
+      "installations": 211,
+      "deletions": 67,
+      "net_installs": 144
     },
     {
       "id": "594764457",
@@ -316,9 +316,9 @@
       "mrr": 69.49,
       "adspend": 81.19,
       "ad_installs": 34,
-      "installations": 2941,
-      "deletions": 184,
-      "net_installs": 2757
+      "installations": 3882,
+      "deletions": 230,
+      "net_installs": 3652
     },
     {
       "id": "1213054524",
@@ -470,9 +470,9 @@
       "mrr": 40.31,
       "adspend": 87.96,
       "ad_installs": 18,
-      "installations": 21,
-      "deletions": 7,
-      "net_installs": 14
+      "installations": 28,
+      "deletions": 8,
+      "net_installs": 20
     },
     {
       "id": "1399633974",
@@ -514,9 +514,9 @@
       "mrr": 13.46,
       "adspend": 33.64,
       "ad_installs": 3,
-      "installations": 7,
-      "deletions": 4,
-      "net_installs": 3
+      "installations": 18,
+      "deletions": 7,
+      "net_installs": 11
     },
     {
       "id": "902269349",
@@ -635,11 +635,11 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 20.18,
       "downloads": 54,
-      "true_first_downloads": 5,
+      "true_first_downloads": 7,
       "impressions": 674,
       "page_views": 7,
       "tap_through_rate": 1.0,
-      "conversion_rate": 71.4,
+      "conversion_rate": 100.0,
       "active_paid": 1,
       "active_trials": 0,
       "trial_to_paid_rate": 0,

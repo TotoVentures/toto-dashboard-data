@@ -4287,6 +4287,21 @@
       "tap_through_rate": 0,
       "conversion_rate": 0,
       "by_source": {}
+    },
+    "2026-04-19": {
+      "impressions": 0,
+      "product_page_views": 0,
+      "first_time_downloads": 2,
+      "redownloads": 0,
+      "tap_through_rate": 0,
+      "conversion_rate": 0,
+      "by_source": {
+        "App Store search": {
+          "impressions": 0,
+          "page_views": 0,
+          "downloads": 2
+        }
+      }
     }
   },
   "6758915503": {
@@ -4683,6 +4698,15 @@
       "trial_starts": 0,
       "paid_conversions": 0,
       "trial_to_paid_rate": 0
+    },
+    "2026-04-19": {
+      "impressions": 0,
+      "product_page_views": 0,
+      "first_time_downloads": 0,
+      "redownloads": 0,
+      "tap_through_rate": 0,
+      "conversion_rate": 0,
+      "by_source": {}
     }
   },
   "934697946": {
