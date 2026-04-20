@@ -3103,6 +3103,14 @@
       "installs": 127,
       "new_downloads": 88,
       "redownloads": 39
+    },
+    "2026-04-19": {
+      "spend": 110.96,
+      "impressions": 1889,
+      "taps": 132,
+      "installs": 98,
+      "new_downloads": 71,
+      "redownloads": 27
     }
   },
   "880790176": {
@@ -6193,6 +6201,14 @@
       "installs": 1,
       "new_downloads": 1,
       "redownloads": 0
+    },
+    "2026-04-19": {
+      "spend": 1.05,
+      "impressions": 106,
+      "taps": 1,
+      "installs": 0,
+      "new_downloads": 0,
+      "redownloads": 0
     }
   },
   "6557028325": {
@@ -8384,6 +8400,14 @@
       "spend": 3.11,
       "impressions": 27,
       "taps": 4,
+      "installs": 2,
+      "new_downloads": 2,
+      "redownloads": 0
+    },
+    "2026-04-19": {
+      "spend": 1.7,
+      "impressions": 19,
+      "taps": 2,
       "installs": 2,
       "new_downloads": 2,
       "redownloads": 0
@@ -13863,6 +13887,14 @@
       "installs": 8,
       "new_downloads": 6,
       "redownloads": 2
+    },
+    "2026-04-19": {
+      "spend": 9.59,
+      "impressions": 132,
+      "taps": 12,
+      "installs": 8,
+      "new_downloads": 6,
+      "redownloads": 2
     }
   },
   "950551948": {
@@ -16969,6 +17001,14 @@
       "installs": 53,
       "new_downloads": 33,
       "redownloads": 20
+    },
+    "2026-04-19": {
+      "spend": 71.5,
+      "impressions": 1712,
+      "taps": 76,
+      "installs": 57,
+      "new_downloads": 44,
+      "redownloads": 13
     }
   },
   "1003684086": {
@@ -17277,6 +17317,14 @@
       "redownloads": 0
     },
     "2026-04-18": {
+      "spend": 0.0,
+      "impressions": 1,
+      "taps": 0,
+      "installs": 0,
+      "new_downloads": 0,
+      "redownloads": 0
+    },
+    "2026-04-19": {
       "spend": 0.0,
       "impressions": 1,
       "taps": 0,
@@ -18091,6 +18139,14 @@
     "2026-04-18": {
       "spend": 3.68,
       "impressions": 172,
+      "taps": 3,
+      "installs": 1,
+      "new_downloads": 1,
+      "redownloads": 0
+    },
+    "2026-04-19": {
+      "spend": 3.93,
+      "impressions": 180,
       "taps": 3,
       "installs": 1,
       "new_downloads": 1,
@@ -18911,6 +18967,14 @@
       "installs": 5,
       "new_downloads": 5,
       "redownloads": 0
+    },
+    "2026-04-19": {
+      "spend": 0.92,
+      "impressions": 525,
+      "taps": 3,
+      "installs": 0,
+      "new_downloads": 0,
+      "redownloads": 0
     }
   },
   "1582983676": {
@@ -19329,6 +19393,14 @@
       "installs": 10,
       "new_downloads": 9,
       "redownloads": 1
+    },
+    "2026-04-19": {
+      "spend": 12.81,
+      "impressions": 90,
+      "taps": 17,
+      "installs": 13,
+      "new_downloads": 12,
+      "redownloads": 1
     }
   },
   "6670757865": {
@@ -19715,6 +19787,14 @@
       "installs": 3,
       "new_downloads": 3,
       "redownloads": 0
+    },
+    "2026-04-19": {
+      "spend": 10.57,
+      "impressions": 57,
+      "taps": 10,
+      "installs": 11,
+      "new_downloads": 11,
+      "redownloads": 0
     }
   },
   "6759501398": {
@@ -20092,6 +20172,14 @@
       "taps": 0,
       "installs": 0,
       "new_downloads": 0,
+      "redownloads": 0
+    },
+    "2026-04-19": {
+      "spend": 1.2,
+      "impressions": 80,
+      "taps": 3,
+      "installs": 1,
+      "new_downloads": 1,
       "redownloads": 0
     }
   },
@@ -20471,6 +20559,14 @@
       "installs": 1,
       "new_downloads": 1,
       "redownloads": 0
+    },
+    "2026-04-19": {
+      "spend": 1.47,
+      "impressions": 149,
+      "taps": 2,
+      "installs": 0,
+      "new_downloads": 0,
+      "redownloads": 0
     }
   },
   "6759808689": {
@@ -20785,6 +20881,14 @@
       "installs": 7,
       "new_downloads": 7,
       "redownloads": 0
+    },
+    "2026-04-19": {
+      "spend": 18.23,
+      "impressions": 30,
+      "taps": 9,
+      "installs": 5,
+      "new_downloads": 5,
+      "redownloads": 0
     }
   },
   "6759932194": {
@@ -21082,6 +21186,14 @@
       "taps": 2,
       "installs": 2,
       "new_downloads": 2,
+      "redownloads": 0
+    },
+    "2026-04-19": {
+      "spend": 6.21,
+      "impressions": 24,
+      "taps": 6,
+      "installs": 4,
+      "new_downloads": 4,
       "redownloads": 0
     }
   },
@@ -21383,6 +21495,14 @@
       "installs": 1,
       "new_downloads": 0,
       "redownloads": 1
+    },
+    "2026-04-19": {
+      "spend": 16.1,
+      "impressions": 69,
+      "taps": 15,
+      "installs": 6,
+      "new_downloads": 6,
+      "redownloads": 0
     }
   }
 }
