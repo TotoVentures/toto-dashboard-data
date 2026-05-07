@@ -43,12 +43,6 @@
       "deletions": 5,
       "net_installs": 598
     },
-    "2026-02-05": {
-      "downloads": 21,
-      "re_downloads": 24,
-      "updates": 765,
-      "net_downloads": -3
-    },
     "2026-02-06": {
       "downloads": 17,
       "re_downloads": 17,
@@ -668,6 +662,12 @@
       "re_downloads": 17,
       "updates": 219,
       "net_downloads": -9
+    },
+    "2026-05-06": {
+      "downloads": 12,
+      "re_downloads": 3,
+      "updates": 209,
+      "net_downloads": 9
     }
   },
   "1003684086": {
@@ -718,12 +718,6 @@
       "installations": 78,
       "deletions": 21,
       "net_installs": 57
-    },
-    "2026-02-05": {
-      "downloads": 58,
-      "re_downloads": 37,
-      "updates": 289,
-      "net_downloads": 21
     },
     "2026-02-06": {
       "downloads": 46,
@@ -1344,6 +1338,12 @@
       "re_downloads": 26,
       "updates": 178,
       "net_downloads": 27
+    },
+    "2026-05-06": {
+      "downloads": 38,
+      "re_downloads": 37,
+      "updates": 161,
+      "net_downloads": 1
     }
   },
   "873464354": {
@@ -1354,12 +1354,6 @@
       "net_downloads": -1
     },
     "2026-03-26": {
-      "downloads": 0,
-      "re_downloads": 1,
-      "updates": 0,
-      "net_downloads": -1
-    },
-    "2026-02-05": {
       "downloads": 0,
       "re_downloads": 1,
       "updates": 0,
@@ -1522,12 +1516,6 @@
       "installations": 108,
       "deletions": 49,
       "net_installs": 59
-    },
-    "2026-02-05": {
-      "downloads": 119,
-      "re_downloads": 21,
-      "updates": 730,
-      "net_downloads": 98
     },
     "2026-02-06": {
       "downloads": 98,
@@ -2154,6 +2142,12 @@
       "re_downloads": 27,
       "updates": 174,
       "net_downloads": 117
+    },
+    "2026-05-06": {
+      "downloads": 141,
+      "re_downloads": 30,
+      "updates": 137,
+      "net_downloads": 111
     }
   },
   "6502181178": {
@@ -2186,12 +2180,6 @@
       "re_downloads": 1,
       "updates": 2,
       "net_downloads": 1
-    },
-    "2026-02-05": {
-      "downloads": 1,
-      "re_downloads": 1,
-      "updates": 1,
-      "net_downloads": 0
     },
     "2026-02-06": {
       "downloads": 2,
@@ -2654,6 +2642,12 @@
       "re_downloads": 0,
       "updates": 2,
       "net_downloads": 0
+    },
+    "2026-05-06": {
+      "downloads": 1,
+      "re_downloads": 0,
+      "updates": 0,
+      "net_downloads": 1
     }
   },
   "6476511029": {
@@ -2668,12 +2662,6 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": -1
-    },
-    "2026-02-05": {
-      "downloads": 1,
-      "re_downloads": 0,
-      "updates": 0,
-      "net_downloads": 1
     },
     "2026-02-07": {
       "downloads": 1,
@@ -3031,12 +3019,6 @@
       "updates": 0,
       "net_downloads": -1
     },
-    "2026-02-05": {
-      "downloads": 0,
-      "re_downloads": 1,
-      "updates": 0,
-      "net_downloads": -1
-    },
     "2026-02-06": {
       "downloads": 0,
       "re_downloads": 1,
@@ -3372,6 +3354,12 @@
       "re_downloads": 2,
       "updates": 1,
       "net_downloads": -1
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 1,
+      "updates": 1,
+      "net_downloads": -1
     }
   },
   "594764457": {
@@ -3422,12 +3410,6 @@
       "installations": 183,
       "deletions": 9,
       "net_installs": 174
-    },
-    "2026-02-05": {
-      "downloads": 17,
-      "re_downloads": 7,
-      "updates": 0,
-      "net_downloads": 10
     },
     "2026-02-06": {
       "downloads": 16,
@@ -4042,6 +4024,12 @@
       "re_downloads": 2,
       "updates": 37,
       "net_downloads": 17
+    },
+    "2026-05-06": {
+      "downloads": 18,
+      "re_downloads": 4,
+      "updates": 36,
+      "net_downloads": 14
     }
   },
   "907775601": {
@@ -4062,12 +4050,6 @@
       "re_downloads": 2,
       "updates": 0,
       "net_downloads": -2
-    },
-    "2026-02-05": {
-      "downloads": 1,
-      "re_downloads": 2,
-      "updates": 0,
-      "net_downloads": -1
     },
     "2026-02-06": {
       "downloads": 2,
@@ -4366,12 +4348,6 @@
       "net_downloads": -2,
       "true_first_downloads": 0,
       "true_redownloads": 0
-    },
-    "2026-02-05": {
-      "downloads": 0,
-      "re_downloads": 2,
-      "updates": 0,
-      "net_downloads": -2
     },
     "2026-02-07": {
       "downloads": 0,
@@ -4759,6 +4735,12 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": -1
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 1,
+      "updates": 0,
+      "net_downloads": -1
     }
   },
   "630851451": {
@@ -4809,12 +4791,6 @@
       "installations": 13,
       "deletions": 10,
       "net_installs": 3
-    },
-    "2026-02-05": {
-      "downloads": 11,
-      "re_downloads": 16,
-      "updates": 442,
-      "net_downloads": -5
     },
     "2026-02-06": {
       "downloads": 13,
@@ -5441,6 +5417,12 @@
       "re_downloads": 16,
       "updates": 89,
       "net_downloads": 0
+    },
+    "2026-05-06": {
+      "downloads": 22,
+      "re_downloads": 25,
+      "updates": 90,
+      "net_downloads": -3
     }
   },
   "950551948": {
@@ -5496,12 +5478,6 @@
       "installations": 1732,
       "deletions": 68,
       "net_installs": 1664
-    },
-    "2026-02-05": {
-      "downloads": 147,
-      "re_downloads": 169,
-      "updates": 73259,
-      "net_downloads": -22
     },
     "2026-02-06": {
       "downloads": 164,
@@ -6164,6 +6140,12 @@
       "re_downloads": 179,
       "updates": 3257,
       "net_downloads": -57
+    },
+    "2026-05-06": {
+      "downloads": 124,
+      "re_downloads": 177,
+      "updates": 3014,
+      "net_downloads": -53
     }
   },
   "6670757865": {
@@ -6214,12 +6196,6 @@
       "installations": 65,
       "deletions": 3,
       "net_installs": 62
-    },
-    "2026-02-05": {
-      "downloads": 15,
-      "re_downloads": 0,
-      "updates": 41,
-      "net_downloads": 15
     },
     "2026-02-06": {
       "downloads": 22,
@@ -6846,6 +6822,12 @@
       "re_downloads": 1,
       "updates": 8,
       "net_downloads": 15
+    },
+    "2026-05-06": {
+      "downloads": 13,
+      "re_downloads": 3,
+      "updates": 2,
+      "net_downloads": 10
     }
   },
   "6449641148": {
@@ -6878,12 +6860,6 @@
       "re_downloads": 2,
       "updates": 0,
       "net_downloads": 0
-    },
-    "2026-02-05": {
-      "downloads": 3,
-      "re_downloads": 1,
-      "updates": 0,
-      "net_downloads": 2
     },
     "2026-02-06": {
       "downloads": 2,
@@ -7382,6 +7358,12 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": 3
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 9,
+      "updates": 0,
+      "net_downloads": -9
     }
   },
   "810713114": {
@@ -7432,12 +7414,6 @@
       "installations": 12,
       "deletions": 2,
       "net_installs": 10
-    },
-    "2026-02-05": {
-      "downloads": 9,
-      "re_downloads": 9,
-      "updates": 22,
-      "net_downloads": 0
     },
     "2026-02-06": {
       "downloads": 6,
@@ -8049,6 +8025,12 @@
       "re_downloads": 8,
       "updates": 44,
       "net_downloads": -2
+    },
+    "2026-05-06": {
+      "downloads": 4,
+      "re_downloads": 6,
+      "updates": 38,
+      "net_downloads": -2
     }
   },
   "1399633974": {
@@ -8075,12 +8057,6 @@
       "re_downloads": 1,
       "updates": 1,
       "net_downloads": 3
-    },
-    "2026-02-05": {
-      "downloads": 3,
-      "re_downloads": 1,
-      "updates": 1,
-      "net_downloads": 2
     },
     "2026-02-06": {
       "downloads": 2,
@@ -8567,6 +8543,12 @@
       "re_downloads": 1,
       "updates": 1,
       "net_downloads": 0
+    },
+    "2026-05-06": {
+      "downloads": 2,
+      "re_downloads": 1,
+      "updates": 1,
+      "net_downloads": 1
     }
   },
   "1015935781": {
@@ -8617,12 +8599,6 @@
       "installations": 37,
       "deletions": 6,
       "net_installs": 31
-    },
-    "2026-02-05": {
-      "downloads": 32,
-      "re_downloads": 20,
-      "updates": 1593,
-      "net_downloads": 12
     },
     "2026-02-06": {
       "downloads": 14,
@@ -9246,6 +9222,12 @@
       "re_downloads": 18,
       "updates": 259,
       "net_downloads": 503
+    },
+    "2026-05-06": {
+      "downloads": 19,
+      "re_downloads": 24,
+      "updates": 239,
+      "net_downloads": -5
     }
   },
   "950197769": {
@@ -9278,12 +9260,6 @@
       "re_downloads": 30,
       "updates": 0,
       "net_downloads": -28
-    },
-    "2026-02-05": {
-      "downloads": 2,
-      "re_downloads": 18,
-      "updates": 0,
-      "net_downloads": -16
     },
     "2026-02-06": {
       "downloads": 0,
@@ -9782,6 +9758,12 @@
       "re_downloads": 25,
       "updates": 1,
       "net_downloads": -19
+    },
+    "2026-05-06": {
+      "downloads": 2,
+      "re_downloads": 23,
+      "updates": 1,
+      "net_downloads": -21
     }
   },
   "968752295": {
@@ -9812,12 +9794,6 @@
     "2026-03-26": {
       "downloads": 2,
       "re_downloads": 4,
-      "updates": 0,
-      "net_downloads": -2
-    },
-    "2026-02-05": {
-      "downloads": 1,
-      "re_downloads": 3,
       "updates": 0,
       "net_downloads": -2
     },
@@ -10318,6 +10294,12 @@
       "re_downloads": 6,
       "updates": 0,
       "net_downloads": -3
+    },
+    "2026-05-06": {
+      "downloads": 3,
+      "re_downloads": 2,
+      "updates": 2,
+      "net_downloads": 1
     }
   },
   "868434888": {
@@ -10350,12 +10332,6 @@
       "re_downloads": 0,
       "updates": 0,
       "net_downloads": 7
-    },
-    "2026-02-05": {
-      "downloads": 4,
-      "re_downloads": 2,
-      "updates": 0,
-      "net_downloads": 2
     },
     "2026-02-06": {
       "downloads": 3,
@@ -10854,6 +10830,12 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": 0
+    },
+    "2026-05-06": {
+      "downloads": 3,
+      "re_downloads": 3,
+      "updates": 0,
+      "net_downloads": 0
     }
   },
   "977965135": {
@@ -10880,12 +10862,6 @@
       "re_downloads": 3,
       "updates": 0,
       "net_downloads": -3
-    },
-    "2026-02-05": {
-      "downloads": 2,
-      "re_downloads": 2,
-      "updates": 0,
-      "net_downloads": 0
     },
     "2026-02-06": {
       "downloads": 1,
@@ -11336,6 +11312,12 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": 1
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 2,
+      "updates": 0,
+      "net_downloads": -2
     }
   },
   "1356249212": {
@@ -11377,12 +11359,6 @@
       "net_downloads": 3,
       "true_first_downloads": 6,
       "true_redownloads": 1
-    },
-    "2026-02-05": {
-      "downloads": 9,
-      "re_downloads": 4,
-      "updates": 16,
-      "net_downloads": 5
     },
     "2026-02-06": {
       "downloads": 1,
@@ -11928,6 +11904,12 @@
       "re_downloads": 3,
       "updates": 9,
       "net_downloads": 0
+    },
+    "2026-05-06": {
+      "downloads": 1,
+      "re_downloads": 8,
+      "updates": 11,
+      "net_downloads": -7
     }
   },
   "570129169": {
@@ -11978,12 +11960,6 @@
       "installations": 747,
       "deletions": 61,
       "net_installs": 686
-    },
-    "2026-02-05": {
-      "downloads": 99,
-      "re_downloads": 85,
-      "updates": 1354,
-      "net_downloads": 14
     },
     "2026-02-06": {
       "downloads": 112,
@@ -12604,6 +12580,12 @@
       "re_downloads": 66,
       "updates": 448,
       "net_downloads": 22
+    },
+    "2026-05-06": {
+      "downloads": 92,
+      "re_downloads": 72,
+      "updates": 444,
+      "net_downloads": 20
     }
   },
   "1078148357": {
@@ -12636,12 +12618,6 @@
       "re_downloads": 2,
       "updates": 0,
       "net_downloads": 2
-    },
-    "2026-02-05": {
-      "downloads": 5,
-      "re_downloads": 2,
-      "updates": 0,
-      "net_downloads": 3
     },
     "2026-02-06": {
       "downloads": 5,
@@ -13134,6 +13110,12 @@
       "re_downloads": 4,
       "updates": 0,
       "net_downloads": -3
+    },
+    "2026-05-06": {
+      "downloads": 2,
+      "re_downloads": 2,
+      "updates": 0,
+      "net_downloads": 0
     }
   },
   "999516176": {
@@ -13154,12 +13136,6 @@
       "re_downloads": 3,
       "updates": 0,
       "net_downloads": -3
-    },
-    "2026-02-05": {
-      "downloads": 0,
-      "re_downloads": 4,
-      "updates": 0,
-      "net_downloads": -4
     },
     "2026-02-06": {
       "downloads": 0,
@@ -13586,6 +13562,12 @@
       "re_downloads": 2,
       "updates": 0,
       "net_downloads": -2
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 3,
+      "updates": 0,
+      "net_downloads": -3
     }
   },
   "6557028325": {
@@ -13630,12 +13612,6 @@
       "net_downloads": 5,
       "true_first_downloads": 6,
       "true_redownloads": 1
-    },
-    "2026-02-05": {
-      "downloads": 7,
-      "re_downloads": 1,
-      "updates": 1,
-      "net_downloads": 6
     },
     "2026-02-06": {
       "downloads": 4,
@@ -14178,6 +14154,12 @@
       "re_downloads": 0,
       "updates": 1,
       "net_downloads": 5
+    },
+    "2026-05-06": {
+      "downloads": 5,
+      "re_downloads": 0,
+      "updates": 1,
+      "net_downloads": 5
     }
   },
   "886093098": {
@@ -14210,12 +14192,6 @@
       "re_downloads": 8,
       "updates": 0,
       "net_downloads": -8
-    },
-    "2026-02-05": {
-      "downloads": 3,
-      "re_downloads": 5,
-      "updates": 0,
-      "net_downloads": -2
     },
     "2026-02-06": {
       "downloads": 5,
@@ -14714,6 +14690,12 @@
       "re_downloads": 5,
       "updates": 0,
       "net_downloads": -2
+    },
+    "2026-05-06": {
+      "downloads": 1,
+      "re_downloads": 5,
+      "updates": 0,
+      "net_downloads": -4
     }
   },
   "923642803": {
@@ -14862,12 +14844,6 @@
       "re_downloads": 0,
       "updates": 0,
       "net_downloads": 1
-    },
-    "2026-02-05": {
-      "downloads": 2,
-      "re_downloads": 0,
-      "updates": 1,
-      "net_downloads": 2
     },
     "2026-02-06": {
       "downloads": 1,
@@ -15360,6 +15336,12 @@
       "re_downloads": 1,
       "updates": 1,
       "net_downloads": 0
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 0,
+      "updates": 1,
+      "net_downloads": 0
     }
   },
   "1213054524": {
@@ -15392,12 +15374,6 @@
       "re_downloads": 4,
       "updates": 21,
       "net_downloads": 0
-    },
-    "2026-02-05": {
-      "downloads": 8,
-      "re_downloads": 6,
-      "updates": 32,
-      "net_downloads": 2
     },
     "2026-02-06": {
       "downloads": 3,
@@ -15902,6 +15878,12 @@
       "re_downloads": 4,
       "updates": 15,
       "net_downloads": -1
+    },
+    "2026-05-06": {
+      "downloads": 5,
+      "re_downloads": 5,
+      "updates": 20,
+      "net_downloads": 0
     }
   },
   "873500886": {
@@ -15934,12 +15916,6 @@
       "re_downloads": 4,
       "updates": 0,
       "net_downloads": -4
-    },
-    "2026-02-05": {
-      "downloads": 0,
-      "re_downloads": 10,
-      "updates": 0,
-      "net_downloads": -10
     },
     "2026-02-06": {
       "downloads": 0,
@@ -16372,6 +16348,12 @@
       "re_downloads": 2,
       "updates": 0,
       "net_downloads": -2
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 4,
+      "updates": 0,
+      "net_downloads": -4
     }
   },
   "1123523401": {
@@ -16404,12 +16386,6 @@
       "re_downloads": 3,
       "updates": 0,
       "net_downloads": -2
-    },
-    "2026-02-05": {
-      "downloads": 2,
-      "re_downloads": 3,
-      "updates": 0,
-      "net_downloads": -1
     },
     "2026-02-06": {
       "downloads": 2,
@@ -16902,6 +16878,12 @@
       "re_downloads": 3,
       "updates": 0,
       "net_downloads": -3
+    },
+    "2026-05-06": {
+      "downloads": 2,
+      "re_downloads": 2,
+      "updates": 0,
+      "net_downloads": 0
     }
   },
   "1487907617": {
@@ -16945,12 +16927,6 @@
       "net_downloads": 5,
       "true_first_downloads": 4,
       "true_redownloads": 1
-    },
-    "2026-02-05": {
-      "downloads": 3,
-      "re_downloads": 1,
-      "updates": 0,
-      "net_downloads": 2
     },
     "2026-02-06": {
       "downloads": 2,
@@ -17499,6 +17475,12 @@
       "re_downloads": 2,
       "updates": 0,
       "net_downloads": 0
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 1,
+      "updates": 0,
+      "net_downloads": -1
     }
   },
   "1129609742": {
@@ -17549,12 +17531,6 @@
       "installations": 7,
       "deletions": 2,
       "net_installs": 5
-    },
-    "2026-02-05": {
-      "downloads": 19,
-      "re_downloads": 10,
-      "updates": 460,
-      "net_downloads": 9
     },
     "2026-02-06": {
       "downloads": 14,
@@ -18175,6 +18151,12 @@
       "re_downloads": 13,
       "updates": 32,
       "net_downloads": 1
+    },
+    "2026-05-06": {
+      "downloads": 8,
+      "re_downloads": 4,
+      "updates": 33,
+      "net_downloads": 4
     }
   },
   "1232127051": {
@@ -18201,12 +18183,6 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": -1
-    },
-    "2026-02-05": {
-      "downloads": 1,
-      "re_downloads": 0,
-      "updates": 0,
-      "net_downloads": 1
     },
     "2026-02-08": {
       "downloads": 0,
@@ -18579,12 +18555,6 @@
       "net_downloads": 0,
       "true_first_downloads": 0,
       "true_redownloads": 0
-    },
-    "2026-02-05": {
-      "downloads": 0,
-      "re_downloads": 0,
-      "updates": 2,
-      "net_downloads": 0
     },
     "2026-02-06": {
       "downloads": 0,
@@ -19050,12 +19020,6 @@
       "updates": 0,
       "net_downloads": -3
     },
-    "2026-02-05": {
-      "downloads": 1,
-      "re_downloads": 2,
-      "updates": 0,
-      "net_downloads": -1
-    },
     "2026-02-06": {
       "downloads": 0,
       "re_downloads": 1,
@@ -19367,6 +19331,12 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": -1
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 1,
+      "updates": 0,
+      "net_downloads": -1
     }
   },
   "1232127041": {
@@ -19399,12 +19369,6 @@
       "re_downloads": 2,
       "updates": 0,
       "net_downloads": -1
-    },
-    "2026-02-05": {
-      "downloads": 1,
-      "re_downloads": 4,
-      "updates": 0,
-      "net_downloads": -3
     },
     "2026-02-06": {
       "downloads": 1,
@@ -19879,6 +19843,12 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": -1
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 3,
+      "updates": 0,
+      "net_downloads": -3
     }
   },
   "891216933": {
@@ -20252,12 +20222,6 @@
       "true_first_downloads": 0,
       "true_redownloads": 0
     },
-    "2026-02-05": {
-      "downloads": 1,
-      "re_downloads": 0,
-      "updates": 0,
-      "net_downloads": 1
-    },
     "2026-02-07": {
       "downloads": 1,
       "re_downloads": 0,
@@ -20568,6 +20532,12 @@
       "re_downloads": 0,
       "updates": 0,
       "net_downloads": 0
+    },
+    "2026-05-06": {
+      "downloads": 2,
+      "re_downloads": 0,
+      "updates": 0,
+      "net_downloads": 2
     }
   },
   "6758915503": {
@@ -21240,6 +21210,12 @@
       "re_downloads": 0,
       "updates": 0,
       "net_downloads": 1
+    },
+    "2026-05-06": {
+      "downloads": 1,
+      "re_downloads": 0,
+      "updates": 0,
+      "net_downloads": 1
     }
   },
   "6759808689": {
@@ -21674,6 +21650,12 @@
       "re_downloads": 3,
       "updates": 5,
       "net_downloads": 14
+    },
+    "2026-05-06": {
+      "downloads": 29,
+      "re_downloads": 3,
+      "updates": 5,
+      "net_downloads": 26
     }
   },
   "6759932194": {
@@ -22029,6 +22011,12 @@
       "re_downloads": 0,
       "updates": 0,
       "net_downloads": 1
+    },
+    "2026-05-06": {
+      "downloads": 2,
+      "re_downloads": 0,
+      "updates": 0,
+      "net_downloads": 2
     }
   },
   "6760917095": {
@@ -22159,6 +22147,12 @@
       "re_downloads": 0,
       "updates": 0,
       "net_downloads": 2
+    },
+    "2026-05-06": {
+      "downloads": 1,
+      "re_downloads": 0,
+      "updates": 0,
+      "net_downloads": 1
     }
   },
   "6760623282": {
@@ -22437,6 +22431,12 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": 8
+    },
+    "2026-05-06": {
+      "downloads": 9,
+      "re_downloads": 0,
+      "updates": 0,
+      "net_downloads": 9
     }
   },
   "6760368538": {
@@ -22725,6 +22725,12 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": 7
+    },
+    "2026-05-06": {
+      "downloads": 8,
+      "re_downloads": 0,
+      "updates": 0,
+      "net_downloads": 8
     }
   },
   "951941394": {
@@ -22775,15 +22781,15 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": -1
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 2,
+      "updates": 0,
+      "net_downloads": -2
     }
   },
   "934700002": {
-    "2026-02-05": {
-      "downloads": 0,
-      "re_downloads": 1,
-      "updates": 0,
-      "net_downloads": -1
-    },
     "2026-02-17": {
       "downloads": 0,
       "re_downloads": 1,
@@ -23051,15 +23057,15 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": -1
+    },
+    "2026-05-06": {
+      "downloads": 0,
+      "re_downloads": 1,
+      "updates": 0,
+      "net_downloads": -1
     }
   },
   "6758317593": {
-    "2026-02-05": {
-      "downloads": 2,
-      "re_downloads": 0,
-      "updates": 0,
-      "net_downloads": 2
-    },
     "2026-02-06": {
       "downloads": 7,
       "re_downloads": 0,
@@ -23426,6 +23432,12 @@
       "re_downloads": 0,
       "updates": 2,
       "net_downloads": 2
+    },
+    "2026-05-06": {
+      "downloads": 3,
+      "re_downloads": 0,
+      "updates": 8,
+      "net_downloads": 3
     }
   },
   "1174074460": {
@@ -23434,6 +23446,14 @@
       "re_downloads": 1,
       "updates": 0,
       "net_downloads": -1
+    }
+  },
+  "6759627388": {
+    "2026-05-06": {
+      "downloads": 2,
+      "re_downloads": 0,
+      "updates": 0,
+      "net_downloads": 2
     }
   }
 }
