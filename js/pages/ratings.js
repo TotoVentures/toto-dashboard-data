@@ -40,28 +40,30 @@ const RatingsPage = (() => {
       const history = appRatings.history || {};
       const histogram = appRatings.histogram || {};
 
-      // Calculate new ratings in period from history snapshots
+      // Calculate new ratings in period.
+      // iTunes only gives us snapshot counts, and history is often sparse
+      // (collection gaps), so anchor "latest" to current.count — that's the
+      // freshest live value — and pick the most recent history snapshot
+      // strictly before filter.startDate as the baseline.
       const histDates = Object.keys(history).sort();
       let newInPeriod = 0;
+      let baselineCount = null;
 
-      if (histDates.length >= 2) {
-        // Find baseline: latest date BEFORE the filter start
-        const beforePeriod = histDates.filter(d => filterState.startDate && d < filterState.startDate);
-        const inPeriod = histDates.filter(d => {
-          if (filterState.startDate && d < filterState.startDate) return false;
-          if (filterState.endDate && d > filterState.endDate) return false;
-          return true;
-        });
-
-        if (beforePeriod.length > 0 && inPeriod.length > 0) {
-          const baseline = history[beforePeriod[beforePeriod.length - 1]]?.count || 0;
-          const latest = history[inPeriod[inPeriod.length - 1]]?.count || 0;
-          newInPeriod = Math.max(0, latest - baseline);
-        } else if (inPeriod.length >= 2) {
-          const first = history[inPeriod[0]]?.count || 0;
-          const last = history[inPeriod[inPeriod.length - 1]]?.count || 0;
-          newInPeriod = Math.max(0, last - first);
+      if (filterState.startDate) {
+        const before = histDates.filter(d => d < filterState.startDate);
+        if (before.length > 0) {
+          baselineCount = history[before[before.length - 1]]?.count;
+        } else if (histDates.length > 0) {
+          // No snapshot before period — fall back to earliest available
+          baselineCount = history[histDates[0]]?.count;
         }
+      } else if (histDates.length > 0) {
+        baselineCount = history[histDates[0]]?.count;
+      }
+
+      if (baselineCount != null && count > 0) {
+        // Show real delta (can be negative if ratings were removed)
+        newInPeriod = count - baselineCount;
       }
 
       if (count > 0) {
@@ -84,7 +86,7 @@ const RatingsPage = (() => {
 
     // KPI cards — new ratings first
     const metrics = [
-      { label: 'New Ratings', field: 'new', value: totalNew, isCurrency: false, description: 'New ratings gained during the selected period (needs 2+ days of history)' },
+      { label: 'New Ratings', field: 'new', value: totalNew, isCurrency: false, description: 'Net change in rating count from the start of the period to now (live iTunes count)' },
       { label: 'Total Ratings', field: 'total', value: totalRatings, isCurrency: false, description: 'Sum of all ratings across all apps (all countries)' },
       { label: 'Avg Rating', field: 'avg', value: avgRating, isCurrency: false, description: 'Weighted average across portfolio', format: (v) => v.toFixed(2) },
       { label: 'Rated Apps', field: 'rated', value: rows.length, isCurrency: false, description: 'Apps with at least one rating' }
@@ -107,7 +109,12 @@ const RatingsPage = (() => {
       },
       {
         key: 'newInPeriod', label: 'New', align: 'right',
-        format: (val) => val > 0 ? `+${TotoComponents.formatNumber(val)}` : '\u2014'
+        render: (val) => {
+          const num = Number(val) || 0;
+          if (num > 0) return `<span class="text-green">+${TotoComponents.formatNumber(num)}</span>`;
+          if (num < 0) return `<span class="text-red">${TotoComponents.formatNumber(num)}</span>`;
+          return '\u2014';
+        }
       },
       {
         key: 'rating', label: 'Rating', align: 'right',
