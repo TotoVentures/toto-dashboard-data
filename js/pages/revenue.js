@@ -1,11 +1,13 @@
 /**
- * revenue.js — Revenue page
+ * revenue.js — Revenue & Downloads page
  */
 
 const RevenuePage = (() => {
 
+  const SALES_FIELDS = new Set(['downloads', 're_downloads', 'updates', 'uninstalls']);
+
   function render(container, data, filterState) {
-    const { revenue, apps, adspend } = data;
+    const { revenue, sales, apps, adspend } = data;
     container.innerHTML = '';
 
     const getApp = () => TotoApp.state.highlightedApp;
@@ -13,12 +15,12 @@ const RevenuePage = (() => {
 
     const title = document.createElement('h1');
     title.className = 'page-title';
-    title.textContent = 'Revenue';
+    title.textContent = 'Revenue & Downloads';
     container.appendChild(title);
 
     const subtitle = document.createElement('p');
     subtitle.className = 'page-subtitle';
-    subtitle.textContent = 'Subscription revenue, IAP, and app sales breakdown';
+    subtitle.textContent = 'Subscription revenue, IAP, app sales, and download activity';
     container.appendChild(subtitle);
 
     if (!revenue || Object.keys(revenue).length === 0) {
@@ -28,14 +30,29 @@ const RevenuePage = (() => {
 
     // Compute KPIs — scoped to isolated app or whole portfolio
     function computeMetrics(appId) {
-      let source;
+      let revSource;
       if (appId && revenue[appId]) {
-        source = { [appId]: revenue[appId] };
+        revSource = { [appId]: revenue[appId] };
       } else {
-        source = revenue;
+        revSource = revenue;
       }
-      const { totals: periodTotals, dayCount } = aggregateTotals(source, ['total', 'subscriptions', 'iap', 'returns', 'sales'], filterState);
-      const iapOnly = Math.max(0, periodTotals.iap - periodTotals.subscriptions);
+      const { totals: periodTotals, dayCount } = aggregateTotals(revSource, ['total', 'subscriptions', 'iap', 'returns', 'sales'], filterState);
+
+      let salesSource = null;
+      let salesTotals = { downloads: 0, re_downloads: 0, updates: 0, uninstalls: 0 };
+      let salesDayCount = dayCount;
+      if (sales) {
+        if (appId && sales[appId]) {
+          salesSource = { [appId]: sales[appId] };
+        } else if (!appId) {
+          salesSource = sales;
+        }
+        if (salesSource) {
+          const agg = aggregateTotals(salesSource, ['downloads', 're_downloads', 'updates', 'uninstalls'], filterState);
+          salesTotals = agg.totals;
+          salesDayCount = agg.dayCount || dayCount;
+        }
+      }
 
       // Ad spend for this scope
       let adSpendTotal = 0;
@@ -50,7 +67,7 @@ const RevenuePage = (() => {
         adSpendTotal = adTotals.spend;
       }
       const netRevenue = periodTotals.total - adSpendTotal;
-      const revChange = computePeriodChange(source, 'total', filterState);
+      const revChange = computePeriodChange(revSource, 'total', filterState);
       const adSource = adspend ? (appId ? (adspend[appId] ? { [appId]: adspend[appId] } : {}) : adspend) : null;
       const adChange = adSource ? computePeriodChange(adSource, 'spend', filterState) : null;
       let netChange = revChange;
@@ -61,13 +78,23 @@ const RevenuePage = (() => {
         netChange = prevNet !== 0 ? ((netRevenue - prevNet) / Math.abs(prevNet)) * 100 : (netRevenue > 0 ? 100 : 0);
       }
 
-      return [
+      const list = [
         { label: 'Total Revenue', field: 'total', value: periodTotals.total, perDay: periodTotals.total / dayCount, changePercent: revChange, isCurrency: true, description: 'Sum of subscriptions, IAP, and app sales minus returns' },
         { label: 'Net Revenue', field: 'netrevenue', value: netRevenue, perDay: netRevenue / dayCount, changePercent: netChange, isCurrency: true, description: 'Revenue minus ad spend' },
         { label: 'Ad Spend', field: 'adspend', value: adSpendTotal, perDay: adSpendTotal / dayCount, changePercent: adChange, isCurrency: true, description: 'Apple Search Ads spend in the selected period' },
-        { label: 'Subscription Revenue', field: 'subscriptions', value: periodTotals.subscriptions, perDay: periodTotals.subscriptions / dayCount, changePercent: computePeriodChange(source, 'subscriptions', filterState), isCurrency: true, description: 'Revenue from auto-renewable subscriptions in the selected period' },
+        { label: 'Subscription Revenue', field: 'subscriptions', value: periodTotals.subscriptions, perDay: periodTotals.subscriptions / dayCount, changePercent: computePeriodChange(revSource, 'subscriptions', filterState), isCurrency: true, description: 'Revenue from auto-renewable subscriptions in the selected period' },
         { label: 'Returns', field: 'returns', value: periodTotals.returns, perDay: periodTotals.returns / dayCount, isCurrency: true, description: 'Refunds processed in the selected period' }
       ];
+
+      if (sales) {
+        list.push(
+          { label: 'Downloads', field: 'downloads', value: salesTotals.downloads, perDay: salesTotals.downloads / salesDayCount, changePercent: salesSource ? computePeriodChange(salesSource, 'downloads', filterState) : null, isCurrency: false, description: 'First-time app downloads in the selected period' },
+          { label: 'Re-downloads', field: 're_downloads', value: salesTotals.re_downloads, perDay: salesTotals.re_downloads / salesDayCount, changePercent: salesSource ? computePeriodChange(salesSource, 're_downloads', filterState) : null, isCurrency: false, description: 'Users who previously downloaded the app and downloaded it again' },
+          { label: 'Updates', field: 'updates', value: salesTotals.updates, perDay: salesTotals.updates / salesDayCount, changePercent: salesSource ? computePeriodChange(salesSource, 'updates', filterState) : null, isCurrency: false, description: 'App version updates installed by existing users' },
+          { label: 'Uninstalls', field: 'uninstalls', value: salesTotals.uninstalls, perDay: salesTotals.uninstalls / salesDayCount, changePercent: salesSource ? computePeriodChange(salesSource, 'uninstalls', filterState) : null, isCurrency: false, description: 'Number of app deletions in the selected period' }
+        );
+      }
+      return list;
     }
 
     let activeField = 'total';
@@ -103,7 +130,7 @@ const RevenuePage = (() => {
       if (!chip) return;
       if (getApp()) {
         chip.classList.remove('hidden');
-        chip.innerHTML = `Showing: ${TotoComponents.escapeHtml(getApp().name)} <button class="chip-clear">\u2715</button>`;
+        chip.innerHTML = `Showing: ${TotoComponents.escapeHtml(getApp().name)} <button class="chip-clear">✕</button>`;
         chip.querySelector('.chip-clear').addEventListener('click', () => {
           setApp(null);
           onIsolationChange();
@@ -121,6 +148,28 @@ const RevenuePage = (() => {
 
       TotoCharts.destroyChart('revenueMainChart');
       const ha = getApp();
+
+      // Sales-data fields (downloads, re_downloads, updates, uninstalls)
+      if (SALES_FIELDS.has(field)) {
+        if (!sales) return;
+        if (ha && sales[ha.id]) {
+          const appData = sales[ha.id];
+          const dates = getFullDateRange(filterState);
+          const bucketed = bucketDates(dates, filterState.granularity);
+          const labels = bucketed.map(b => b.label);
+          const values = bucketed.map(b => b.dates.reduce((sum, date) => sum + (parseFloat(appData[date]?.[field]) || 0), 0));
+          if (labels.length > 0) {
+            const rawDates = filterState.granularity === 'daily' ? bucketed.map(b => b.dates[0]) : null;
+            TotoCharts.createAreaChart('revenueMainChart', labels, [{ label: shortAppName(ha.name), data: values }], { isCurrency: false, stacked: false, rawDates });
+          }
+        } else {
+          const chartData = buildTimeSeriesData(sales, field, apps, filterState, { topN: 5 });
+          if (chartData.labels.length > 0) {
+            TotoCharts.createAreaChart('revenueMainChart', chartData.labels, chartData.datasets, { isCurrency: false, rawDates: chartData.rawDates });
+          }
+        }
+        return;
+      }
 
       // Net revenue: revenue - adspend per day
       if (field === 'netrevenue') {
@@ -212,12 +261,19 @@ const RevenuePage = (() => {
         return;
       }
 
+      // Total / subscriptions / iap / returns / sales: per-app stacked
+      // Clamp daily app values at 0 for `total` so refund-heavy days don't dip below zero
+      const clampNegative = field === 'total';
       if (ha && revenue[ha.id]) {
         const appData = revenue[ha.id];
         const dates = getFullDateRange(filterState);
         const bucketed = bucketDates(dates, filterState.granularity);
         const labels = bucketed.map(b => b.label);
-        const values = bucketed.map(b => b.dates.reduce((sum, date) => sum + (parseFloat(appData[date]?.[field]) || 0), 0));
+        const values = bucketed.map(b => b.dates.reduce((sum, date) => {
+          let v = parseFloat(appData[date]?.[field]) || 0;
+          if (clampNegative && v < 0) v = 0;
+          return sum + v;
+        }, 0));
         if (labels.length > 0) {
           const rawDates = filterState.granularity === 'daily' ? bucketed.map(b => b.dates[0]) : null;
           TotoCharts.createAreaChart('revenueMainChart', labels, [{ label: shortAppName(ha.name), data: values }], { isCurrency: true, stacked: false, rawDates });
@@ -225,7 +281,7 @@ const RevenuePage = (() => {
         return;
       }
 
-      const chartData = buildTimeSeriesData(revenue, field, apps, filterState, { topN: 5, showComparison: true });
+      const chartData = buildTimeSeriesData(revenue, field, apps, filterState, { topN: 5, showComparison: true, clampNegative });
       if (chartData.labels.length > 0) {
         TotoCharts.createAreaChart('revenueMainChart', chartData.labels, chartData.datasets, {
           isCurrency: true, rawDates: chartData.rawDates, previousPeriodData: chartData.previousPeriodData
@@ -255,8 +311,8 @@ const RevenuePage = (() => {
     container.appendChild(breakdownSection);
     renderBreakdownChart(revenue, filterState);
 
-    // Revenue table by app
-    const appRows = getAppRevenueTotals(revenue, apps, filterState);
+    // Combined table by app — revenue + downloads
+    const appRows = getAppCombinedTotals(revenue, sales, apps, filterState);
     if (appRows.length > 0) {
       const maxRevenue = Math.max(...appRows.map(r => r.total), 1);
       const columns = [
@@ -273,11 +329,13 @@ const RevenuePage = (() => {
             const str = TotoComponents.formatNumber(Math.abs(num), { currency: true });
             return num < 0 ? `<span class="text-red">-${str}</span>` : str;
           }
-        }
+        },
+        { key: 'downloads', label: 'Downloads', align: 'right', format: (val) => TotoComponents.formatNumber(val) },
+        { key: 're_downloads', label: 'Re-DLs', align: 'right', format: (val) => TotoComponents.formatNumber(val) }
       ];
 
       TotoComponents.renderTable(container, columns, appRows, {
-        title: 'Revenue by App',
+        title: 'Revenue & Downloads by App',
         defaultSort: 'total',
         defaultSortDir: 'desc',
         selectedRowId: getApp() ? getApp().id : null,
@@ -336,27 +394,46 @@ const RevenuePage = (() => {
     }
   }
 
-  function getAppRevenueTotals(revenue, apps, filterState) {
+  function getAppCombinedTotals(revenue, sales, apps, filterState) {
     const appMap = apps || {};
-    const selectedApps = getSelectedAppIds(revenue, filterState);
+    const ids = new Set();
+    Object.keys(revenue || {}).forEach(id => ids.add(id));
+    if (sales) Object.keys(sales).forEach(id => ids.add(id));
+    const allIds = [...ids];
+    const selected = filterState.selectedApps && filterState.selectedApps.length > 0
+      ? allIds.filter(id => filterState.selectedApps.includes(id))
+      : allIds;
+
     const rows = [];
-    selectedApps.forEach(productId => {
-      const appData = revenue[productId];
-      if (!appData) return;
+    selected.forEach(productId => {
+      const appData = revenue ? revenue[productId] : null;
+      const salesData = sales ? sales[productId] : null;
+      if (!appData && !salesData) return;
       const appInfo = appMap[productId] || {};
-      const totals = { total: 0, subscriptions: 0, iap: 0, sales: 0, returns: 0 };
-      const dates = getFilteredDates(appData, filterState);
-      dates.forEach(date => {
-        const d = appData[date];
-        if (!d) return;
-        totals.total += parseFloat(d.total) || 0;
-        const subs = parseFloat(d.subscriptions) || 0;
-        const iap = parseFloat(d.iap) || 0;
-        totals.subscriptions += subs;
-        totals.iap += Math.max(0, iap - subs);
-        totals.sales += parseFloat(d.sales) || 0;
-        totals.returns += parseFloat(d.returns) || 0;
-      });
+      const totals = { total: 0, subscriptions: 0, iap: 0, sales: 0, returns: 0, downloads: 0, re_downloads: 0 };
+      if (appData) {
+        const dates = getFilteredDates(appData, filterState);
+        dates.forEach(date => {
+          const d = appData[date];
+          if (!d) return;
+          totals.total += parseFloat(d.total) || 0;
+          const subs = parseFloat(d.subscriptions) || 0;
+          const iap = parseFloat(d.iap) || 0;
+          totals.subscriptions += subs;
+          totals.iap += Math.max(0, iap - subs);
+          totals.sales += parseFloat(d.sales) || 0;
+          totals.returns += parseFloat(d.returns) || 0;
+        });
+      }
+      if (salesData) {
+        const dates = getFilteredDates(salesData, filterState);
+        dates.forEach(date => {
+          const d = salesData[date];
+          if (!d) return;
+          totals.downloads += parseFloat(d.downloads) || 0;
+          totals.re_downloads += parseFloat(d.re_downloads) || 0;
+        });
+      }
       rows.push({ id: productId, name: appInfo.name || `App ${productId}`, icon: appInfo.icon || '', ...totals });
     });
     return rows;

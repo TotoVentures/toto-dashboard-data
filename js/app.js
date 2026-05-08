@@ -254,19 +254,13 @@ const TotoApp = (() => {
         OverviewPage.render(pageContent, state.data, state.filter);
         break;
       case 'revenue':
-        RevenuePage.render(pageContent, state.data, state.filter);
-        break;
-      case 'sales':
-        SalesPage.render(pageContent, state.data, state.filter);
-        break;
+      case 'sales':           // legacy hash redirects
       case 'funnel':
-        FunnelPage.render(pageContent, state.data, state.filter);
+      case 'sub-insights':
+        RevenuePage.render(pageContent, state.data, state.filter);
         break;
       case 'subscriptions':
         SubscriptionsPage.render(pageContent, state.data, state.filter);
-        break;
-      case 'sub-insights':
-        SubInsightsPage.render(pageContent, state.data, state.filter);
         break;
       case 'adspend':
         AdSpendPage.render(pageContent, state.data, state.filter);
@@ -377,7 +371,7 @@ const TotoApp = (() => {
     window.addEventListener('hashchange', handleRoute);
 
     // Keyboard navigation
-    const pageKeys = { '1': 'yesterday', '2': 'overview', '3': 'revenue', '4': 'sales', '5': 'subscriptions', '6': 'adspend', '7': 'ratings' };
+    const pageKeys = { '1': 'yesterday', '2': 'overview', '3': 'revenue', '4': 'subscriptions', '5': 'adspend', '6': 'ratings' };
     const datePresetOrder = [
       { label: '7D', days: 7 },
       { label: '30D', days: 30 },
@@ -609,6 +603,7 @@ function buildTimeSeriesData(dataByProduct, field, apps, filterState, options = 
   const bucketedDates = bucketDates(sortedDates, filterState.granularity);
   const labels = bucketedDates.map(b => b.label);
 
+  const clampNegative = options.clampNegative === true;
   const datasets = topApps.map((productId, i) => {
     const appData = dataByProduct[productId];
     const appInfo = appMap[productId] || {};
@@ -616,7 +611,9 @@ function buildTimeSeriesData(dataByProduct, field, apps, filterState, options = 
 
     const data = bucketedDates.map(bucket => {
       return bucket.dates.reduce((sum, date) => {
-        return sum + (parseFloat(appData?.[date]?.[field]) || 0);
+        let v = parseFloat(appData?.[date]?.[field]) || 0;
+        if (clampNegative && v < 0) v = 0;
+        return sum + v;
       }, 0);
     });
 
@@ -629,7 +626,9 @@ function buildTimeSeriesData(dataByProduct, field, apps, filterState, options = 
       return bucket.dates.reduce((sum, date) => {
         let daySum = 0;
         otherApps.forEach(pid => {
-          daySum += parseFloat(dataByProduct[pid]?.[date]?.[field]) || 0;
+          let v = parseFloat(dataByProduct[pid]?.[date]?.[field]) || 0;
+          if (clampNegative && v < 0) v = 0;
+          daySum += v;
         });
         return sum + daySum;
       }, 0);
