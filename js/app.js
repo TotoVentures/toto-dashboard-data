@@ -609,33 +609,31 @@ function buildTimeSeriesData(dataByProduct, field, apps, filterState, options = 
     const appInfo = appMap[productId] || {};
     const name = shortAppName(appInfo.name || `App ${productId}`);
 
-    const data = bucketedDates.map(bucket => {
+    const rawData = bucketedDates.map(bucket => {
       return bucket.dates.reduce((sum, date) => {
-        let v = parseFloat(appData?.[date]?.[field]) || 0;
-        if (clampNegative && v < 0) v = 0;
-        return sum + v;
+        return sum + (parseFloat(appData?.[date]?.[field]) || 0);
       }, 0);
     });
+    const data = clampNegative ? rawData.map(v => v < 0 ? 0 : v) : rawData;
 
-    return { label: name, data };
+    return { label: name, data, rawData };
   });
 
   // Add "Other" bucket for remaining apps so totals are accurate
   if (otherApps.length > 0) {
-    const otherData = bucketedDates.map(bucket => {
+    const otherRaw = bucketedDates.map(bucket => {
       return bucket.dates.reduce((sum, date) => {
         let daySum = 0;
         otherApps.forEach(pid => {
-          let v = parseFloat(dataByProduct[pid]?.[date]?.[field]) || 0;
-          if (clampNegative && v < 0) v = 0;
-          daySum += v;
+          daySum += parseFloat(dataByProduct[pid]?.[date]?.[field]) || 0;
         });
         return sum + daySum;
       }, 0);
     });
+    const otherData = clampNegative ? otherRaw.map(v => v < 0 ? 0 : v) : otherRaw;
     // Only add if there's actual data
-    if (otherData.some(v => v > 0)) {
-      datasets.push({ label: 'Other', data: otherData });
+    if (otherData.some(v => v > 0) || otherRaw.some(v => v !== 0)) {
+      datasets.push({ label: 'Other', data: otherData, rawData: otherRaw });
     }
   }
 

@@ -269,14 +269,11 @@ const RevenuePage = (() => {
         const dates = getFullDateRange(filterState);
         const bucketed = bucketDates(dates, filterState.granularity);
         const labels = bucketed.map(b => b.label);
-        const values = bucketed.map(b => b.dates.reduce((sum, date) => {
-          let v = parseFloat(appData[date]?.[field]) || 0;
-          if (clampNegative && v < 0) v = 0;
-          return sum + v;
-        }, 0));
+        const rawValues = bucketed.map(b => b.dates.reduce((sum, date) => sum + (parseFloat(appData[date]?.[field]) || 0), 0));
+        const values = clampNegative ? rawValues.map(v => v < 0 ? 0 : v) : rawValues;
         if (labels.length > 0) {
           const rawDates = filterState.granularity === 'daily' ? bucketed.map(b => b.dates[0]) : null;
-          TotoCharts.createAreaChart('revenueMainChart', labels, [{ label: shortAppName(ha.name), data: values }], { isCurrency: true, stacked: false, rawDates });
+          TotoCharts.createAreaChart('revenueMainChart', labels, [{ label: shortAppName(ha.name), data: values, rawData: rawValues }], { isCurrency: true, stacked: false, rawDates });
         }
         return;
       }

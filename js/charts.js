@@ -130,7 +130,9 @@ const TotoCharts = (() => {
           if (current.length <= 1) return null;
           let total = 0;
           current.forEach(item => {
-            total += item.parsed.y || 0;
+            // Prefer rawData (unclamped) when present; fall back to parsed.y
+            const raw = item.dataset.rawData?.[item.dataIndex];
+            total += (raw != null ? raw : (item.parsed.y || 0));
           });
           const formatted = isCurrency
             ? '$' + total.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
@@ -139,10 +141,13 @@ const TotoCharts = (() => {
         },
         label: function(context) {
           let label = context.dataset.label || '';
-          let value = context.parsed.y;
+          // Prefer rawData (unclamped) when present; fall back to parsed.y
+          const raw = context.dataset.rawData?.[context.dataIndex];
+          let value = raw != null ? raw : context.parsed.y;
           if (value == null) return null;
           if (isCurrency) {
-            value = '$' + value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const sign = value < 0 ? '-' : '';
+            value = sign + '$' + Math.abs(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
           } else {
             value = value.toLocaleString('en-US');
           }
@@ -185,6 +190,7 @@ const TotoCharts = (() => {
       return {
         label: ds.label,
         data: ds.data,
+        rawData: ds.rawData,  // unclamped values for tooltip display
         borderColor: ds.borderColor || color.line,
         backgroundColor: ds.backgroundColor || color.fill,
         fill: stacked ? (i === 0 ? 'origin' : '-1') : 'origin',
