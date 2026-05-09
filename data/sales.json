@@ -4670,7 +4670,9 @@
       "downloads": 0,
       "re_downloads": 1,
       "updates": 0,
-      "net_downloads": -1
+      "net_downloads": -1,
+      "true_first_downloads": 0,
+      "true_redownloads": 0
     },
     "2026-04-14": {
       "downloads": 0,
@@ -20648,13 +20650,17 @@
       "downloads": 0,
       "re_downloads": 0,
       "updates": 0,
-      "net_downloads": 0
+      "net_downloads": 0,
+      "true_first_downloads": 0,
+      "true_redownloads": 0
     },
     "2026-04-22": {
       "downloads": 1,
       "re_downloads": 0,
       "updates": 0,
-      "net_downloads": 1
+      "net_downloads": 1,
+      "true_first_downloads": 1,
+      "true_redownloads": 0
     },
     "2026-04-23": {
       "downloads": 0,
@@ -23555,7 +23561,9 @@
       "downloads": 1,
       "re_downloads": 0,
       "updates": 0,
-      "net_downloads": 1
+      "net_downloads": 1,
+      "true_first_downloads": 1,
+      "true_redownloads": 0
     },
     "2026-04-24": {
       "downloads": 2,

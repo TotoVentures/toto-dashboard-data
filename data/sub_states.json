@@ -5091,6 +5091,15 @@
           "churn": 2
         }
       }
+    },
+    "2026-04-21": {
+      "active_paid": 0,
+      "active_trial": 0,
+      "voluntary_churn": 0,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {}
     }
   },
   "6760917095": {
