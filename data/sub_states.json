@@ -2347,6 +2347,15 @@
           "churn": 9
         }
       }
+    },
+    "2026-03-22": {
+      "active_paid": 0,
+      "active_trial": 0,
+      "voluntary_churn": 0,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {}
     }
   },
   "1015935781": {
@@ -5100,6 +5109,15 @@
       "paid_conversions": 0,
       "trial_to_paid_rate": 0,
       "by_plan": {}
+    },
+    "2026-04-28": {
+      "active_paid": 0,
+      "active_trial": 0,
+      "voluntary_churn": 0,
+      "trial_starts": 0,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0,
+      "by_plan": {}
     }
   },
   "6760917095": {
@@ -5247,6 +5265,15 @@
           "churn": 0
         }
       }
+    },
+    "2026-05-01": {
+      "active_paid": 0,
+      "active_trial": 0,
+      "voluntary_churn": 0,
+      "trial_starts": 1,
+      "paid_conversions": 0,
+      "trial_to_paid_rate": 0.0,
+      "by_plan": {}
     }
   },
   "6760368538": {

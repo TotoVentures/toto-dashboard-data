@@ -1,5 +1,5 @@
 {
-  "sync_date": "2026-05-10T16:40:20Z",
+  "sync_date": "2026-05-10T19:47:02Z",
   "date_range": {
     "start": "2026-02-09",
     "end": "2026-05-09"
@@ -459,11 +459,11 @@
       "developer": "Toto Ventures Inc.",
       "revenue": 165.53,
       "downloads": 33,
-      "true_first_downloads": 2,
+      "true_first_downloads": 3,
       "impressions": 108,
       "page_views": 3,
       "tap_through_rate": 2.8,
-      "conversion_rate": 66.7,
+      "conversion_rate": 100.0,
       "active_paid": 2,
       "active_trials": 0,
       "trial_to_paid_rate": 0,
@@ -1467,7 +1467,7 @@
     {
       "id": "6760917095",
       "name": "Spider Identifier: Spider Scan",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/cf/29/84cf2915-01a5-e756-36a6-7133d3c4abec/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/24/53/55245394-7a98-bc0e-469b-634c5383c276/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 0.0,
       "downloads": 43,
