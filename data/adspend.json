@@ -3271,6 +3271,14 @@
       "installs": 97,
       "new_downloads": 72,
       "redownloads": 25
+    },
+    "2026-05-10": {
+      "spend": 66.38,
+      "impressions": 882,
+      "taps": 74,
+      "installs": 67,
+      "new_downloads": 47,
+      "redownloads": 20
     }
   },
   "880790176": {
@@ -6529,6 +6537,14 @@
       "installs": 2,
       "new_downloads": 2,
       "redownloads": 0
+    },
+    "2026-05-10": {
+      "spend": 1.91,
+      "impressions": 59,
+      "taps": 2,
+      "installs": 2,
+      "new_downloads": 2,
+      "redownloads": 0
     }
   },
   "6557028325": {
@@ -8888,6 +8904,14 @@
       "spend": 0.77,
       "impressions": 23,
       "taps": 1,
+      "installs": 1,
+      "new_downloads": 1,
+      "redownloads": 0
+    },
+    "2026-05-10": {
+      "spend": 1.56,
+      "impressions": 15,
+      "taps": 2,
       "installs": 1,
       "new_downloads": 1,
       "redownloads": 0
@@ -14535,6 +14559,14 @@
       "installs": 6,
       "new_downloads": 6,
       "redownloads": 0
+    },
+    "2026-05-10": {
+      "spend": 4.87,
+      "impressions": 84,
+      "taps": 4,
+      "installs": 3,
+      "new_downloads": 3,
+      "redownloads": 0
     }
   },
   "950551948": {
@@ -17809,6 +17841,14 @@
       "installs": 60,
       "new_downloads": 40,
       "redownloads": 20
+    },
+    "2026-05-10": {
+      "spend": 62.0,
+      "impressions": 1642,
+      "taps": 67,
+      "installs": 63,
+      "new_downloads": 47,
+      "redownloads": 16
     }
   },
   "1003684086": {
@@ -20191,6 +20231,14 @@
       "installs": 1,
       "new_downloads": 1,
       "redownloads": 0
+    },
+    "2026-05-10": {
+      "spend": 0.0,
+      "impressions": 4,
+      "taps": 0,
+      "installs": 0,
+      "new_downloads": 0,
+      "redownloads": 0
     }
   },
   "1582983676": {
@@ -20777,6 +20825,14 @@
       "installs": 6,
       "new_downloads": 5,
       "redownloads": 1
+    },
+    "2026-05-10": {
+      "spend": 13.31,
+      "impressions": 95,
+      "taps": 18,
+      "installs": 16,
+      "new_downloads": 15,
+      "redownloads": 1
     }
   },
   "6670757865": {
@@ -21331,6 +21387,14 @@
       "installs": 14,
       "new_downloads": 13,
       "redownloads": 1
+    },
+    "2026-05-10": {
+      "spend": 10.43,
+      "impressions": 80,
+      "taps": 10,
+      "installs": 8,
+      "new_downloads": 8,
+      "redownloads": 0
     }
   },
   "6759501398": {
@@ -22391,6 +22455,14 @@
       "installs": 0,
       "new_downloads": 0,
       "redownloads": 0
+    },
+    "2026-05-10": {
+      "spend": 0.0,
+      "impressions": 74,
+      "taps": 0,
+      "installs": 0,
+      "new_downloads": 0,
+      "redownloads": 0
     }
   },
   "6759808689": {
@@ -22865,6 +22937,14 @@
       "installs": 6,
       "new_downloads": 6,
       "redownloads": 0
+    },
+    "2026-05-10": {
+      "spend": 9.46,
+      "impressions": 40,
+      "taps": 5,
+      "installs": 6,
+      "new_downloads": 6,
+      "redownloads": 0
     }
   },
   "6759932194": {
@@ -23330,6 +23410,14 @@
       "taps": 7,
       "installs": 5,
       "new_downloads": 5,
+      "redownloads": 0
+    },
+    "2026-05-10": {
+      "spend": 4.19,
+      "impressions": 23,
+      "taps": 4,
+      "installs": 3,
+      "new_downloads": 3,
       "redownloads": 0
     }
   },
@@ -23823,6 +23911,14 @@
       "installs": 5,
       "new_downloads": 5,
       "redownloads": 0
+    },
+    "2026-05-10": {
+      "spend": 7.95,
+      "impressions": 60,
+      "taps": 10,
+      "installs": 11,
+      "new_downloads": 11,
+      "redownloads": 0
     }
   },
   "6761281918": {
@@ -23957,6 +24053,24 @@
     "2026-05-09": {
       "spend": 0.0,
       "impressions": 40,
+      "taps": 0,
+      "installs": 0,
+      "new_downloads": 0,
+      "redownloads": 0
+    },
+    "2026-05-10": {
+      "spend": 0.0,
+      "impressions": 33,
+      "taps": 0,
+      "installs": 0,
+      "new_downloads": 0,
+      "redownloads": 0
+    }
+  },
+  "6759627388": {
+    "2026-05-10": {
+      "spend": 0.0,
+      "impressions": 68,
       "taps": 0,
       "installs": 0,
       "new_downloads": 0,
