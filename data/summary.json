@@ -1,5 +1,5 @@
 {
-  "sync_date": "2026-05-15T15:54:45Z",
+  "sync_date": "2026-05-15T17:19:33Z",
   "date_range": {
     "start": "2026-02-14",
     "end": "2026-05-14"
@@ -169,7 +169,7 @@
     {
       "id": "6759808689",
       "name": "Tree Identifier - AI Tree ID",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/a8/86/a8a8869b-6987-ccf9-285e-d454e1c58f20/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/9e/f6/f99ef6ad-5ae2-adfa-fc16-bb18af075a57/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 2148.44,
       "downloads": 1348,
