@@ -63768,9 +63768,7 @@
       "new_subscriptions": 0,
       "renewals": 0,
       "churn": 0,
-      "activations": 0,
-      "trial_to_paid_rate": 0.0,
-      "churn_voluntary": 0
+      "activations": 0
     }
   },
   "6760368538": {
