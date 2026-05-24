@@ -35,13 +35,6 @@
       "sales": 0.0,
       "returns": 0.0
     },
-    "2025-05-24": {
-      "total": 16.11,
-      "subscriptions": 16.11,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
     "2025-05-25": {
       "total": 8.48,
       "subscriptions": 8.48,
@@ -2547,6 +2540,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 20.36,
+      "subscriptions": 20.36,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1003684086": {
@@ -2581,13 +2581,6 @@
     "2026-05-20": {
       "total": 125.14,
       "subscriptions": 125.14,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 96.75,
-      "subscriptions": 96.75,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -5097,6 +5090,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 156.64,
+      "subscriptions": 156.64,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "873464354": {
@@ -5108,13 +5108,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -5757,6 +5750,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1582983676": {
@@ -5791,13 +5791,6 @@
     "2026-05-20": {
       "total": 27.0,
       "subscriptions": 27.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 56.83,
-      "subscriptions": 56.83,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -8307,6 +8300,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 27.31,
+      "subscriptions": 23.92,
+      "iap": 3.39,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "6502181178": {
@@ -10717,6 +10717,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "6476511029": {
@@ -10735,13 +10742,6 @@
       "returns": 0.0
     },
     "2026-05-19": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -12644,6 +12644,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "953875772": {
@@ -12676,13 +12683,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -14463,13 +14463,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -16981,6 +16974,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "907775601": {
@@ -16999,13 +16999,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -18478,13 +18471,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -20450,6 +20436,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "630851451": {
@@ -20484,13 +20477,6 @@
     "2026-05-20": {
       "total": 68.9,
       "subscriptions": 68.9,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 134.94,
-      "subscriptions": 134.94,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -23000,6 +22986,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 26.74,
+      "subscriptions": 26.74,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "950551948": {
@@ -23034,13 +23027,6 @@
     "2026-05-20": {
       "total": 120.32,
       "subscriptions": 120.32,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 138.32,
-      "subscriptions": 138.32,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -25550,6 +25536,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 43.09
+    },
+    "2026-05-23": {
+      "total": 97.72,
+      "subscriptions": 97.72,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "6670757865": {
@@ -25584,13 +25577,6 @@
     "2026-05-20": {
       "total": 21.2,
       "subscriptions": 21.2,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 0.0,
-      "subscriptions": 0.0,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -28100,6 +28086,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 8.48,
+      "subscriptions": 8.48,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "6449641148": {
@@ -28132,13 +28125,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -30615,6 +30601,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 3.39,
+      "subscriptions": 3.39,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "810713114": {
@@ -30649,13 +30642,6 @@
     "2026-05-20": {
       "total": 12.78,
       "subscriptions": 12.78,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 13.7,
-      "subscriptions": 13.7,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -33165,6 +33151,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 3.39,
+      "subscriptions": 3.39,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1399633974": {
@@ -33199,13 +33192,6 @@
     "2026-05-20": {
       "total": 0.0,
       "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 3.38,
-      "subscriptions": 3.38,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -35666,6 +35652,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1015935781": {
@@ -35700,13 +35693,6 @@
     "2026-05-20": {
       "total": 18.39,
       "subscriptions": 18.39,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 48.43,
-      "subscriptions": 48.43,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -38216,6 +38202,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 12.72,
+      "subscriptions": 12.72,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "950197769": {
@@ -38248,13 +38241,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -40766,6 +40752,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "968752295": {
@@ -40798,13 +40791,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -43316,6 +43302,13 @@
       "iap": 0.66,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "868434888": {
@@ -43348,13 +43341,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -45852,6 +45838,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "977965135": {
@@ -45884,13 +45877,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -48185,6 +48171,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1356249212": {
@@ -48219,13 +48212,6 @@
     "2026-05-20": {
       "total": 13.6,
       "subscriptions": 13.6,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 13.83,
-      "subscriptions": 13.83,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -50735,6 +50721,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "570129169": {
@@ -50769,13 +50762,6 @@
     "2026-05-20": {
       "total": 153.13,
       "subscriptions": 153.13,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 514.11,
-      "subscriptions": 514.11,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -53285,6 +53271,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 587.75,
+      "subscriptions": 587.75,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1078148357": {
@@ -53310,13 +53303,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -55821,6 +55807,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "999516176": {
@@ -55846,13 +55839,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -58112,6 +58098,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "6557028325": {
@@ -58146,13 +58139,6 @@
     "2026-05-20": {
       "total": 5.89,
       "subscriptions": 5.89,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 0.0,
-      "subscriptions": 0.0,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -60662,6 +60648,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "886093098": {
@@ -60694,13 +60687,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -63212,6 +63198,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "923642803": {
@@ -63841,13 +63834,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -66324,6 +66310,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1213054524": {
@@ -66358,13 +66351,6 @@
     "2026-05-20": {
       "total": 14.42,
       "subscriptions": 14.42,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 3.0,
-      "subscriptions": 3.0,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -68874,6 +68860,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "873500886": {
@@ -71263,6 +71256,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1123523401": {
@@ -71295,13 +71295,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -73792,6 +73785,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1487907617": {
@@ -73826,13 +73826,6 @@
     "2026-05-20": {
       "total": 0.0,
       "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 2.58,
-      "subscriptions": 2.58,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -76272,6 +76265,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1129609742": {
@@ -76306,13 +76306,6 @@
     "2026-05-20": {
       "total": 25.91,
       "subscriptions": 25.91,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
-      "total": 35.57,
-      "subscriptions": 35.57,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -78822,6 +78815,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 28.95,
+      "subscriptions": 28.95,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1232127051": {
@@ -78847,13 +78847,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -80662,13 +80655,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -82858,6 +82844,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "843548831": {
@@ -83263,13 +83256,6 @@
       "returns": 0.0
     },
     "2026-05-19": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -85025,6 +85011,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "1232127041": {
@@ -85057,13 +85050,6 @@
       "returns": 0.0
     },
     "2026-05-20": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
-    "2025-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -87505,6 +87491,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "891216933": {
@@ -89624,6 +89617,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "6759501398": {
@@ -90566,6 +90566,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 53.22,
+      "subscriptions": 53.22,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "6759932194": {
@@ -91062,6 +91069,13 @@
     "2026-05-22": {
       "total": 33.99,
       "subscriptions": 33.99,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 38.23,
+      "subscriptions": 38.23,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
@@ -91706,6 +91720,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 4.3,
+      "subscriptions": 4.3,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "6760368538": {
@@ -92102,6 +92123,13 @@
       "returns": 8.15
     },
     "2026-05-22": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
+    },
+    "2026-05-23": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -93086,6 +93114,13 @@
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0
+    },
+    "2026-05-23": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
     }
   },
   "6759627388": {
@@ -93174,6 +93209,13 @@
       "returns": 0.0
     },
     "2026-05-21": {
+      "total": 0.0,
+      "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
+    },
+    "2026-05-23": {
       "total": 0.0,
       "subscriptions": 0.0,
       "iap": 0.0,
@@ -94075,13 +94117,6 @@
     }
   },
   "937977019": {
-    "2025-05-24": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
     "2025-06-05": {
       "total": 0.0,
       "subscriptions": 0.0,
@@ -94308,13 +94343,6 @@
     }
   },
   "1174074813": {
-    "2025-05-24": {
-      "total": 0.0,
-      "subscriptions": 0.0,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
     "2025-06-21": {
       "total": 0.0,
       "subscriptions": 0.0,
