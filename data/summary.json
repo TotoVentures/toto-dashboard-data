@@ -1,5 +1,5 @@
 {
-  "sync_date": "2026-05-30T14:57:57Z",
+  "sync_date": "2026-05-30T16:01:13Z",
   "date_range": {
     "start": "2025-05-31",
     "end": "2026-05-29"
@@ -103,7 +103,7 @@
     {
       "id": "630851451",
       "name": "Speech Bubble: Photo Captions",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/c8/ba/c8c8ba3c-3d1f-1289-dba9-d1eff638d08d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/bd/57/d6bd57b0-7db9-0a86-2c81-48da697afb8c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 19254.49,
       "downloads": 6951,
