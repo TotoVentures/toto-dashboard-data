@@ -1,13 +1,5 @@
 {
   "570129169": {
-    "2025-06-03": {
-      "spend": 63.14,
-      "impressions": 353,
-      "taps": 52,
-      "installs": 41,
-      "new_downloads": 22,
-      "redownloads": 19
-    },
     "2025-06-04": {
       "spend": 71.4,
       "impressions": 356,
@@ -2911,17 +2903,17 @@
       "installs": 89,
       "new_downloads": 72,
       "redownloads": 17
+    },
+    "2026-06-02": {
+      "spend": 86.95,
+      "impressions": 2678,
+      "taps": 121,
+      "installs": 80,
+      "new_downloads": 61,
+      "redownloads": 19
     }
   },
   "880790176": {
-    "2025-06-03": {
-      "spend": 2.59,
-      "impressions": 36,
-      "taps": 3,
-      "installs": 3,
-      "new_downloads": 2,
-      "redownloads": 1
-    },
     "2025-06-04": {
       "spend": 5.15,
       "impressions": 42,
@@ -5809,6 +5801,14 @@
       "installs": 0,
       "new_downloads": 0,
       "redownloads": 0
+    },
+    "2026-06-02": {
+      "spend": 1.81,
+      "impressions": 55,
+      "taps": 2,
+      "installs": 0,
+      "new_downloads": 0,
+      "redownloads": 0
     }
   },
   "6557028325": {
@@ -8355,17 +8355,17 @@
       "installs": 0,
       "new_downloads": 0,
       "redownloads": 0
-    }
-  },
-  "1356249212": {
-    "2025-06-03": {
-      "spend": 0.75,
-      "impressions": 7,
-      "taps": 1,
+    },
+    "2026-06-02": {
+      "spend": 0.0,
+      "impressions": 14,
+      "taps": 0,
       "installs": 0,
       "new_downloads": 0,
       "redownloads": 0
-    },
+    }
+  },
+  "1356249212": {
     "2025-06-04": {
       "spend": 1.5,
       "impressions": 7,
@@ -10240,14 +10240,6 @@
     }
   },
   "630851451": {
-    "2025-06-03": {
-      "spend": 16.07,
-      "impressions": 211,
-      "taps": 16,
-      "installs": 10,
-      "new_downloads": 9,
-      "redownloads": 1
-    },
     "2025-06-04": {
       "spend": 15.16,
       "impressions": 231,
@@ -13151,17 +13143,17 @@
       "installs": 4,
       "new_downloads": 3,
       "redownloads": 1
+    },
+    "2026-06-02": {
+      "spend": 2.38,
+      "impressions": 63,
+      "taps": 3,
+      "installs": 3,
+      "new_downloads": 3,
+      "redownloads": 0
     }
   },
   "950551948": {
-    "2025-06-03": {
-      "spend": 53.77,
-      "impressions": 820,
-      "taps": 77,
-      "installs": 66,
-      "new_downloads": 48,
-      "redownloads": 18
-    },
     "2025-06-04": {
       "spend": 53.02,
       "impressions": 705,
@@ -16065,6 +16057,14 @@
       "installs": 42,
       "new_downloads": 34,
       "redownloads": 8
+    },
+    "2026-06-02": {
+      "spend": 40.31,
+      "impressions": 548,
+      "taps": 50,
+      "installs": 46,
+      "new_downloads": 36,
+      "redownloads": 10
     }
   },
   "1003684086": {
@@ -19361,6 +19361,14 @@
       "installs": 7,
       "new_downloads": 6,
       "redownloads": 1
+    },
+    "2026-06-02": {
+      "spend": 9.18,
+      "impressions": 66,
+      "taps": 13,
+      "installs": 8,
+      "new_downloads": 8,
+      "redownloads": 0
     }
   },
   "6670757865": {
@@ -20099,6 +20107,14 @@
       "installs": 2,
       "new_downloads": 1,
       "redownloads": 1
+    },
+    "2026-06-02": {
+      "spend": 2.36,
+      "impressions": 33,
+      "taps": 2,
+      "installs": 1,
+      "new_downloads": 1,
+      "redownloads": 0
     }
   },
   "6759501398": {
@@ -21343,6 +21359,14 @@
       "installs": 0,
       "new_downloads": 0,
       "redownloads": 0
+    },
+    "2026-06-02": {
+      "spend": 1.23,
+      "impressions": 128,
+      "taps": 1,
+      "installs": 1,
+      "new_downloads": 1,
+      "redownloads": 0
     }
   },
   "6759808689": {
@@ -22001,6 +22025,14 @@
       "installs": 9,
       "new_downloads": 9,
       "redownloads": 0
+    },
+    "2026-06-02": {
+      "spend": 17.95,
+      "impressions": 37,
+      "taps": 10,
+      "installs": 9,
+      "new_downloads": 9,
+      "redownloads": 0
     }
   },
   "6759932194": {
@@ -22651,6 +22683,14 @@
       "installs": 6,
       "new_downloads": 6,
       "redownloads": 0
+    },
+    "2026-06-02": {
+      "spend": 4.68,
+      "impressions": 23,
+      "taps": 6,
+      "installs": 4,
+      "new_downloads": 4,
+      "redownloads": 0
     }
   },
   "6760917095": {
@@ -22876,6 +22916,14 @@
       "taps": 0,
       "installs": 0,
       "new_downloads": 0,
+      "redownloads": 0
+    },
+    "2026-06-02": {
+      "spend": 0.63,
+      "impressions": 1,
+      "taps": 1,
+      "installs": 1,
+      "new_downloads": 1,
       "redownloads": 0
     }
   },
@@ -23423,6 +23471,14 @@
       "installs": 27,
       "new_downloads": 27,
       "redownloads": 0
+    },
+    "2026-06-02": {
+      "spend": 46.22,
+      "impressions": 292,
+      "taps": 48,
+      "installs": 31,
+      "new_downloads": 30,
+      "redownloads": 1
     }
   },
   "6761281918": {
@@ -23745,6 +23801,14 @@
       "installs": 0,
       "new_downloads": 0,
       "redownloads": 0
+    },
+    "2026-06-02": {
+      "spend": 0.0,
+      "impressions": 7,
+      "taps": 0,
+      "installs": 0,
+      "new_downloads": 0,
+      "redownloads": 0
     }
   },
   "6759627388": {
@@ -23930,6 +23994,14 @@
       "taps": 1,
       "installs": 1,
       "new_downloads": 1,
+      "redownloads": 0
+    },
+    "2026-06-02": {
+      "spend": 0.0,
+      "impressions": 5,
+      "taps": 0,
+      "installs": 0,
+      "new_downloads": 0,
       "redownloads": 0
     }
   }
