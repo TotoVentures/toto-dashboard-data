@@ -89208,13 +89208,6 @@
       "sales": 0.0,
       "returns": 0.0
     },
-    "2026-06-08": {
-      "total": 4.98,
-      "subscriptions": 4.98,
-      "iap": 0.0,
-      "sales": 0.0,
-      "returns": 0.0
-    },
     "2026-05-24": {
       "total": 0.0,
       "subscriptions": 0.0,
@@ -89281,6 +89274,13 @@
     "2026-06-07": {
       "total": 0.0,
       "subscriptions": 0.0,
+      "iap": 0.0,
+      "sales": 0.0,
+      "returns": 0.0
+    },
+    "2026-06-08": {
+      "total": 4.98,
+      "subscriptions": 4.98,
       "iap": 0.0,
       "sales": 0.0,
       "returns": 0.0

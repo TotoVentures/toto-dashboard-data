@@ -14,10 +14,79 @@
           "downloads": 1
         }
       }
+    },
+    "2026-06-02": {
+      "impressions": 0,
+      "product_page_views": 0,
+      "first_time_downloads": 1,
+      "redownloads": 0,
+      "tap_through_rate": 0,
+      "conversion_rate": 0,
+      "by_source": {
+        "App Store browse": {
+          "impressions": 0,
+          "page_views": 0,
+          "downloads": 1
+        }
+      }
     }
   },
   "725369629": {
     "2026-05-20": {
+      "impressions": 0,
+      "product_page_views": 0,
+      "first_time_downloads": 1,
+      "redownloads": 0,
+      "tap_through_rate": 0,
+      "conversion_rate": 0,
+      "by_source": {
+        "App Store search": {
+          "impressions": 0,
+          "page_views": 0,
+          "downloads": 1
+        }
+      }
+    }
+  },
+  "6758317593": {
+    "2026-06-02": {
+      "impressions": 0,
+      "product_page_views": 0,
+      "first_time_downloads": 1,
+      "redownloads": 0,
+      "tap_through_rate": 0,
+      "conversion_rate": 0,
+      "by_source": {
+        "App Store browse": {
+          "impressions": 0,
+          "page_views": 0,
+          "downloads": 1
+        }
+      }
+    }
+  },
+  "6758466848": {
+    "2026-06-02": {
+      "impressions": 0,
+      "product_page_views": 0,
+      "first_time_downloads": 2,
+      "redownloads": 0,
+      "tap_through_rate": 0,
+      "conversion_rate": 0,
+      "by_source": {
+        "App Store browse": {
+          "impressions": 0,
+          "page_views": 0,
+          "downloads": 1
+        },
+        "App Store search": {
+          "impressions": 0,
+          "page_views": 0,
+          "downloads": 1
+        }
+      }
+    },
+    "2026-06-03": {
       "impressions": 0,
       "product_page_views": 0,
       "first_time_downloads": 1,
