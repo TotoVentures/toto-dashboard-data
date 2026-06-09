@@ -133,7 +133,9 @@ const OverviewPage = (() => {
         { label: 'Net Revenue', field: 'netrevenue', value: netRevenue, perDay: netRevenue / dayCount, changePercent: netChange, isCurrency: true, description: 'Revenue minus ad spend' },
         { label: 'Total Revenue', field: 'revenue', value: totalRevenue, perDay: totalRevenue / dayCount, isCurrency: true, changePercent: computePeriodChange(revenue, 'total', filterState), description: 'Sum of all revenue sources in the selected period' },
         { label: 'Total Downloads', field: 'downloads', value: totalDownloads, perDay: totalDownloads / dayCount, isCurrency: false, changePercent: computePeriodChange(sales, 'downloads', filterState), description: 'New downloads + re-downloads combined (SALES report)' },
-        { label: 'True First DLs', field: 'true_first_downloads', value: funnel ? (() => { const { totals } = aggregateTotals(funnel, ['first_time_downloads'], filterState); return totals.first_time_downloads; })() : 0, perDay: funnel ? (() => { const { totals, dayCount: dc } = aggregateTotals(funnel, ['first_time_downloads'], filterState); return totals.first_time_downloads / dc; })() : 0, isCurrency: false, changePercent: funnel ? computePeriodChange(funnel, 'first_time_downloads', filterState) : null, description: 'First-time downloads only (Analytics API — no updates/redownloads)' },
+        // 'True First DLs' card removed — it was fed by the funnel/Analytics pull
+        // (first_time_downloads) which is currently disabled, so it only ever
+        // showed a stale near-zero number. Re-add when the funnel pull is back.
         { label: 'MRR', field: 'mrr', value: totalMRR, isCurrency: true, description: 'Monthly Recurring Revenue — latest snapshot of active subscription value' }
       ];
     }
