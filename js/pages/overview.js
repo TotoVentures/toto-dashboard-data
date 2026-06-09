@@ -215,7 +215,9 @@ const OverviewPage = (() => {
           }, 0));
           if (labels.length > 0) {
             const rawDates = filterState.granularity === 'daily' ? bucketed.map(b => b.dates[0]) : null;
-            TotoCharts.createAreaChart('overviewMainChart', labels, [{ label: shortAppName(ha.name), data: values }], { isCurrency: true, stacked: false, rawDates });
+            // Floor the line at $0 (a net-negative ad day shouldn't drag the line
+            // below zero); the true net is kept in rawData for the hover tooltip.
+            TotoCharts.createAreaChart('overviewMainChart', labels, [{ label: shortAppName(ha.name), data: values.map(v => Math.max(0, v)), rawData: values }], { isCurrency: true, stacked: false, rawDates });
           }
         } else {
           const selectedApps = getSelectedAppIds(revenue, filterState);
@@ -233,21 +235,27 @@ const OverviewPage = (() => {
           const otherApps = ranked.slice(5).map(([id]) => id);
           const bucketed = bucketDates(dates, filterState.granularity);
           const labels = bucketed.map(b => b.label);
-          const datasets = topApps.map(pid => ({
-            label: shortAppName((apps[pid] || {}).name || `App ${pid}`),
-            data: bucketed.map(b => b.dates.reduce((sum, date) => {
+          // Floor each app's line at $0 so net-negative ad days don't dip below
+          // zero; the true net (incl. negatives) is kept in rawData for tooltips.
+          const datasets = topApps.map(pid => {
+            const raw = bucketed.map(b => b.dates.reduce((sum, date) => {
               return sum + (parseFloat(revenue[pid]?.[date]?.total) || 0) - (adspend && adspend[pid] ? (parseFloat(adspend[pid]?.[date]?.spend) || 0) : 0);
-            }, 0))
-          }));
+            }, 0));
+            return {
+              label: shortAppName((apps[pid] || {}).name || `App ${pid}`),
+              data: raw.map(v => Math.max(0, v)),
+              rawData: raw
+            };
+          });
           if (otherApps.length > 0) {
-            const otherData = bucketed.map(b => b.dates.reduce((sum, date) => {
+            const otherRaw = bucketed.map(b => b.dates.reduce((sum, date) => {
               let daySum = 0;
               otherApps.forEach(pid => {
                 daySum += (parseFloat(revenue[pid]?.[date]?.total) || 0) - (adspend && adspend[pid] ? (parseFloat(adspend[pid]?.[date]?.spend) || 0) : 0);
               });
               return sum + daySum;
             }, 0));
-            if (otherData.some(v => v !== 0)) datasets.push({ label: 'Other', data: otherData });
+            if (otherRaw.some(v => v !== 0)) datasets.push({ label: 'Other', data: otherRaw.map(v => Math.max(0, v)), rawData: otherRaw });
           }
           if (labels.length > 0) {
             const rawDates = filterState.granularity === 'daily' ? bucketed.map(b => b.dates[0]) : null;
