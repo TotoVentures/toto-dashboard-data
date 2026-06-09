@@ -79,7 +79,7 @@ const RevenuePage = (() => {
       }
 
       const list = [
-        { label: 'Total Revenue', field: 'total', value: periodTotals.total, perDay: periodTotals.total / dayCount, changePercent: revChange, isCurrency: true, description: 'Sum of subscriptions, IAP, and app sales minus returns' },
+        { label: 'Total Revenue', field: 'total', value: periodTotals.total, perDay: periodTotals.total / dayCount, changePercent: revChange, isCurrency: true, description: 'Developer proceeds, matching App Store Connect' },
         { label: 'Net Revenue', field: 'netrevenue', value: netRevenue, perDay: netRevenue / dayCount, changePercent: netChange, isCurrency: true, description: 'Revenue minus ad spend' },
         { label: 'Ad Spend', field: 'adspend', value: adSpendTotal, perDay: adSpendTotal / dayCount, changePercent: adChange, isCurrency: true, description: 'Apple Search Ads spend in the selected period' },
         { label: 'Subscription Revenue', field: 'subscriptions', value: periodTotals.subscriptions, perDay: periodTotals.subscriptions / dayCount, changePercent: computePeriodChange(revSource, 'subscriptions', filterState), isCurrency: true, description: 'Revenue from auto-renewable subscriptions in the selected period' },
