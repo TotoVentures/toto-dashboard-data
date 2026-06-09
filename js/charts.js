@@ -195,6 +195,11 @@ const TotoCharts = (() => {
         backgroundColor: ds.backgroundColor || color.fill,
         fill: stacked ? (i === 0 ? 'origin' : '-1') : 'origin',
         tension: 0.35,
+        // Monotone interpolation never overshoots beyond the actual data points,
+        // so a single negative (refund / ad-spend-heavy) day no longer swoops the
+        // smoothed line far below its real value. Negatives stay visible (honest),
+        // just not exaggerated.
+        cubicInterpolationMode: 'monotone',
         borderWidth: 2,
         pointRadius: 0,
         pointHoverRadius: 4,
@@ -216,6 +221,7 @@ const TotoCharts = (() => {
         fill: false,
         stack: 'comparison', // separate stack so it doesn't add to the main totals
         tension: 0.35,
+        cubicInterpolationMode: 'monotone',
         borderWidth: 1.5,
         pointRadius: 0,
         pointHoverRadius: 3,

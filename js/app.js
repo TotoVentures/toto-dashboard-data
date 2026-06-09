@@ -33,7 +33,11 @@ const TotoApp = (() => {
   async function fetchJSON(path) {
     if (dataCache[path]) return dataCache[path];
     try {
-      const resp = await fetch(path);
+      // Cache-bust: GitHub Pages serves data JSON with max-age=600, so a plain
+      // fetch can show data up to 10 min stale (and Safari may hold it longer).
+      // A unique query param forces a fresh copy every load — the dashboard must
+      // always reflect the latest sync, not a cached snapshot.
+      const resp = await fetch(`${path}?t=${Date.now()}`, { cache: 'no-store' });
       if (!resp.ok) return null;
       const data = await resp.json();
       dataCache[path] = data;
