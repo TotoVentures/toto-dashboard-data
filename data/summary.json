@@ -1,5 +1,5 @@
 {
-  "sync_date": "2026-06-10T16:06:25Z",
+  "sync_date": "2026-06-10T16:57:53Z",
   "date_range": {
     "start": "2025-06-11",
     "end": "2026-06-09"
@@ -366,7 +366,7 @@
     },
     {
       "id": "6759932194",
-      "name": "Snake ID: Identify Any Species",
+      "name": "Snake ID: Snake Identifier",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/e5/93/95e59306-d955-9322-d670-3e0fa41cfdc7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 1021.29,
