@@ -1,5 +1,5 @@
 {
-  "sync_date": "2026-06-13T15:28:06Z",
+  "sync_date": "2026-06-13T17:11:29Z",
   "date_range": {
     "start": "2025-06-14",
     "end": "2026-06-12"
@@ -59,7 +59,7 @@
     {
       "id": "1003684086",
       "name": "WorkTime: Shift Work Calendar",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/05/e8/7205e8cd-8e3d-6e26-76c2-3738880717de/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/ba/c9/a2bac9dd-389b-6d3a-d6f3-caa562a4dbf1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "developer": "Toto Ventures Inc.",
       "revenue": 56484.26,
       "downloads": 17393,
